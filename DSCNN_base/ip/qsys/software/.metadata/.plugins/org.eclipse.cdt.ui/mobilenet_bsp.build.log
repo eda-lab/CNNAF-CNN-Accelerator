@@ -1,0 +1,6 @@
+23:39:43 **** Clean-only build of configuration Nios II for project mobilenet_bsp ****
+make clean 
+[BSP clean complete]
+
+23:39:43 Build Finished (took 69ms)
+

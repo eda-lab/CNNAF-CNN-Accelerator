@@ -1,0 +1,1248 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -1 27 1920 977 279 198
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / -i 0 "" "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal_cp/vcsmx/mobilenet_sim_000.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 6797167.440232
+cursor 594762.000000
+marker 390812500.000000
+
+; visible top row signal index
+top 68
+; marker line index
+markerPos 49
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+aliasmapname alias_tab_1
+
+addGroup "G1"
+addGroup "G2"
+addGroup "top_view" -e FALSE
+activeDirFile "" "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal_cp/vcsmx/mobilenet_sim_000.fsdb"
+addSignal -h 15 /mobilenet_acc_tb/clk_250M
+addSignal -h 15 -holdScope clk_200M
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope ddr_clk
+addSignal -h 15 -holdScope ddr_rst_n
+addSignal -h 15 -holdScope uart_rdreq
+addSignal -h 15 -holdScope uart_out_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope uart_out[31:0]
+addSignal -h 15 -holdScope ddr_local_init_done
+addSignal -h 15 -holdScope ddr_ready
+addSignal -h 15 -holdScope ddr_rd_req
+addSignal -h 15 -holdScope ddr_wr_req
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_address[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_bl_size[6:0]
+addSignal -h 15 -holdScope ddr_rd_data_vld
+addSubGroup "rev_data_view" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/ddr_rd_data[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_rd_data[31:0]
+endSubGroup "rev_data_view"
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/ddr_wr_data[511:0]
+addGroup "calc_top_view" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/clk_data
+addSignal -h 15 -holdScope clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_acc_out_vld_cnt[31:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_bias_out_vld_cnt[31:0]
+addGroup "rd_ins_gen"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope layer_acc_op_done
+addSignal -h 15 -holdScope slice_acc_op_done
+addSignal -h 15 -holdScope ins_gen_vld
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_ctrl/ddr_rd_ins_fifo_usedw[7:0]
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/net_map_finish
+addSignal -h 15 -holdScope ddr_rd_ins_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope ddr_rd_ins[33:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_rd_ins[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_rd_ins[32:7]
+addSignal -h 15 -holdScope ddr_handshake
+addSignal -h 15 -holdScope each_layer_rd_op_done_w
+addSignal -h 15 -UNSIGNED -HEX -holdScope each_layer_rd_op_done_w_r[1:0]
+addSignal -h 15 -holdScope rd_ins_gen_wait
+addSignal -h 15 -holdScope layer_connect_wait
+addSignal -h 15 -holdScope each_layer_rd_op_done_w
+addSignal -h 15 -UNSIGNED -BIN -holdScope layer_rd_state[1:0]
+addSignal -h 15 -holdScope layer_acc_op_done_r[39]
+addSignal -h 15 -holdScope layer_wait_en
+addSignal -h 15 -UNSIGNED -UDEC -holdScope new_layer_rd_vld_num[10:0]
+addSignal -h 15 -holdScope layer_acc_op_done_r[26]
+addSignal -h 15 -holdScope net_map_finish
+addSignal -h 15 -holdScope acc_connect_wait
+addSignal -h 15 -holdScope each_layer_rd_op_done
+addSignal -h 15 -holdScope each_layer_rd_op_done_st
+addSignal -h 15 -holdScope each_layer_rd_op_done_w
+addSignal -h 15 -UNSIGNED -BIN -holdScope layer_rd_state[1:0]
+addSignal -h 15 -holdScope layer_connect_wait
+addSubGroup "parameter"
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/layer_type_cur[2:0]
+addSignal -h 15 -holdScope layer_sc_vld
+addSignal -h 15 -UNSIGNED -UDEC -holdScope layer_num_cur[6:0]
+endSubGroup "parameter"
+addSubGroup "conv_ins" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/rd_conv_w_addr_gen_inst0/clk
+addSignal -h 15 -UNSIGNED -UDEC -holdScope conv_w_base[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope conv_w_cnt_l1[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope conv_w_cnt_l2[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope conv_w_addr[25:0]
+endSubGroup "conv_ins"
+addSubGroup "dw_ins" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/rd_dw_w_addr_gen_inst0/clk
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_w_base[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_w_cnt_l1[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_w_addr[25:0]
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/rd_dw_f_addr_gen_inst0/dw_f_base[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pic_size[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_f_cnt_l1[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_f_cnt_l3[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_f_cnt_l4[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_f_cnt_l5[6:0]
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/data_op_done_each_dw
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/rd_dw_f_addr_gen_inst0/dw_f_addr[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope Cntl3_MulPic[14:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope Cntl4_Mul2[8:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope Cntl5_MulPsize2[22:0]
+endSubGroup "dw_ins"
+addSubGroup "pw_ins" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_ins_gen/w_pw_en_cnt[16:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_cnt_pw_l1[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_cnt_pw_l2[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope bias_cnt_pw_l1[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_pw_en_cnt[13:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_pw_l1[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_pw_l2[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_pw_l3[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_pw_l4[6:0]
+endSubGroup "pw_ins"
+addGroup "ddr_ctrl"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_ctrl/clk_data
+addSignal -h 15 -holdScope clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope ddr_rd_ins_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope ddr_rd_ins[33:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_rd_ins[6:0]
+addSignal -h 15 -holdScope ddr_rd_ins_gen_vld
+addSignal -h 15 -holdScope data_fifo_full_n
+addSignal -h 15 -holdScope ddr_wr_ins_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_wr_ins[545:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_wr_ins_data[511:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_wr_ins_addr[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_wr_ins_bl[6:0]
+addSignal -h 15 -holdScope ddr_wr_ins_fifo_empty
+addSignal -h 15 -holdScope ddr_ins_push_vld
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_ctrl_addr[25:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_ctrl_data[511:0]
+addSignal -h 15 -holdScope ddr_ctrl_ins_vld
+addSignal -h 15 -holdScope ddr_ctrl_rd_req
+addSignal -h 15 -holdScope ddr_ctrl_wr_req
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_ctrl_bl_size[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_wr_ins_bl[6:0]
+addSignal -h 15 -holdScope pw2dw_wr_bl_vld
+addSignal -h 15 -holdScope handshake
+addSignal -h 15 -holdScope ddr_ins_push_vld
+addSignal -h 15 -holdScope wr_layer_finish_delay[1]
+addSignal -h 15 -holdScope wr_layer_finish_delay[0]
+addSignal -h 15 -holdScope wr_layer_finish_delay_r
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/ddr_ctrl_ins_sync_u0/ddr_op_ins_fifo_usedw[5:0]
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_ctrl/ddr_wr_ins[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pw2dw_wr_ins_cnt[4:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pw2dw_wr_ins_rdy_cnt[4:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pw2dw_wr_load_ins_cnt[4:0]
+addSignal -h 15 -holdScope wr_ins_load_vld
+addSignal -h 15 -holdScope pw2dw_wr_ins_full
+addSignal -h 15 -UNSIGNED -BIN -holdScope pw2dw_wr_ins_full_r[1:0]
+addSignal -h 15 -holdScope pw2dw_wr_ins_full_sync
+addSignal -h 15 -holdScope wr_ins_send_start
+addSignal -h 15 -holdScope wr_ins_load_vld
+addSignal -h 15 -holdScope pw2dw_wr_lock
+addSignal -h 15 -holdScope ddr_rd_ins_fifo_rdreq
+addSignal -h 15 -holdScope ddr_rd_ins_fifo_empty
+addSignal -h 15 -holdScope ddr_wr_ins_fifo_rdreq
+addSignal -h 15 -holdScope ddr_wr_ins_fifo_empty
+addSignal -h 15 -holdScope ddr_rd_ins_gen_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_rd_ins_fifo_usedw[7:0]
+addSignal -h 15 -holdScope ddr_rd_ins_fifo_rdreq
+addSignal -h 15 -holdScope data_fifo_full_n
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_wr_ins_fifo_usedw[6:0]
+addSignal -h 15 -holdScope ddr_wr_ins_fifo_full
+addGroup "ddr_ins_interface"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/ddr_ctrl_ins_sync_u0/sys_clk_200M
+addSignal -h 15 -holdScope sys_rst_n
+addSignal -h 15 -holdScope ddr_ins_op_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_address[25:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_write_data[511:0]
+addSignal -h 15 -holdScope ddr_rd_req
+addSignal -h 15 -holdScope ddr_wr_req
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_bl_size[6:0]
+addSignal -h 15 -holdScope ddr_op_ins_push_vld
+addSignal -h 15 -holdScope ddr_clk_afi
+addSignal -h 15 -holdScope ddr_rst_n
+addSignal -h 15 -holdScope ddr_avl_rdy
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_avl_address[25:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_avl_write_data[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_avl_be[63:0]
+addSignal -h 15 -holdScope ddr_avl_rd_req
+addSignal -h 15 -holdScope ddr_avl_wr_req
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_avl_bl_size[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_op_ins_fifo_in[546:0]
+addSignal -h 15 -holdScope ddr_op_ins_fifo_rdreq
+addSignal -h 15 -holdScope ddr_op_ins_fifo_wrreq
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_op_ins_fifo_out[546:0]
+addSignal -h 15 -holdScope ddr_op_ins_fifo_empty
+addSignal -h 15 -holdScope ddr_op_ins_fifo_full
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_op_ins_fifo_usedw[5:0]
+addSignal -h 15 -holdScope ddr_op_ins_ddr_rd_req
+addSignal -h 15 -holdScope ddr_op_ins_ddr_wr_req
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_op_ins_data[511:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_op_ins_addr[25:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_op_ins_bl[6:0]
+addGroup "ddr_data_rev"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/ddr_rd_data_sync_u0/ddr_clk_afi
+addSignal -h 15 -holdScope ddr_vld
+addSignal -h 15 -holdScope sys_clk_200M
+addSignal -h 15 -holdScope sys_rst_n
+addSignal -h 15 -holdScope ddr_vld_afi
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_data_out_afi[511:0]
+addSignal -h 15 -holdScope ddr_rd_en
+addSignal -h 15 -holdScope ddr_rd_fifo_half
+addSubGroup "data_out_view" -e FALSE
+addSignal -expanded -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/ddr_rd_data_sync_u0/ddr_data_out[511:0]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[511:480]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[479:448]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[447:416]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[415:384]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[383:352]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[351:320]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[319:288]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[287:256]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[255:224]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[223:192]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[191:160]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[159:128]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[127:96]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[95:64]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[63:32]
+addSignal -c ID_ORANGE4 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope ddr_data_out[31:0]
+endSubGroup "data_out_view"
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/ddr_rd_data_sync_u0/fifo_ddr_data_rdusedw[10:0]
+addSignal -h 15 -holdScope fifo_ddr_data_rd_req
+addSignal -h 15 -holdScope fifo_ddr_data_wrfull
+addGroup "data_rev_pro" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/ddr_rd_data_sync_u0/sys_clk_200M
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/rst_n
+addSignal -h 15 -holdScope ddr_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_data_out[511:0]
+addSubGroup "data_pro_out_view"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/ddr_rd_data_sync_u0/fifo_ddr_data_rd_req
+addSignal -h 15 -holdScope fifo_ddr_data_rd_empty
+addSignal -h 15 -holdScope ddr_rd_en
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/ddr_vld
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/ddr_rd_data_sync_u0/fifo_ddr_data_rd_req
+addSignal -h 15 -holdScope fifo_ddr_data_rd_empty
+addSignal -h 15 -holdScope ddr_rd_en
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/fifo_full
+addSignal -h 15 -holdScope rd_data_mode_en
+addSignal -h 15 -UNSIGNED -BIN /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/fifo_rd_state[1:0]
+addSignal -h 15 -holdScope w_reload_done
+addSignal -h 15 -holdScope bias_reload_done
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/w_out_vld
+addSignal -h 15 -holdScope bias_out_vld
+addSignal -h 15 -holdScope sc_out_vld
+addSignal -h 15 -holdScope data_out_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope data_out[511:0]
+addSubGroup "data_out_view"
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/data_out[511:480]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[479:448]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[447:416]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[415:384]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[383:352]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[351:320]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[319:288]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[287:256]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[255:224]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[223:192]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[191:160]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[159:128]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[127:96]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[95:64]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[63:32]
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_out[31:0]
+addSignal -h 15 -holdScope rd_data_mode_en
+endSubGroup "data_out_view"
+endSubGroup "data_pro_out_view"
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/w_out[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sc_out[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bias_out[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pic_size[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope channel_size[10:0]
+addSignal -h 15 -holdScope stride
+addSignal -h 15 -UNSIGNED -UDEC -holdScope layer_num_cur[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope layer_type_cur[2:0]
+addSignal -h 15 -holdScope layer_sc_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope st_rd_cur[1:0]
+addSignal -h 15 -holdScope conv_all_done
+addSignal -h 15 -holdScope dw_all_done
+addSignal -h 15 -holdScope pw_all_done
+addSignal -h 15 -holdScope avgle_all_done
+addSubGroup "pw" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/w_cnt_pw_l1[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_cnt_pw_l2[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope bias_cnt_pw_l1[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope bias_cnt_pw_l2[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_pw_l2[10:0]
+endSubGroup "pw"
+addSubGroup "dw" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/w_cnt_dw_l1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope layer_type_cur[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope st_rd_cur[1:0]
+addSignal -h 15 -holdScope ddr_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_cnt_dw_l2[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope bias_cnt_dw_l2[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_dw_l1[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_dw_l2[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_dw_l3[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_dw_l4[10:0]
+endSubGroup "dw"
+addSubGroup "conv"
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/ddr_rd_data_pro/w_cnt_conv_l1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_cnt_conv_l2[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_cnt_conv_l3[10:0]
+addSignal -h 15 -holdScope w_op_done_each_conv
+addSignal -h 15 -UNSIGNED -HEX -holdScope bias_cnt_conv_l1[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bias_cnt_conv_l2[10:0]
+addSignal -h 15 -holdScope bias_op_done_each_conv
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_conv_l1[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_conv_l3[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_conv_l4[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt_conv_l5[10:0]
+addSignal -h 15 -holdScope data_op_done_each_conv
+endSubGroup "conv"
+addGroup "wright_rd_ctrl" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen/w_rd_ctrl/rst_n
+addSignal -h 15 -holdScope w_in_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[511:480]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[479:448]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[447:416]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[415:384]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[383:352]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[351:320]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[319:288]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[287:256]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[255:224]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[223:192]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[191:160]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[159:128]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[127:96]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[95:64]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[63:32]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[31:0]
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_en[15:0]
+addSignal -h 15 -holdScope ram_w_wr_en[15]
+addSignal -h 15 -holdScope ram_w_wr_en[14]
+addSignal -h 15 -holdScope ram_w_wr_en[13]
+addSignal -h 15 -holdScope ram_w_wr_en[12]
+addSignal -h 15 -holdScope ram_w_wr_en[11]
+addSignal -h 15 -holdScope ram_w_wr_en[10]
+addSignal -h 15 -holdScope ram_w_wr_en[9]
+addSignal -h 15 -holdScope ram_w_wr_en[8]
+addSignal -h 15 -holdScope ram_w_wr_en[7]
+addSignal -h 15 -holdScope ram_w_wr_en[6]
+addSignal -h 15 -holdScope ram_w_wr_en[5]
+addSignal -h 15 -holdScope ram_w_wr_en[4]
+addSignal -h 15 -holdScope ram_w_wr_en[3]
+addSignal -h 15 -holdScope ram_w_wr_en[2]
+addSignal -h 15 -holdScope ram_w_wr_en[1]
+addSignal -h 15 -holdScope ram_w_wr_en[0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ram_w_wr_addr[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope layer_type_cur[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope layer_num_cur[6:0]
+addSignal -h 15 -holdScope w_read_per_slice_done
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ram_w_wr_addr[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope conv_w_ram_cache_addr[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_w_cnt_l1[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_w_cnt_l2[6:0]
+addSignal -h 15 -holdScope dw_per_done
+addSignal -h 15 -holdScope dw_all_done
+addSignal -h 15 -holdScope dw_temp_rd_vld
+addSubGroup "w_gen_view" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[15][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[14][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[13][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[12][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[11][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[10][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[9][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[8][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[7][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[6][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[5][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[4][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[3][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[2][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[1][15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_gen_view[0][15:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][13][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][15][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][1][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][3][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][5][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][7][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][9][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][10][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][12][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][14][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][2][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][4][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][6][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][8][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][11][31:0]
+endSubGroup "w_gen_view"
+addSubGroup "w_gen_out_view" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen/w_rd_ctrl/ram_w_wr_data_all[8191:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[8191:7680]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[7679:7168]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[7167:6656]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[6655:6144]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[6143:5632]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[5631:5120]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[5119:4608]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[4607:4096]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[4095:3584]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[3583:3072]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[3071:2560]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[2559:2048]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[2047:1536]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[1535:1024]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[1023:512]
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope ram_w_wr_data_all[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ram_w_wr_data_all[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope conv_temp_all[287:0]
+endSubGroup "w_gen_out_view"
+addGroup "weight_chg_ctrl" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen/w_chg_ctrl/clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope w_read_per_slice_done
+addSignal -h 15 -holdScope w_chg_en
+addSignal -h 15 -UNSIGNED -HEX -holdScope layer_num_cur[6:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope layer_type_cur[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_chg_dw_cnt[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope co_div_16_1[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ci_div_16_1[10:0]
+addSignal -h 15 -holdScope w_chg_vld_in
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_ram_rd_addr[7:0]
+addSignal -h 15 -holdScope w_chg_load_done
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_chg_ctrl_ub[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_chg_ctrl_lb[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_chg_pw_cnt[10:0]
+addSignal -h 15 -holdScope pw_ram_w_selec
+addSignal -h 15 -holdScope w_ram_chg_vld_reg
+addSignal -h 15 -holdScope w_ram_chg_vld
+addSignal -h 15 -holdScope w_read_per_slice_done_s
+addSignal -h 15 -holdScope w_chg_en
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen/w_rd_ctrl/avgle_all_done
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen/w_chg_ctrl/w_ram_num[4:0]
+addSignal -h 15 -holdScope w_ram_read_swait
+addSignal -h 15 -holdScope w_ram_chg_vld
+addSignal -h 15 -UNSIGNED -BIN -holdScope w_ram_chg_vld_state[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_chg_ctrl_ub_load[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_chg_ctrl_lb_load[7:0]
+addGroup "bias_rd_ctrl" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/bias_gen/bias_ctrl/clk_data
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope bias_in_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope bias_in[511:0]
+addSignal -h 15 -holdScope fifo_wr_en
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope fifo_wr_data[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_data[31:0]
+addGroup "data_in_reorder" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_in_reorder/clk_data
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope data_in_vld
+addSignal -h 15 -UNSIGNED -UDEC -holdScope layer_num_cur[6:0]
+addSubGroup "data_in_view"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_in_reorder/data_in_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope data_in[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in[31:0]
+endSubGroup "data_in_view"
+addSubGroup "fifo_wr_data_view"
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_in_reorder/fifo_wr_all[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_wr_all[31:0]
+endSubGroup "fifo_wr_data_view"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_in_reorder/fifo_wr_en
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope fifo_wr_all[531:0]
+addSubGroup "dw" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_in_reorder/dw_data_cnt_l1[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_data_cnt_l2[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_data_cnt_l3[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw_data_cnt_l4[10:0]
+endSubGroup "dw"
+addSubGroup "ctrl_sig"
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_in_reorder/fifo_wr_layer_type_cur[6:0]
+addSignal -h 15 -holdScope fifo_wr_calc_en
+addSignal -h 15 -holdScope dw_calc_en
+addSignal -h 15 -holdScope layer_stride
+addSignal -h 15 -holdScope fifo_wr_acc_s
+addSignal -h 15 -holdScope fifo_wr_relu_vld
+addSignal -h 15 -holdScope fifo_wr_layer_finish
+addSignal -h 15 -UNSIGNED -HEX -holdScope fifo_wr_acc_para[6:0]
+addSignal -h 15 -holdScope fifo_wr_slice_finish
+addSignal -h 15 -holdScope fifo_wr_pw_sc
+endSubGroup "ctrl_sig"
+addSubGroup "ctrl_sig_gen"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_in_reorder/conv_acc_s_p
+addSignal -h 15 -holdScope dw_acc_s_p
+addSignal -h 15 -holdScope pw_acc_s_p
+endSubGroup "ctrl_sig_gen"
+addGroup "data_gen"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/clk_data
+addSignal -h 15 -holdScope clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in[511:0]
+addSignal -h 15 -holdScope data_in_vld
+addSignal -h 15 -holdScope w_reload_done
+addSignal -h 15 -holdScope bias_reload_done
+addSignal -h 15 -holdScope fifo_rd_slice_finish_vld
+addSignal -h 15 -UNSIGNED -BIN /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen/w_chg_ctrl/w_ram_chg_vld_state[1:0]
+addSignal -h 15 -holdScope w_read_per_slice_done
+addSignal -h 15 -holdScope w_chg_en
+addSignal -h 15 -holdScope w_ram_chg_vld_reg
+addSignal -h 15 -UNSIGNED -BIN /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/fifo_rd_state[1:0]
+addSignal -h 15 -holdScope fifo_rd_relu_vld_out
+addSignal -h 15 -holdScope fifo_vector_full
+addSignal -h 15 -holdScope data_out_vld
+addSignal -h 15 -holdScope fifo_rd_en
+addSignal -h 15 -holdScope fifo_rd_calc_en
+addSignal -h 15 -holdScope fifo_rd_calc_en_r
+addSignal -h 15 -holdScope fifo_rd_slice_finish_r
+addSignal -h 15 -holdScope fifo_empty
+addSignal -h 15 -holdScope fifo_rd_en_r
+addSignal -h 15 -holdScope fifo_rd_en
+addSignal -h 15 -holdScope data_vld_for_w
+addSignal -h 15 -holdScope data_acc_s
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_acc_para[6:0]
+addSignal -h 15 -holdScope data_acc_layer_finish
+addSignal -h 15 -holdScope data_acc_slice_finish
+addSignal -h 15 -holdScope data_bias_slice_finish
+addSubGroup "data_out_view"
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_out[8191:0]
+endSubGroup "data_out_view"
+addSubGroup "dw_reg" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/dw_data_temp[13:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[13][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[12][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[11][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[10][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[9][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[8][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[7][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[6][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[5][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[4][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[3][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[2][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[1][511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dw_data_temp[0][511:0]
+endSubGroup "dw_reg"
+addSubGroup "dw_reg-1" -e FALSE
+addSignal -h 15 -UNSIGNED -IEEE754 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/dw_data_temp[13][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[12][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[11][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[10][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[9][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[8][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[7][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[6][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[5][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[4][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[3][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[2][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[1][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope dw_data_temp[0][511:480]
+addSubGroup "data_out_r0"
+addSignal -h 15 -UNSIGNED -IEEE754 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_out_r[0][511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_r[0][31:0]
+endSubGroup "data_out_r0"
+endSubGroup "dw_reg-1"
+addSubGroup "fifo_view"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/fifo_rd_en
+addSignal -h 15 -holdScope fifo_empty
+addSignal -h 15 -holdScope fifo_full
+addSignal -h 15 -holdScope fifo_vector_full
+addSignal -h 15 -UNSIGNED -UDEC -holdScope fifo_rd_layer_type_r[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_full_max[9:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fifo_rd_data[531:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope zero_part[223:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope zero_part2[479:0]
+endSubGroup "fifo_view"
+addSubGroup "sig_view" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/fifo_rd_layer_type[6:0]
+addSignal -h 15 -holdScope fifo_rd_calc_en
+addSignal -h 15 -holdScope fifo_rd_acc_s
+addSignal -h 15 -holdScope fifo_rd_relu_vld
+addSignal -h 15 -holdScope fifo_rd_layer_finish
+addSignal -h 15 -UNSIGNED -HEX -holdScope fifo_rd_acc_para[6:0]
+addSignal -h 15 -holdScope fifo_rd_slice_finish
+addSignal -h 15 -holdScope fifo_rd_pw_sc_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope fifo_rd_data_part[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope fifo_rd_data_part[31:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope fifo_rd_state[1:0]
+addSignal -h 15 -holdScope fifo_rd_slice_finish_vld
+addSignal -h 15 -UNSIGNED -UDEC -holdScope fifo_rd_layer_type_r[6:0]
+addSignal -h 15 -holdScope fifo_rd_slice_finish_r
+addSignal -h 15 -holdScope fifo_rd_relu_vld_p
+addSignal -h 15 -holdScope fifo_rd_calc_en_r
+addSignal -h 15 -holdScope fifo_rd_calc_en
+addSignal -h 15 -holdScope data_out_vld
+addSignal -h 15 -holdScope fifo_rd_en
+addSignal -h 15 -holdScope fifo_rd_en_r
+addSignal -h 15 -holdScope fifo_empty
+addSignal -h 15 -holdScope fifo_rd_slice_finish_r
+addSignal -h 15 -holdScope fifo_rd_pw_sc_vld_r
+addSignal -h 15 -holdScope fifo_rd_en_r
+endSubGroup "sig_view"
+addGroup "calc_unit"
+addSubGroup "calc_weight_view"
+addSubGroup "calc_weight_view-16" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[15][15:0]
+endSubGroup "calc_weight_view-16"
+addSubGroup "calc_weight_view-15" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[14][15:0]
+endSubGroup "calc_weight_view-15"
+addSubGroup "calc_weight_view-14" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[13][15:0]
+endSubGroup "calc_weight_view-14"
+addSubGroup "calc_weight_view-13" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[12][15:0]
+endSubGroup "calc_weight_view-13"
+addSubGroup "calc_weight_view-12" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[11][15:0]
+endSubGroup "calc_weight_view-12"
+addSubGroup "calc_weight_view-11" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[10][15:0]
+endSubGroup "calc_weight_view-11"
+addSubGroup "calc_weight_view-10" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[9][15:0]
+endSubGroup "calc_weight_view-10"
+addSubGroup "calc_weight_view-9" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[8][15:0]
+endSubGroup "calc_weight_view-9"
+addSubGroup "calc_weight_view-8" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[7][15:0]
+endSubGroup "calc_weight_view-8"
+addSubGroup "calc_weight_view-7" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[6][15:0]
+endSubGroup "calc_weight_view-7"
+addSubGroup "calc_weight_view-6" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[5][15:0]
+endSubGroup "calc_weight_view-6"
+addSubGroup "calc_weight_view-5" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[4][15:0]
+endSubGroup "calc_weight_view-5"
+addSubGroup "calc_weight_view-4" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[3][15:0]
+endSubGroup "calc_weight_view-4"
+addSubGroup "calc_weight_view-3" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[2][15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[2][0][31:0]
+endSubGroup "calc_weight_view-3"
+addSubGroup "calc_weight_view-2" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[1][15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[1][0][31:0]
+endSubGroup "calc_weight_view-2"
+addSubGroup "calc_weight_view-1"
+addSignal -expanded -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/w_gen_view[0][15:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][13][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][15][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][1][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][3][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][5][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][7][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][9][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][10][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][12][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][14][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][0][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][2][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][4][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][6][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][8][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope w_gen_view[0][11][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][15][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][14][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][13][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][12][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][11][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][10][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][9][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][8][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][7][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][6][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][5][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][4][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][3][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][2][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][1][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope w_gen_view[0][0][31:0]
+endSubGroup "calc_weight_view-1"
+endSubGroup "calc_weight_view"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_data_vld
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/calc_unit_x16/acc_para[6:0]
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen/data_acc_s
+addSubGroup "calc_data_view"
+addSubGroup "calc_data_view-1"
+addSignal -expanded -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[0][15:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][15][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][14][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][13][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][12][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][11][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][10][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][9][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][8][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][7][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][6][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][5][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][4][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][3][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][2][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][1][31:0]
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[0][0][31:0]
+endSubGroup "calc_data_view-1"
+addSubGroup "calc_data_view-3" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[2][15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[2][0][31:0]
+endSubGroup "calc_data_view-3"
+addSubGroup "calc_data_view-16" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[15][15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_gen_view[15][0][31:0]
+endSubGroup "calc_data_view-16"
+addSubGroup "calc_data_view-15" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[14][15:0]
+endSubGroup "calc_data_view-15"
+addSubGroup "calc_data_view-14" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[13][15:0]
+endSubGroup "calc_data_view-14"
+addSubGroup "calc_data_view-13" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[12][15:0]
+endSubGroup "calc_data_view-13"
+addSubGroup "calc_data_view-12" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[11][15:0]
+endSubGroup "calc_data_view-12"
+addSubGroup "calc_data_view-11" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[10][15:0]
+endSubGroup "calc_data_view-11"
+addSubGroup "calc_data_view-10" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[9][15:0]
+endSubGroup "calc_data_view-10"
+addSubGroup "calc_data_view-9" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[8][15:0]
+endSubGroup "calc_data_view-9"
+addSubGroup "calc_data_view-8" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[7][15:0]
+endSubGroup "calc_data_view-8"
+addSubGroup "calc_data_view-7" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[6][15:0]
+endSubGroup "calc_data_view-7"
+addSubGroup "calc_data_view-6" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[5][15:0]
+endSubGroup "calc_data_view-6"
+addSubGroup "calc_data_view-5" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[4][15:0]
+endSubGroup "calc_data_view-5"
+addSubGroup "calc_data_view-4" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[3][15:0]
+endSubGroup "calc_data_view-4"
+addSubGroup "calc_data_view-2" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_view[1][15:0]
+endSubGroup "calc_data_view-2"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/data_gen_data_vld
+endSubGroup "calc_data_view"
+addSubGroup "calc_data_out_view"
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/calc_unit_x16/data_out[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[31:0]
+addSignal -h 15 -holdScope new_start
+addSignal -h 15 -UNSIGNED -UDEC -holdScope acc_para[6:0]
+addSignal -h 15 -holdScope data_out_vld
+addSignal -h 15 -holdScope data_out_vld_p
+addSignal -h 15 -holdScope data_out_vld_cur
+addSignal -h 15 -holdScope new_start
+addSignal -h 15 -UNSIGNED -UDEC -holdScope acc_para[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope acc_cnt_cur[6:0]
+addSignal -h 15 -holdScope data_in_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_out_vld_reg[18:0]
+endSubGroup "calc_data_out_view"
+addGroup "calc_single" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/calc_unit_x16/calc_unit_gen[0]/calc_unit_single_gen/clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_in[511:0]
+addSignal -h 15 -holdScope data_in_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in[511:0]
+addSignal -h 15 -holdScope new_start
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope mul_a[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope mul_b[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope mul_o[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope add_of2[7:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope add_of4[3:0]
+addSignal -expanded -h 15 -UNSIGNED -IEEE754 -holdScope add_of8[1:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope add_of8[1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope add_of8[0][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope add_ofall[31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope acc_in[31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope acc_out[31:0]
+addGroup "bias_add" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/bias_add/clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope data_in_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bias_in[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sc_in[511:0]
+addSignal -h 15 -holdScope sc_vld
+addSignal -h 15 -holdScope relu_en
+addSignal -h 15 -holdScope data_out_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope data_out[511:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[511:480]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[479:448]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[447:416]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[415:384]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[383:352]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[351:320]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[319:288]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[287:256]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[255:224]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[223:192]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[191:160]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[159:128]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[127:96]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[95:64]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[63:32]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out[31:0]
+addSubGroup "sc_bias_gen" -e FALSE
+addSignal -expanded -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/bias_add/bias_in_part[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_in_part[0][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope sc_in_part[15:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[13][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[0][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[15][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[2][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[4][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[6][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[8][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[10][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[12][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[14][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[1][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[3][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[5][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[7][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[9][31:0]
+addSignal -UNSIGNED -HEX -HIDDEN -holdScope sc_in_part[11][31:0]
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope bias_sc_part[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[0][31:0]
+endSubGroup "sc_bias_gen"
+addSubGroup "bias_add_part" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/bias_add/data_in_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope data_in_part[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_in_part[0][31:0]
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope bias_sc_part[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope bias_sc_part[0][31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope add_out[15:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[2][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[4][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[6][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[8][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[11][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[13][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[15][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[1][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[3][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[5][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[7][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[9][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[10][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[12][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[14][31:0]
+addSignal -UNSIGNED -IEEE754 -HIDDEN -holdScope add_out[0][31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope less_than_6[15:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope less_than_0[15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope add_out_temp[15:0]
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope data_out_part[15:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[15][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[14][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[13][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[12][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[11][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[10][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[9][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[8][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[7][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[6][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[5][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[4][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[3][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[2][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[1][31:0]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope data_out_part[0][31:0]
+endSubGroup "bias_add_part"
+addGroup "addr_map"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/clk_calc
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in[511:0]
+addSignal -h 15 -holdScope data_in_vld
+addSignal -h 15 -holdScope fifo_rd_hs
+addSignal -h 15 -holdScope net_all_finish
+addSignal -h 15 -holdScope calc_res_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope calc_res[511:0]
+addSignal -h 15 -holdScope ddr_wr_ins_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_wr_ins[545:0]
+addSubGroup "parameter" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/layer_type_cur[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope layer_num_cur[6:0]
+addSignal -h 15 -holdScope pw2dw_reorder_finish
+addSignal -h 15 -holdScope dw2pw_reorder_finish
+addSignal -h 15 -holdScope pw2pw_reorder_finish
+addSignal -h 15 -holdScope avg2pw_reorder_finish
+addSignal -h 15 -holdScope layer_avgle_en
+endSubGroup "parameter"
+addSubGroup "pw2dw" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/pw2dw_reorder_cnt_col[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pw2dw_reorder_cnt_row[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pw2dw_reorder_cnt_chan[10:0]
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/pw2dw_reorder_addr_gen/clk_calc
+addSignal -h 15 -UNSIGNED -UDEC -holdScope base_addr[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pic_size[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope col_cnt[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_cnt[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope chan_cnt[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope Chan_MulPic2[25:0]
+endSubGroup "pw2dw"
+addSubGroup "dw2pw" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/dw2pw_reorder_cnt_1[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw2pw_reorder_cnt_col[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw2pw_reorder_cnt_row[10:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dw2pw_reorder_cnt_chan[10:0]
+addSignal -h 15 -holdScope dw2pw_reorder_finish
+endSubGroup "dw2pw"
+addSubGroup "pw2pw" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/pw2pw_reorder_cnt_col[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pw2pw_reorder_cnt_row[10:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pw2pw_reorder_cnt_chan[10:0]
+endSubGroup "pw2pw"
+addSubGroup "wr_ins" -e FALSE
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/ddr_wr_ins_vld
+addSignal -expanded -h 15 -UNSIGNED -HEX -holdScope ddr_wr_ins[545:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_wr_ins[32:7]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_wr_ins[6:0]
+addSubGroup "wr_data_part"
+addSignal -h 15 -UNSIGNED -IEEE754 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/ddr_wr_ins[544:513]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[512:481]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[480:449]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[448:417]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[416:385]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[384:353]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[352:321]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[320:289]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[288:257]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[256:225]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[224:193]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[192:161]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[160:129]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[128:97]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[96:65]
+addSignal -h 15 -UNSIGNED -IEEE754 -holdScope ddr_wr_ins[64:33]
+endSubGroup "wr_data_part"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/fifo_wr_per_layer_finish
+addSignal -h 15 -UNSIGNED -HEX -holdScope fifo_wr_data_part[511:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope fifo_wr_addr_part[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope fifo_wr_bl_part[6:0]
+endSubGroup "wr_ins"
+addSignal -h 15 /mobilenet_acc_tb/mobilenet_test_top/mobilenet_acc_top/acc_data_reorder_top/addr_map/net_all_finish
+addGroup "G16"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal_cp/vcsmx/mobilenet_sim_000.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/_$novas_unit__1"
+
+SCOPE_LIST_BEGIN
+"/_$novas_unit__1"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

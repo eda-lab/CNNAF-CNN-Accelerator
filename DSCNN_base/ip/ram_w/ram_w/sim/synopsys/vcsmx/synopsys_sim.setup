@@ -1,0 +1,14 @@
+
+WORK > DEFAULT
+DEFAULT:           ./libraries/work/             
+work:              ./libraries/work/             
+ram_2port_181:     ./libraries/ram_2port_181/    
+ram_w:             ./libraries/ram_w/            
+altera_ver:        ./libraries/altera_ver/       
+lpm_ver:           ./libraries/lpm_ver/          
+sgate_ver:         ./libraries/sgate_ver/        
+altera_mf_ver:     ./libraries/altera_mf_ver/    
+altera_lnsim_ver:  ./libraries/altera_lnsim_ver/ 
+twentynm_ver:      ./libraries/twentynm_ver/     
+twentynm_hssi_ver: ./libraries/twentynm_hssi_ver/
+twentynm_hip_ver:  ./libraries/twentynm_hip_ver/ 

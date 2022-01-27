@@ -1,0 +1,18 @@
+# system info monitor_power_temp_sda on 2021.04.25.10:51:14
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for monitor_power_temp_sda on 2021.04.25.10:51:14
+files:
+filepath,kind,attributes,module,is_top
+sim/monitor_power_temp_sda.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,monitor_power_temp_sda,true
+altera_avalon_pio_181/sim/monitor_power_temp_sda_altera_avalon_pio_181_4pingoy.v,VERILOG,,monitor_power_temp_sda_altera_avalon_pio_181_4pingoy,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+monitor_power_temp_sda.power_temp_sda,monitor_power_temp_sda_altera_avalon_pio_181_4pingoy

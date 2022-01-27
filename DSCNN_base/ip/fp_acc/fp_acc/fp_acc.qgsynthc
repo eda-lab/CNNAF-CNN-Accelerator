@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:altera="http://www.altera.com/XMLSchema/Qsys/SystemTree">
+  <instanceKey xsi:type="xs:string">fp_acc</instanceKey>
+  <instanceData xsi:type="data">
+    <parameters></parameters>
+    <interconnectAssignments>
+      <interconnectAssignment>
+        <name>$system.qsys_mm.clockCrossingAdapter</name>
+        <value>HANDSHAKE</value>
+      </interconnectAssignment>
+      <interconnectAssignment>
+        <name>$system.qsys_mm.maxAdditionalLatency</name>
+        <value>0</value>
+      </interconnectAssignment>
+    </interconnectAssignments>
+    <className>fp_acc</className>
+    <version>1.0</version>
+    <name>fp_acc</name>
+    <uniqueName>fp_acc</uniqueName>
+    <nonce>0</nonce>
+    <incidentConnections></incidentConnections>
+  </instanceData>
+  <children>
+    <node>
+      <instanceKey xsi:type="xs:string">fp_acc_custom_0</instanceKey>
+      <instanceData xsi:type="data">
+        <parameters>
+          <parameter>
+            <name>LSBA</name>
+            <value>-26</value>
+          </parameter>
+          <parameter>
+            <name>MSBA</name>
+            <value>20</value>
+          </parameter>
+          <parameter>
+            <name>fp_format</name>
+            <value>single</value>
+          </parameter>
+          <parameter>
+            <name>frequency</name>
+            <value>200</value>
+          </parameter>
+          <parameter>
+            <name>gen_enable</name>
+            <value>true</value>
+          </parameter>
+          <parameter>
+            <name>maxMSBX</name>
+            <value>12</value>
+          </parameter>
+          <parameter>
+            <name>selected_device_family</name>
+            <value>Arria 10</value>
+          </parameter>
+          <parameter>
+            <name>selected_device_speedgrade</name>
+            <value>2</value>
+          </parameter>
+          <parameter>
+            <name>validation_failed</name>
+            <value>false</value>
+          </parameter>
+        </parameters>
+        <interconnectAssignments></interconnectAssignments>
+        <className>altera_fp_acc_custom</className>
+        <version>18.1</version>
+        <name>fp_acc_custom_0</name>
+        <uniqueName>fp_acc_altera_fp_acc_custom_181_2tuw37a</uniqueName>
+        <nonce>0</nonce>
+        <incidentConnections></incidentConnections>
+        <path>fp_acc.fp_acc_custom_0</path>
+      </instanceData>
+      <children></children>
+    </node>
+  </children>
+</node>

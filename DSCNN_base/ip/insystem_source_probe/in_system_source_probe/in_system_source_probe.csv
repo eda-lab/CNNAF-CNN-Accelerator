@@ -1,0 +1,18 @@
+# system info in_system_source_probe on 2020.10.28.10:45:24
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for in_system_source_probe on 2020.10.28.10:45:24
+files:
+filepath,kind,attributes,module,is_top
+sim/in_system_source_probe.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,in_system_source_probe,true
+altera_in_system_sources_probes_181/sim/altsource_probe.v,VERILOG,,altsource_probe,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+in_system_source_probe.in_system_sources_probes_0,altsource_probe

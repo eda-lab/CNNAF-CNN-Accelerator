@@ -1,0 +1,64 @@
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_avalon_timer"
+set_global_assignment -library "nios_qsys_timer_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "nios_qsys_timer_0.sopcinfo"]
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name SLD_INFO "QSYS_NAME nios_qsys_timer_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "nios_qsys_timer_0" -name MISC_FILE [file join $::quartus(qip_path) "nios_qsys_timer_0.cmp"]
+set_global_assignment -library "nios_qsys_timer_0" -name SLD_FILE [file join $::quartus(qip_path) "nios_qsys_timer_0.regmap"]
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_TARGETED_DEVICE_FAMILY "Arria 10"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_GENERATED_DEVICE_FAMILY "{Arria 10}"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "nios_qsys_timer_0" -name MISC_FILE [file join $::quartus(qip_path) "../nios_qsys_timer_0.ip"]
+
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_NAME "bmlvc19xc3lzX3RpbWVyXzBfYWx0ZXJhX2F2YWxvbl90aW1lcl8xODFfZWhhNDIzaQ=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_DISPLAY_NAME "SW50ZXJ2YWwgVGltZXIgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "YWx3YXlzUnVu::ZmFsc2U=::Tm8gU3RhcnQvU3RvcCBjb250cm9sIGJpdHM="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "Y291bnRlclNpemU=::MzI=::Q291bnRlciBTaXpl"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "Zml4ZWRQZXJpb2Q=::ZmFsc2U=::Rml4ZWQgcGVyaW9k"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "cGVyaW9k::MQ==::UGVyaW9k"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "cGVyaW9kVW5pdHM=::U0VD::VW5pdHM="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "cmVzZXRPdXRwdXQ=::ZmFsc2U=::U3lzdGVtIHJlc2V0IG9uIHRpbWVvdXQgKFdhdGNoZG9nKQ=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "c25hcHNob3Q=::dHJ1ZQ==::UmVhZGFibGUgc25hcHNob3Q="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "dGltZW91dFB1bHNlT3V0cHV0::ZmFsc2U=::VGltZW91dCBwdWxzZSAoMSBjbG9jayB3aWRlKQ=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "c3lzdGVtRnJlcXVlbmN5::MTI1MDAwMDAw::c3lzdGVtRnJlcXVlbmN5"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "d2F0Y2hkb2dQdWxzZQ==::Mg==::V2F0Y2hkb2cgVGltZXIgUHVsc2UgTGVuZ3Ro"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "dGltZXJQcmVzZXQ=::RlVMTF9GRUFUVVJFRA==::UHJlc2V0cw=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "cGVyaW9kVW5pdHNTdHJpbmc=::cw==::cGVyaW9kVW5pdHNTdHJpbmc="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "dmFsdWVJblNlY29uZA==::MS4w::dmFsdWVJblNlY29uZA=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "bG9hZFZhbHVl::MTI0OTk5OTk5::bG9hZFZhbHVl"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "bXVsdA==::MS4w::bXVsdA=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "dGlja3NQZXJTZWM=::MS4w::dGlja3NQZXJTZWM="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_PARAMETER "c2xhdmVfYWRkcmVzc193aWR0aA==::Mw==::c2xhdmVfYWRkcmVzc193aWR0aA=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_GROUP "UHJvY2Vzc29ycyBhbmQgUGVyaXBoZXJhbHMvUGVyaXBoZXJhbHM="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTM5ODY0NDk1Mw=="
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5NzY4OTMwMA=="
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_NAME "bmlvc19xc3lzX3RpbWVyXzA="
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::QXJyaWEgMTA=::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBBWDA2NkszRjQwRTJTRw==::QXV0byBERVZJQ0U="
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Mg==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "nios_qsys_timer_0" -library "nios_qsys_timer_0" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+
+
+set_global_assignment -library "altera_avalon_timer_181" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_avalon_timer_181/synth/nios_qsys_timer_0_altera_avalon_timer_181_eha423i.v"]
+set_global_assignment -library "nios_qsys_timer_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/nios_qsys_timer_0.v"]
+
+
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_TOOL_NAME "altera_avalon_timer"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "nios_qsys_timer_0_altera_avalon_timer_181_eha423i" -library "altera_avalon_timer_181" -name IP_TOOL_ENV "QsysPrimePro"
+

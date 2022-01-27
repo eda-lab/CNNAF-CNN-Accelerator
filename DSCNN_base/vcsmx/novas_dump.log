@@ -1,0 +1,221 @@
+ANF: vcsd_register_1st_RTL_rfn('./simv: undefined symbol: vcsd_register_1st_RTL_rfn')
+ANF: vcsd_register_1st_sequential_rfn('./simv: undefined symbol: vcsd_register_1st_sequential_rfn')
+ANF: vcsd_register_2nd_RTL_rfn('./simv: undefined symbol: vcsd_register_2nd_RTL_rfn')
+ANF: vcsd_register_2nd_sequential_rfn('./simv: undefined symbol: vcsd_register_2nd_sequential_rfn')
+ANF: msvEnableDumpingMode('./simv: undefined symbol: msvEnableDumpingMode')
+ANF: msvGetVersion('./simv: undefined symbol: msvGetVersion')
+ANF: msvGetInstProp('./simv: undefined symbol: msvGetInstProp')
+ANF: msvIsSpiceEngineReady('./simv: undefined symbol: msvIsSpiceEngineReady')
+ANF: msvSetAddProbeCallback('./simv: undefined symbol: msvSetAddProbeCallback')
+ANF: msvGetInstHandle('./simv: undefined symbol: msvGetInstHandle')
+ANF: msvGetProbeByInst('./simv: undefined symbol: msvGetProbeByInst')
+ANF: msvGetSigHandle('./simv: undefined symbol: msvGetSigHandle')
+ANF: msvGetProbeBySig('./simv: undefined symbol: msvGetProbeBySig')
+ANF: msvGetProbeInfo('./simv: undefined symbol: msvGetProbeInfo')
+ANF: msvRelease('./simv: undefined symbol: msvRelease')
+ANF: msvSetVcCallbackFunc('./simv: undefined symbol: msvSetVcCallbackFunc')
+ANF: msvCheckVcCallback('./simv: undefined symbol: msvCheckVcCallback')
+ANF: msvAddVcCallback('./simv: undefined symbol: msvAddVcCallback')
+ANF: msvRemoveVcCallback('./simv: undefined symbol: msvRemoveVcCallback')
+ANF: msvGetLatestValue('./simv: undefined symbol: msvGetLatestValue')
+ANF: msvSetEndofSimCallback('./simv: undefined symbol: msvSetEndofSimCallback')
+ANF: msvIgnoredProbe('./simv: undefined symbol: msvIgnoredProbe')
+ANF: msvGetThruNetInfo('./simv: undefined symbol: msvGetThruNetInfo')
+ANF: msvFreeThruNetInfo('./simv: undefined symbol: msvFreeThruNetInfo')
+ANF: PI_ace_get_output_time_unit('./simv: undefined symbol: PI_ace_get_output_time_unit')
+ANF: PI_ace_sim_sync('./simv: undefined symbol: PI_ace_sim_sync')
+ANF: msvGetRereadInitFile('./simv: undefined symbol: msvGetRereadInitFile')
+ANF: msvSetBeforeRereadCallback('./simv: undefined symbol: msvSetBeforeRereadCallback')
+ANF: msvSetAfterRereadCallback('./simv: undefined symbol: msvSetAfterRereadCallback')
+ANF: msvSetForceCallback('./simv: undefined symbol: msvSetForceCallback')
+ANF: msvSetReleaseCallback('./simv: undefined symbol: msvSetReleaseCallback')
+ANF: msvGetForceStatus('./simv: undefined symbol: msvGetForceStatus')
+Simulator support vhpi_get_simulated_net
+Simulator supports SCS DKI. Using SCSD for VC CB.
+VCS compile option:
+ option[0]: ./simv
+ option[1]: /software/synopsys/vcs-mx-2016/linux64/bin/vcs1
+ option[2]: -Mcc=gcc
+ option[3]: -Mcplusplus=g++
+ option[4]: -Masflags=
+ option[5]: -Mcfl= -pipe -fPIC -O -I/software/synopsys/vcs-mx-2016/include 
+ option[6]: -Mxcflags= -pipe -fPIC -I/software/synopsys/vcs-mx-2016/include
+ option[7]: -Mldflags= -rdynamic 
+ option[8]: -Mout=simv
+ option[9]: -Mamsrun=
+ option[10]: -Mvcsaceobjs=
+ option[11]: -Mobjects= /software/synopsys/vcs-mx-2016/linux64/lib/liberrorinf.so /software/synopsys/vcs-mx-2016/linux64/lib/libsnpsmalloc.so 
+ option[12]: -Mexternalobj=
+ option[13]: -Msaverestoreobj=/software/synopsys/vcs-mx-2016/linux64/lib/vcs_save_restore_new.o
+ option[14]: -Mcrt0=
+ option[15]: -Mcrtn=
+ option[16]: -Mcsrc=
+ option[17]: -Msyslibs=/software/synopsys/verdi-2016/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[18]: -l
+ option[19]: vcs.log
+ option[20]: -uum
+ option[21]: mobilenet_acc_tb
+ option[22]: -mxunielab
+ option[23]: -uni_make
+ option[24]: -Xhdlxmropt
+ option[25]: -lca
+ option[26]: -debug_access
+ option[27]: +vpi
+ option[28]: +vcsd1
+ option[29]: +itf+/software/synopsys/vcs-mx-2016/linux64/lib/vcsdp_lite.tab
+ option[30]: -liblist_work
+ option[31]: -timescale=1ns/1ps
+ option[32]: -uum
+ option[33]: -elaboration_options=/tmp/vcs_20210308063323_23684/elaboptfile_23684
+ option[34]: -full64
+ option[35]: -picarchive
+ option[36]: -P
+ option[37]: /software/synopsys/verdi-2016/share/PLI/VCS/LINUX64/verdi.tab
+ option[38]: -fsdb
+ option[39]: -VHDLelab=-mxunielab -uni_make -nc -Xhdlxmropt -lca -t ps -uum -elaboration_options /tmp/vcs_20210308063323_23684/elaboptfile_23684 -picarchive -fsdb -debug_acc_options -debug_access 
+ option[40]: -gen_obj
+ option[41]: -f
+ option[42]: simv.daidir/mxopt.db
+ option[43]: -load
+ option[44]: /software/synopsys/verdi-2016/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[45]: timescale=1ns/1ps
+Chronologic Simulation VCS Release L-2016.06_Full64
+Linux 3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+VNCDESKTOP=hdu-eda:2 (gtd)
+SSH_AGENT_PID=4276
+XDG_SESSION_ID=c3
+HOSTNAME=hdu-eda
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+NOVAS_HOME=/software/synopsys/verdi-2016
+VTE_VERSION=5202
+TERM=xterm-256color
+SHELL=/bin/bash
+XDG_MENU_PREFIX=gnome-
+HISTSIZE=1000
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/57dafbb5_05f7_4cfd_a0ec_62f2ba9df686
+VCS_TARGET_ARCH=amd64
+IMSETTINGS_MODULE=none
+USER=gtd
+LD_LIBRARY_PATH=:/usr/local/lib:/software/quartus/qts18.1pro/quartus/linux64:/software/synopsys/verdi-2016/share/PLI/IUS/LINUX64/boot:/software/synopsys/verdi-2016/share/PLI/lib/LINUX64
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+GNOME_TERMINAL_SERVICE=:1.99
+SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+DVE_HOME=/software/synopsys/vcs-mx-2016/gui/dve
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3800,unix/unix:/tmp/.ICE-unix/3800
+GNOME_SHELL_SESSION_MODE=classic
+PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/software/quartus/qts18.1pro/quartus/linux64:/software/synopsys/vcs-mx-2016/gui/dve/bin:/software/synopsys/vcs-mx-2016/bin:/software/synopsys/verdi-2016/bin:/software/synopsys/scl_11.9/amd64/bin:/home/gtd/.local/bin:/home/gtd/bin:/software/quartus/qts18.1pro/quartus/linux64:/software/synopsys/vcs-mx-2016/gui/dve/bin:/software/synopsys/vcs-mx-2016/bin:/software/synopsys/verdi-2016/bin:/software/synopsys/scl_11.9/amd64/bin
+MAIL=/var/spool/mail/gtd
+QT_IM_MODULE=ibus
+VERDI_HOME=/software/synopsys/verdi-2016
+PWD=/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/vcsmx
+XMODIFIERS=@im=ibus
+VCS_HOME=/software/synopsys/vcs-mx-2016
+LANG=en_US.UTF-8
+VCS_ARCH_OVERRIDE=linux
+LM_LICENSE_FILE=27000@hdu-eda:/software/synopsys/scl_11.9/license/Synopsys.dat
+HISTCONTROL=ignoredups
+HOME=/home/gtd
+SHLVL=4
+VERDI_LIB=/software/synopsys/verdi-2016/share/PLI/VCS/linux64
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=gtd
+XDG_DATA_DIRS=/home/gtd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Tg5pXtXZ9M,guid=cca6b1ed22cce246c3eb9590603edef1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+XDG_RUNTIME_DIR=/run/user/1001
+DISPLAY=:2
+XDG_CURRENT_DESKTOP=GNOME
+COLORTERM=truecolor
+OLDPWD=/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal
+_=./simv
+VCS_PATHMAP_PRELOAD_DONE=1
+LC_ALL=C
+ARCH=linux64
+SYNOPSYS_SIM=/software/synopsys/vcs-mx-2016
+DVE=/software/synopsys/vcs-mx-2016/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+OVASIM_RUNTIME_FLAGS=
+SCL_AUTHORIZE_LIST=
+SNPS_DONT_SHOW_SETUP_FILES=1
+Runtime command line arguments:
+argv[0]=./simv
+158 profile - 100
+          CPU/Mem usage: 0.080 sys,  2.470 user,  511.36M sys,  0.00M vm
+159 VC callback profile - scalar:0 vector:0
+160 Mon Mar  8 14:33:35 2021
+161 pliAppInit
+162 *Verdi3* : FSDB_GATE is set.
+163 *Verdi3* : FSDB_RTL is set.
+164 *Verdi3* : Enable Parallel Dumping.
+165 pliAppMiscSet: New Sim Round
+166 pliEntryInit
+167 LIBSSCORE=found /software/synopsys/verdi-2016/share/PLI/lib/LINUXAMD64/libsscore_vcsmx201606.so through $NOVAS_HOME setting.
+168 FSDB Dumper for VCS-MX, Release Verdi3_L-2016.06-1, Linux x86_64/64bit, 07/10/2016
+169 (C) 1996 - 2016 by Synopsys, Inc.
+170 sps_call_fsdbAutoSwitchDumpfile at 0 : ../rtl/12.top/mobilenet_acc_tb.sv(195)
+171 argv[0]: 1024
+172 argv[1]: mobilenet_sim.fsdb
+173 argv[2]: 10
+174 *Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+175 *Verdi3* FSDB: The switch FSDB file size might not match the input size (1024MB) because of performance concerns.
+176 *Verdi3* FSDB: To have the FSDB file size match the input size (1024MB), set the FSDB_ENV_PRECISE_AUTOSWITCH environment, though the dumping performance might decrease.
+177 *Verdi3* : Enable automatic switching of the FSDB file.
+178 *Verdi3* : (Filename='mobilenet_sim', Limit Size=1024MB, File Amount=10).
+179 *Verdi3* : Create FSDB file 'mobilenet_sim_000.fsdb'
+180 *Verdi3* : Create the file 'mobilenet_sim.log' to log the time range of each FSDB file.
+181 *Verdi3* : Create virtual FSDB file 'mobilenet_sim.vf' to log each FSDB file.
+182 sps_call_fsdbDumpvars at 0 : ../rtl/12.top/mobilenet_acc_tb.sv(196)
+183 argv[0]: +all
+184 *Verdi3* : Begin traversing the scopes, layer (0).
+185 *Verdi3* : Enable +all dumping.
+186 *Verdi3* : End of traversing.
+187 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.100 sys,  2.970 user,  631.54M sys,  0.00M vm
+                   incr: 0.010 sys,  0.500 user,  43.20M sys,  0.00M vm
+                   accu: 0.010 sys,  0.500 user,  43.20M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.500 user,  43.20M sys,  0.00M vm
+
+          Count usage: 69255 var,  64179 idcode,  26059 callback
+                 incr: 69255 var,  64179 idcode,  26059 callback
+                 accu: 69255 var,  64179 idcode,  26059 callback
+            accu incr: 69255 var,  64179 idcode,  26059 callback
+188 VC callback profile - scalar:0 vector:0
+189 Mon Mar  8 14:33:36 2021
+190 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.100 sys,  2.980 user,  640.36M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  8.83M sys,  0.00M vm
+                   accu: 0.010 sys,  0.510 user,  52.03M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  8.83M sys,  0.00M vm
+
+          Count usage: 69255 var,  64179 idcode,  26059 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 69255 var,  64179 idcode,  26059 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+191 VC callback profile - scalar:15510 vector:47037
+192 Mon Mar  8 14:33:36 2021
+193 sps_call_fsdbDumpon at 0 : ../rtl/12.top/mobilenet_acc_tb.sv(198)
+194 *Verdi3* : fsdbDumpon - All FSDB files at 0 ps.
+195 End of simulation at 13357500
+196 VC callback profile - scalar:3722679 vector:13095404
+197 Mon Mar  8 14:34:02 2021
+198 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:186 BlockUsed:205
+199                        ProduceTime:29.199728752 ConsumerTime:4.099991380 Buffer:64MB
+200 SimExit
+201 Sim process exit

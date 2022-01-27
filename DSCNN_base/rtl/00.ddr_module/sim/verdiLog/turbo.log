@@ -1,0 +1,3 @@
+Command Line: /software/synopsys/verdi-2016/platform/LINUXAMD64/bin/Novas -F rtl_lst.list -ssf mobilenet_sim.fsdb -nologo
+uname(Linux hdu-eda 3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020 x86_64)
+au time 4423.839339 214.016251 232.573112 delta 514289664 514289664 total 896393216 896393216

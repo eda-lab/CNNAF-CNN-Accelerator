@@ -1,0 +1,9 @@
+10:30:04 **** Incremental Build of configuration Nios II for project power_test ****
+make all 
+Info: Building /home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/software/power_test_bsp/
+make --no-print-directory -C /home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/software/power_test_bsp/
+[BSP build complete]
+[power_test build complete]
+
+10:30:04 Build Finished (took 59ms)
+

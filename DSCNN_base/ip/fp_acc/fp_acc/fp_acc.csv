@@ -1,0 +1,20 @@
+# system info fp_acc on 2020.12.08.10:00:13
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for fp_acc on 2020.12.08.10:00:13
+files:
+filepath,kind,attributes,module,is_top
+sim/fp_acc.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fp_acc,true
+altera_fp_acc_custom_181/sim/dspba_library_package.vhd,VHDL,,fp_acc_altera_fp_acc_custom_181_2tuw37a,false
+altera_fp_acc_custom_181/sim/dspba_library.vhd,VHDL,,fp_acc_altera_fp_acc_custom_181_2tuw37a,false
+altera_fp_acc_custom_181/sim/fp_acc_altera_fp_acc_custom_181_2tuw37a.vhd,VHDL,,fp_acc_altera_fp_acc_custom_181_2tuw37a,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fp_acc.fp_acc_custom_0,fp_acc_altera_fp_acc_custom_181_2tuw37a

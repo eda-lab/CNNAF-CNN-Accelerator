@@ -1,0 +1,19 @@
+# system info veri_data_tx_fifo on 2020.09.23.23:45:35
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for veri_data_tx_fifo on 2020.09.23.23:45:35
+files:
+filepath,kind,attributes,module,is_top
+sim/veri_data_tx_fifo.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,veri_data_tx_fifo,true
+fifo_181/sim/veri_data_tx_fifo_fifo_181_26xpu7a.v,VERILOG,,veri_data_tx_fifo_fifo_181_26xpu7a,false
+fifo_181/sim/veri_data_tx_fifo_fifo_181_26xpu7a.sdc,SDC_ENTITY,NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION,veri_data_tx_fifo_fifo_181_26xpu7a,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+veri_data_tx_fifo.fifo_0,veri_data_tx_fifo_fifo_181_26xpu7a

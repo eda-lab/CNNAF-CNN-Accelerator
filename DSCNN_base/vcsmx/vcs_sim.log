@@ -1,0 +1,645 @@
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:19 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/00.ddr_module/c_ddr_intf.sv'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:19 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/00.ddr_module/c_ddr_model.sv'
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 297
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 297
+  Source info:         $fscanf(fd, "%h", value);
+
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 342
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 342
+  Source info:         $fscanf(fd, "%h", value);
+
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 385
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 385
+  Source info:         $fscanf(fd, "%h", value);
+
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 470
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 470
+  Source info:         $fscanf(fd, "%h", value);
+
+CPU time: .049 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:19 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/01.ddr_ctrl/ddr_ctrl.v'
+CPU time: .062 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/02.ddr_init_ins/ddr_init_ins_gen.v'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_conv_b_addr_gen.v'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_conv_f_addr_gen.v'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_conv_w_addr_gen.v'
+CPU time: .047 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_dw_b_addr_gen.v'
+CPU time: .044 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_dw_f_addr_gen.v'
+CPU time: .046 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_dw_w_addr_gen.v'
+CPU time: .047 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_pw_w_addr_gen.v'
+CPU time: .048 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_pw_b_addr_gen.v'
+CPU time: .048 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_pw_f_addr_gen.v'
+CPU time: .047 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:20 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_addr_gen/rd_avgle_addr_gen.v'
+CPU time: .047 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/03.ddr_rd_ins/ddr_rd_ins_gen.v'
+
+Warning-[CIWC] Ignored /* within /* */ comment
+  Nested comments is found. Ignoring nested '/*'. 
+  /*input [ 6:0]      */.dw_f_cnt_l3      (data_cnt_dw_l3     ),
+  ^
+  "../rtl/03.ddr_rd_ins/ddr_rd_ins_gen.v", 1077
+
+CPU time: .051 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/04.data_in_reorder/data_gen.v'
+CPU time: .048 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/04.data_in_reorder/data_in_reorder.v'
+CPU time: .048 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/04.data_in_reorder/ddr_rd_data_pro.v'
+CPU time: .051 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/05.weight_ctrl/w_chg_ctrl.v'
+CPU time: .047 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/05.weight_ctrl/w_gen.v'
+CPU time: .044 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/05.weight_ctrl/w_rd_ctrl.v'
+CPU time: .050 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/06.bias_ctrl/bias_gen.v'
+CPU time: .046 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/06.bias_ctrl/bias_ctrl.v'
+CPU time: .064 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:21 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/07.sc_ctrl/sc_ctrl.v'
+CPU time: .046 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/08.calc_unit/calc_unit_x16.v'
+CPU time: .047 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/08.calc_unit/calc_unit_single.v'
+CPU time: .046 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/09.bias_add/bias_add.v'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/10.data_out_reorder/acc_data_reorder_top.v'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/10.data_out_reorder/addr_map.v'
+CPU time: .049 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/10.data_out_reorder/ddr_wr_addr_gen/dw2pw_reorder_addr_gen.v'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/10.data_out_reorder/ddr_wr_addr_gen/pw2dw_reorder_addr_gen.v'
+CPU time: .044 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/10.data_out_reorder/ddr_wr_addr_gen/pw2pw_reorder_addr_gen.v'
+CPU time: .045 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/10.data_out_reorder/ddr_wr_addr_gen/avg2pw_reorder_addr_gen.v'
+CPU time: .044 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/11.acc_veri/acc_data_veri_tx.v'
+CPU time: .046 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:22 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/11.acc_veri/ddr_veri_ins_gen.v'
+CPU time: .048 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:23 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/12.top/mobilenet_acc_top.v'
+CPU time: .049 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:23 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/12.top/mobilenet_test_top_forsim.v'
+CPU time: .048 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:23 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/12.top/mobilenet_acc_tb.sv'
+Parsing included file '../rtl/00.ddr_module/c_ddr_intf.sv'.
+Back to file '../rtl/12.top/mobilenet_acc_tb.sv'.
+Parsing included file '../rtl/00.ddr_module/c_ddr_model.sv'.
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 297
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 297
+  Source info:         $fscanf(fd, "%h", value);
+
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 342
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 342
+  Source info:         $fscanf(fd, "%h", value);
+
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 385
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 385
+  Source info:         $fscanf(fd, "%h", value);
+
+
+Warning-[RVOSFD] Return value discarded
+../rtl/00.ddr_module/c_ddr_model.sv, 470
+  System function '$fscanf' is invoked as task, its return value is discarded.
+  "../rtl/00.ddr_module/c_ddr_model.sv", 470
+  Source info:         $fscanf(fd, "%h", value);
+
+Back to file '../rtl/12.top/mobilenet_acc_tb.sv'.
+CPU time: .058 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:23 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/14.ddr_interface/ddr_ctrl_ins_sync.v'
+CPU time: .046 seconds to compile
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:23 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/14.ddr_interface/ddr_rd_data_sync.v'
+CPU time: .047 seconds to compile
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Mon Mar  8 14:33:23 2021
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Top Level Modules:
+       mobilenet_acc_tb
+TimeScale is 1 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/synopsys/twentynm_atoms_ncrypt.v, 2
+
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/synopsys/twentynm_atoms_ncrypt.v, 2
+
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/synopsys/twentynm_atoms_ncrypt.v, 2
+
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/altera_mf.v, 31801
+"dcfifo_mixed_widths DCFIFO_MW( .data (data),  .rdclk (rdclk),  .wrclk (wrclk),  .aclr (aclr),  .rdreq (rdreq),  .wrreq (wrreq),  .rdfull (w_rdfull),  .wrfull (w_wrfull),  .rdempty (w_rdempty),  .wrempty (w_wrempty),  .rdusedw (w_rdusedw),  .wrusedw (w_wrusedw),  .q (w_q));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/altera_mf.v, 31801
+"dcfifo_mixed_widths DCFIFO_MW( .data (data),  .rdclk (rdclk),  .wrclk (wrclk),  .aclr (aclr),  .rdreq (rdreq),  .wrreq (wrreq),  .rdfull (w_rdfull),  .wrfull (w_wrfull),  .rdempty (w_rdempty),  .wrempty (w_wrempty),  .rdusedw (w_rdusedw),  .wrusedw (w_wrusedw),  .q (w_q));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/altera_mf.v, 31801
+"dcfifo_mixed_widths DCFIFO_MW( .data (data),  .rdclk (rdclk),  .wrclk (wrclk),  .aclr (aclr),  .rdreq (rdreq),  .wrreq (wrreq),  .rdfull (w_rdfull),  .wrfull (w_wrfull),  .rdempty (w_rdempty),  .wrempty (w_wrempty),  .rdusedw (w_rdusedw),  .wrusedw (w_wrusedw),  .q (w_q));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/altera_mf.v, 31801
+"dcfifo_mixed_widths DCFIFO_MW( .data (data),  .rdclk (rdclk),  .wrclk (wrclk),  .aclr (aclr),  .rdreq (rdreq),  .wrreq (wrreq),  .rdfull (w_rdfull),  .wrfull (w_wrfull),  .rdempty (w_rdempty),  .wrempty (w_wrempty),  .rdusedw (w_rdusedw),  .wrusedw (w_wrusedw),  .q (w_q));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/altera_mf.v, 31801
+"dcfifo_mixed_widths DCFIFO_MW( .data (data),  .rdclk (rdclk),  .wrclk (wrclk),  .aclr (aclr),  .rdreq (rdreq),  .wrreq (wrreq),  .rdfull (w_rdfull),  .wrfull (w_wrfull),  .rdempty (w_rdempty),  .wrempty (w_wrempty),  .rdusedw (w_rdusedw),  .wrusedw (w_wrusedw),  .q (w_q));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/05.weight_ctrl/w_gen.v, 62
+"w_chg_ctrl w_chg_ctrl( .clk_calc (clk_calc),  .rst_n (rst_n),  .w_read_per_slice_done (w_read_per_slice_done),  .w_chg_en (data_acc_layer_finish),  .w_chg_vld_in (data_vld_in),  .w_ram_rd_addr (ram_w_rd_addr),  .w_chg_load_done (w_load_done));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/altera_mf.v, 31801
+"dcfifo_mixed_widths DCFIFO_MW( .data (data),  .rdclk (rdclk),  .wrclk (wrclk),  .aclr (aclr),  .rdreq (rdreq),  .wrreq (wrreq),  .rdfull (w_rdfull),  .wrfull (w_wrfull),  .rdempty (w_rdempty),  .wrempty (w_wrempty),  .rdusedw (w_rdusedw),  .wrusedw (w_wrusedw),  .q (w_q));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/software/quartus/qts18.1pro/quartus//eda/sim_lib/altera_mf.v, 31801
+"dcfifo_mixed_widths DCFIFO_MW( .data (data),  .rdclk (rdclk),  .wrclk (wrclk),  .aclr (aclr),  .rdreq (rdreq),  .wrreq (wrreq),  .rdfull (w_rdfull),  .wrfull (w_wrfull),  .rdempty (w_rdempty),  .wrempty (w_wrempty),  .rdusedw (w_rdusedw),  .wrusedw (w_wrusedw),  .q (w_q));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/12.top/mobilenet_acc_top.v, 64
+"ddr_rd_ins_gen ddr_rd_ins_gen( .clk_calc (clk_calc),  .rst_n (rst_n),  .last_slice_vld (last_slice_vld),  .layer_acc_op_done (layer_acc_done),  .slice_acc_op_done (slice_acc_done),  .ins_gen_vld (ddr_rd_ins_gen_vld),  .net_map_finish (net_map_finish),  .ddr_rd_ins_vld (ddr_rd_ins_vld),  .ddr_rd_ins (ddr_rd_ins));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/12.top/mobilenet_test_top_forsim.v, 79
+"mobilenet_acc_top mobilenet_acc_top( .clk_data (sys_clk_200M),  .clk_calc (sys_clk_100M),  .rst_n (sys_rst_n),  .veri_data_uart_rdreq (uart_rdreq),  .veri_data_uart_start (uart_start),  .veri_data_uart_out_vld (uart_out_vld),  .veri_data_uart_out (uart_out),  .ddr_rd_fifo_half (ddr_rd_fifo_half),  .ddr_ins_push_vld (ddr_ins_push_vld),  .ddr_rd_data_vld (ddr_rd_data_vld),  .ddr_rd_data (ddr_rd_data),  .ddr_rddata_req (ddr_ctrl_rd_en),  .ddr_rd_req (ddr_rd_req),  .ddr_wr_req (ddr_wr_req),  .ddr_address (ddr_address),  .ddr_bl_size (ddr_bl_size),  .ddr_write_data (ddr_write_data),  .ddr_ins_op_vld (ddr_ins_op_vld));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/12.top/mobilenet_acc_tb.sv, 29
+"mobilenet_test_top_forsim mobilenet_test_top( .sys_clk_100M (clk_200M),  .sys_clk_200M (clk_250M),  .sys_rst_n (rst_n),  .ddr_clk (ddr_clk),  .ddr_rst_n (ddr_rst_n),  .uart_rdreq (uart_rdreq),  .uart_out_vld (uart_out_vld),  .uart_out (uart_out),  .ddr_avl_local_init_done (ddr_local_init_done),  .ddr_avl_ready (ddr_ready),  .ddr_avl_rd_data_vld (ddr_rd_data_vld),  .ddr_avl_rd_data (ddr_rd_data),  .ddr_avl_rd_req (ddr_rd_req),  .ddr_avl_wr_req (ddr_wr_req),  .ddr_avl_address (ddr_address),  .ddr_avl_bl_size (ddr_bl_size),  .ddr_avl_write_data (ddr_wr_data));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Note-[SIMU-RESOLUTION] Simulation time resolution
+  Simulation time resolution is 1 PS
+
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+80 unique modules to generate
+50 modules and 0 UDP read. 
+	However, due to incremental compilation, no re-compilation is necessary.
+All of 0 modules done
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic -Wl,-E -lncurses  amcQwB.o   _prev_archive_1.so _csrc0.so  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o       linux64_scvhdl_0.so vh/scscomm.o vh/scsFilelist.o    /software/synopsys/vcs-mx-2016/linux64/lib/libzerosoft_rt_stubs.so /software/synopsys/vcs-mx-2016/linux64/lib/liberrorinf.so /software/synopsys/vcs-mx-2016/linux64/lib/libsnpsmalloc.so    /software/synopsys/vcs-mx-2016/linux64/lib/libvirsim.so /software/synopsys/vcs-mx-2016/linux64/lib/libvcsnew.so /software/synopsys/vcs-mx-2016/linux64/lib/vcs_main.o /software/synopsys/vcs-mx-2016/linux64/lib/libvcsmx.so /software/synopsys/vcs-mx-2016/linux64/lib/libreader_common.so /software/synopsys/vcs-mx-2016/linux64/lib/libBA.a /software/synopsys/vcs-mx-2016/linux64/lib/libsimprofile.so /software/synopsys/vcs-mx-2016/linux64/lib/libuclinative.so   -Wl,-whole-archive  -Wl,-no-whole-archive         _vcs_pli_stub_.o   /software/synopsys/vcs-mx-2016/linux64/lib/vcs_save_restore_new.o /software/synopsys/verdi-2016/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 3.667 seconds to compile + 2.654 seconds to elab + .175 seconds to link

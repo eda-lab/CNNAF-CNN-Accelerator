@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="fifo_181/sim/fifo_ddr_data_rev_fifo_181_5oquqri.v"
+   type="VERILOG"
+   library="fifo_181" />
+ <file
+   path="fifo_181/sim/fifo_ddr_data_rev_fifo_181_5oquqri.sdc"
+   type="SDC_ENTITY"
+   library="fifo_181" />
+ <file
+   path="sim/fifo_ddr_data_rev.v"
+   type="VERILOG"
+   library="fifo_ddr_data_rev"
+   hasInlineConfiguration="true" />
+ <topLevel name="fifo_ddr_data_rev.fifo_ddr_data_rev" />
+ <deviceFamily name="arria10" />
+</simPackage>

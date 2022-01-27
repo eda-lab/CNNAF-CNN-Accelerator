@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_avalon_jtag_uart_181/sim/monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia.v"
+   type="VERILOG"
+   library="altera_avalon_jtag_uart_181" />
+ <file
+   path="sim/monitor_jtag_uart_0.v"
+   type="VERILOG"
+   library="monitor_jtag_uart_0"
+   hasInlineConfiguration="true" />
+ <topLevel name="monitor_jtag_uart_0.monitor_jtag_uart_0" />
+ <deviceFamily name="arria10" />
+</simPackage>

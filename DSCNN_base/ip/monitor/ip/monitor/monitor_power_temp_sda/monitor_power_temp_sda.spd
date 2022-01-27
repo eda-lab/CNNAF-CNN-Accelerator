@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_avalon_pio_181/sim/monitor_power_temp_sda_altera_avalon_pio_181_4pingoy.v"
+   type="VERILOG"
+   library="altera_avalon_pio_181" />
+ <file
+   path="sim/monitor_power_temp_sda.v"
+   type="VERILOG"
+   library="monitor_power_temp_sda"
+   hasInlineConfiguration="true" />
+ <topLevel name="monitor_power_temp_sda.monitor_power_temp_sda" />
+ <deviceFamily name="arria10" />
+</simPackage>

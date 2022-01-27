@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2021.04.25.10:16:52"
+ outputDirectory="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_jtag_uart_0/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Arria 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10AX066K3F40E2SG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="reset" kind="reset" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="rst_n" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="avalon_jtag_slave" kind="avalon" start="0">
+   <property name="addressAlignment" value="NATIVE" />
+   <property name="addressGroup" value="0" />
+   <property name="addressSpan" value="2" />
+   <property name="addressUnits" value="WORDS" />
+   <property name="alwaysBurstMaxBurst" value="false" />
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="reset" />
+   <property name="bitsPerSymbol" value="8" />
+   <property name="bridgedAddressOffset" value="0" />
+   <property name="bridgesToMaster" value="" />
+   <property name="burstOnBurstBoundariesOnly" value="false" />
+   <property name="burstcountUnits" value="WORDS" />
+   <property name="constantBurstBehavior" value="false" />
+   <property name="explicitAddressSpan" value="0" />
+   <property name="holdTime" value="0" />
+   <property name="interleaveBursts" value="false" />
+   <property name="isBigEndian" value="false" />
+   <property name="isFlash" value="false" />
+   <property name="isMemoryDevice" value="false" />
+   <property name="isNonVolatileStorage" value="false" />
+   <property name="linewrapBursts" value="false" />
+   <property name="maximumPendingReadTransactions" value="0" />
+   <property name="maximumPendingWriteTransactions" value="0" />
+   <property name="minimumReadLatency" value="1" />
+   <property name="minimumResponseLatency" value="1" />
+   <property name="minimumUninterruptedRunLength" value="1" />
+   <property name="prSafe" value="false" />
+   <property name="printableDevice" value="true" />
+   <property name="readLatency" value="0" />
+   <property name="readWaitStates" value="1" />
+   <property name="readWaitTime" value="1" />
+   <property name="registerIncomingSignals" value="false" />
+   <property name="registerOutgoingSignals" value="false" />
+   <property name="setupTime" value="0" />
+   <property name="timingUnits" value="Cycles" />
+   <property name="transparentBridge" value="false" />
+   <property name="waitrequestAllowance" value="0" />
+   <property name="wellBehavedWaitrequest" value="false" />
+   <property name="writeLatency" value="0" />
+   <property name="writeWaitStates" value="0" />
+   <property name="writeWaitTime" value="0" />
+   <port name="av_chipselect" direction="input" role="chipselect" width="1" />
+   <port name="av_address" direction="input" role="address" width="1" />
+   <port name="av_read_n" direction="input" role="read_n" width="1" />
+   <port name="av_readdata" direction="output" role="readdata" width="32" />
+   <port name="av_write_n" direction="input" role="write_n" width="1" />
+   <port name="av_writedata" direction="input" role="writedata" width="32" />
+   <port name="av_waitrequest" direction="output" role="waitrequest" width="1" />
+  </interface>
+  <interface name="irq" kind="interrupt" start="0">
+   <property
+       name="associatedAddressablePoint"
+       value="monitor_jtag_uart_0.avalon_jtag_slave" />
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="reset" />
+   <property name="bridgedReceiverOffset" value="0" />
+   <property name="bridgesToReceiver" value="" />
+   <property name="irqScheme" value="NONE" />
+   <port name="av_irq" direction="output" role="irq" width="1" />
+  </interface>
+ </perimeter>
+ <entity kind="monitor_jtag_uart_0" version="1.0" name="monitor_jtag_uart_0">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10AX066K3F40E2SG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_jtag_uart_0/synth/monitor_jtag_uart_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_jtag_uart_0/synth/monitor_jtag_uart_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_jtag_uart_0.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/altera_avalon_jtag_uart_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="monitor_jtag_uart_0">"Generating: monitor_jtag_uart_0"</message>
+   <message level="Info" culprit="monitor_jtag_uart_0">"Generating: monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia"</message>
+   <message level="Info" culprit="jtag_uart_0">Starting RTL generation for module 'monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia'</message>
+   <message level="Info" culprit="jtag_uart_0">  Generation command is [exec /software/quartus/qts18.1pro/quartus/linux64/perl/bin/perl -I /software/quartus/qts18.1pro/quartus/linux64/perl/lib -I /software/quartus/qts18.1pro/quartus/sopc_builder/bin/europa -I /software/quartus/qts18.1pro/quartus/sopc_builder/bin/perl_lib -I /software/quartus/qts18.1pro/quartus/sopc_builder/bin -I /software/quartus/qts18.1pro/quartus/../ip/altera/sopc_builder_ip/common -I /software/quartus/qts18.1pro/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /software/quartus/qts18.1pro/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia --dir=/tmp/alt8742_8078212357205109248.dir/0025_jtag_uart_0_gen/ --quartus_dir=/software/quartus/qts18.1pro/quartus --verilog --config=/tmp/alt8742_8078212357205109248.dir/0025_jtag_uart_0_gen//monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia_component_configuration.pl  --do_build_sim=0  ]</message>
+   <message level="Info" culprit="jtag_uart_0">Done RTL generation for module 'monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia'</message>
+  </messages>
+ </entity>
+ <entity
+   kind="altera_avalon_jtag_uart"
+   version="18.1"
+   name="monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia">
+  <parameter name="readBufferDepth" value="64" />
+  <parameter name="clkFreq" value="125000000" />
+  <parameter name="useRelativePathForSimFile" value="false" />
+  <parameter name="hubInstanceID" value="0" />
+  <parameter name="enableInteractiveInput" value="false" />
+  <parameter name="avalonSpec" value="2.0" />
+  <parameter name="simInputCharacterStream" value="" />
+  <parameter name="readIRQThreshold" value="8" />
+  <parameter name="useRegistersForWriteBuffer" value="false" />
+  <parameter name="useRegistersForReadBuffer" value="false" />
+  <parameter name="simInteractiveOptions" value="NO_INTERACTIVE_WINDOWS" />
+  <parameter name="enableInteractiveOutput" value="false" />
+  <parameter name="writeIRQThreshold" value="8" />
+  <parameter name="writeBufferDepth" value="64" />
+  <parameter name="allowMultipleConnections" value="false" />
+  <parameter name="legacySignalAllow" value="false" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_jtag_uart_0/altera_avalon_jtag_uart_181/synth/monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia.v"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_jtag_uart_0/altera_avalon_jtag_uart_181/synth/monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia.v"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/altera_avalon_jtag_uart_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="monitor_jtag_uart_0" as="jtag_uart_0" />
+  <messages>
+   <message level="Info" culprit="monitor_jtag_uart_0">"Generating: monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia"</message>
+   <message level="Info" culprit="jtag_uart_0">Starting RTL generation for module 'monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia'</message>
+   <message level="Info" culprit="jtag_uart_0">  Generation command is [exec /software/quartus/qts18.1pro/quartus/linux64/perl/bin/perl -I /software/quartus/qts18.1pro/quartus/linux64/perl/lib -I /software/quartus/qts18.1pro/quartus/sopc_builder/bin/europa -I /software/quartus/qts18.1pro/quartus/sopc_builder/bin/perl_lib -I /software/quartus/qts18.1pro/quartus/sopc_builder/bin -I /software/quartus/qts18.1pro/quartus/../ip/altera/sopc_builder_ip/common -I /software/quartus/qts18.1pro/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /software/quartus/qts18.1pro/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia --dir=/tmp/alt8742_8078212357205109248.dir/0025_jtag_uart_0_gen/ --quartus_dir=/software/quartus/qts18.1pro/quartus --verilog --config=/tmp/alt8742_8078212357205109248.dir/0025_jtag_uart_0_gen//monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia_component_configuration.pl  --do_build_sim=0  ]</message>
+   <message level="Info" culprit="jtag_uart_0">Done RTL generation for module 'monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia'</message>
+  </messages>
+ </entity>
+</deploy>

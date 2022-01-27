@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2021.04.25.10:15:32"
+ outputDirectory="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_clk_0/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Arria 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10AX066K3F40E2SG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_IN_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_IN_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_IN_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk_in" kind="clock" start="0">
+   <property name="clockRate" value="125000000" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="in_clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="clk_in_reset" kind="reset" start="0">
+   <property name="associatedClock" value="" />
+   <property name="synchronousEdges" value="NONE" />
+   <port name="reset_n" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="clk" kind="clock" start="1">
+   <property name="associatedDirectClock" value="clk_in" />
+   <property name="clockRate" value="125000000" />
+   <property name="clockRateKnown" value="true" />
+   <property name="externallyDriven" value="true" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk_out" direction="output" role="clk" width="1" />
+  </interface>
+  <interface name="clk_reset" kind="reset" start="1">
+   <property name="associatedClock" value="" />
+   <property name="associatedDirectReset" value="clk_in_reset" />
+   <property name="associatedResetSinks" value="clk_in_reset" />
+   <property name="synchronousEdges" value="NONE" />
+   <port name="reset_n_out" direction="output" role="reset_n" width="1" />
+  </interface>
+ </perimeter>
+ <entity kind="monitor_clk_0" version="1.0" name="monitor_clk_0">
+  <parameter name="AUTO_CLK_IN_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10AX066K3F40E2SG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="AUTO_CLK_IN_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_CLK_IN_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_clk_0/synth/monitor_clk_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_clk_0/synth/monitor_clk_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/ip/monitor/monitor_clk_0.ip" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <messages>
+   <message level="Info" culprit="monitor_clk_0">"Generating: monitor_clk_0"</message>
+  </messages>
+ </entity>
+</deploy>

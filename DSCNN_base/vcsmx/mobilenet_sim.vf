@@ -1,0 +1,7 @@
+@FSDB rc file Version 1.0
+[VRTL_FILE_HEADER]
+# !! DON'T EDIT [VRTL_FILE_HEADER] SESSION !!
+Version = 1
+[VRTL_FILE_SOURCE]
+FileType = switch
+File1 = mobilenet_sim_000.fsdb

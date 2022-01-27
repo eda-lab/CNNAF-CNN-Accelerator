@@ -1,0 +1,159 @@
+{
+    "CompileStatus": "Successful",
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "c_ddr_intf": {
+            "Lhy1w_d": {
+                "bytes": 37534,
+                "archive": "archive.10/_prev_archive_1.a",
+                "checksum": 0,
+                "mode": 4,
+                "mod": "c_ddr_intf",
+                "out": "Lhy1w_d.o"
+            }
+        },
+        "_vcs_unit__1393519258": {
+            "sjNss_d": {
+                "bytes": 87109,
+                "archive": "archive.10/_prev_archive_1.a",
+                "checksum": 0,
+                "mode": 4,
+                "mod": "_vcs_unit__1393519258",
+                "out": "sjNss_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 33531,
+                "archive": "archive.10/_prev_archive_1.a",
+                "checksum": 0,
+                "mode": 4,
+                "mod": "std",
+                "out": "reYIK_d.o"
+            }
+        },
+        "ddr_module_tb": {
+            "xARbL_d": {
+                "bytes": 35235,
+                "archive": "archive.10/_14162_archive_1.a",
+                "checksum": 0,
+                "mode": 4,
+                "mod": "ddr_module_tb",
+                "out": "xARbL_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7773,
+                "checksum": 0,
+                "mode": 4,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o"
+            }
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_maxrss_kb": 67884,
+            "ru_utime_sec": 0.080381999999999995,
+            "ru_stime_sec": 0.019847,
+            "ru_minflt": 18112,
+            "ru_majflt": 0,
+            "ru_nvcsw": 31,
+            "ru_nivcsw": 107
+        },
+        "CodeGen(%)": 32.690154512204224,
+        "ru_self_cgstart": {
+            "ru_maxrss_kb": 60416,
+            "ru_utime_sec": 0.054105,
+            "ru_stime_sec": 0.018689999999999998,
+            "ru_minflt": 14944,
+            "ru_majflt": 0,
+            "ru_nvcsw": 30,
+            "ru_nivcsw": 91
+        },
+        "mop/quad": 3.2489404416685255,
+        "nMops": 14565,
+        "outputSizePerQuad": 32.0,
+        "ru_childs_cgstart": {
+            "ru_maxrss_kb": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "mopSpeed": 554287.0190661035,
+        "nQuads": 4483,
+        "ru_childs_end": {
+            "ru_maxrss_kb": 17824,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0015269999999999999,
+            "ru_minflt": 611,
+            "ru_majflt": 0,
+            "ru_nvcsw": 1,
+            "ru_nivcsw": 2
+        },
+        "totalObjSize": 146302,
+        "quadSpeed": 170605.47246641552,
+        "Frontend(%)": 67.309845487795783
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "_vcs_unit__1393519258",
+        "std",
+        "c_ddr_intf",
+        "ddr_module_tb",
+        "ddr_module_tb"
+    ],
+    "NameTable": {
+        "_vcs_unit__1393519258": [
+            "_vcs_unit__1393519258",
+            "sjNss",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "c_ddr_intf": [
+            "c_ddr_intf",
+            "Lhy1w",
+            "module"
+        ],
+        "ddr_module_tb": [
+            "ddr_module_tb",
+            "xARbL",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 111067
+    },
+    "Misc": {
+        "daidir_abs": "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/simv.daidir",
+        "csrc_abs": "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/csrc",
+        "cwd": "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.10",
+        "default_output_dir": "csrc"
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.14162.json"
+    ]
+}

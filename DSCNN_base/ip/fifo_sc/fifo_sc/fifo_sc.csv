@@ -1,0 +1,19 @@
+# system info fifo_sc on 2020.11.18.15:49:26
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for fifo_sc on 2020.11.18.15:49:26
+files:
+filepath,kind,attributes,module,is_top
+sim/fifo_sc.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fifo_sc,true
+fifo_181/sim/fifo_sc_fifo_181_nttqayi.v,VERILOG,,fifo_sc_fifo_181_nttqayi,false
+fifo_181/sim/fifo_sc_fifo_181_nttqayi.sdc,SDC_ENTITY,NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION,fifo_sc_fifo_181_nttqayi,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fifo_sc.fifo_0,fifo_sc_fifo_181_nttqayi

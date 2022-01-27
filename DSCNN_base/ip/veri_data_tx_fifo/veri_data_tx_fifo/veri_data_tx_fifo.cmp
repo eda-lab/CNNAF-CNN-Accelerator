@@ -1,0 +1,15 @@
+	component veri_data_tx_fifo is
+		port (
+			data    : in  std_logic_vector(32 downto 0) := (others => 'X'); -- datain
+			wrreq   : in  std_logic                     := 'X';             -- wrreq
+			rdreq   : in  std_logic                     := 'X';             -- rdreq
+			wrclk   : in  std_logic                     := 'X';             -- wrclk
+			rdclk   : in  std_logic                     := 'X';             -- rdclk
+			aclr    : in  std_logic                     := 'X';             -- aclr
+			q       : out std_logic_vector(32 downto 0);                    -- dataout
+			wrusedw : out std_logic_vector(7 downto 0);                     -- wrusedw
+			rdempty : out std_logic;                                        -- rdempty
+			wrfull  : out std_logic                                         -- wrfull
+		);
+	end component veri_data_tx_fifo;
+

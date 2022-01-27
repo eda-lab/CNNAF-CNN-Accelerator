@@ -1,0 +1,62 @@
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_avalon_jtag_uart"
+set_global_assignment -library "nios_qsys_jtag_uart_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "nios_qsys_jtag_uart_0.sopcinfo"]
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name SLD_INFO "QSYS_NAME nios_qsys_jtag_uart_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "nios_qsys_jtag_uart_0" -name MISC_FILE [file join $::quartus(qip_path) "nios_qsys_jtag_uart_0.cmp"]
+set_global_assignment -library "nios_qsys_jtag_uart_0" -name SLD_FILE [file join $::quartus(qip_path) "nios_qsys_jtag_uart_0.regmap"]
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_TARGETED_DEVICE_FAMILY "Arria 10"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_GENERATED_DEVICE_FAMILY "{Arria 10}"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "nios_qsys_jtag_uart_0" -name MISC_FILE [file join $::quartus(qip_path) "../nios_qsys_jtag_uart_0.ip"]
+
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_NAME "bmlvc19xc3lzX2p0YWdfdWFydF8wX2FsdGVyYV9hdmFsb25fanRhZ191YXJ0XzE4MV9teWRpcGlh"
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_DISPLAY_NAME "SlRBRyBVQVJUIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "YWxsb3dNdWx0aXBsZUNvbm5lY3Rpb25z::ZmFsc2U=::QWxsb3cgbXVsdGlwbGUgY29ubmVjdGlvbnMgdG8gQXZhbG9uIEpUQUcgc2xhdmU="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "aHViSW5zdGFuY2VJRA==::MA==::aHViSW5zdGFuY2VJRA=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "cmVhZEJ1ZmZlckRlcHRo::NjQ=::QnVmZmVyIGRlcHRoIChieXRlcyk="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "cmVhZElSUVRocmVzaG9sZA==::OA==::SVJRIHRocmVzaG9sZA=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "c2ltSW50ZXJhY3RpdmVPcHRpb25z::Tk9fSU5URVJBQ1RJVkVfV0lORE9XUw==::T3B0aW9ucw=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "dXNlUmVnaXN0ZXJzRm9yUmVhZEJ1ZmZlcg==::ZmFsc2U=::Q29uc3RydWN0IHVzaW5nIHJlZ2lzdGVycyBpbnN0ZWFkIG9mIG1lbW9yeSBibG9ja3M="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "dXNlUmVnaXN0ZXJzRm9yV3JpdGVCdWZmZXI=::ZmFsc2U=::Q29uc3RydWN0IHVzaW5nIHJlZ2lzdGVycyBpbnN0ZWFkIG9mIG1lbW9yeSBibG9ja3M="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "dXNlUmVsYXRpdmVQYXRoRm9yU2ltRmlsZQ==::ZmFsc2U=::dXNlUmVsYXRpdmVQYXRoRm9yU2ltRmlsZQ=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "d3JpdGVCdWZmZXJEZXB0aA==::NjQ=::QnVmZmVyIGRlcHRoIChieXRlcyk="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "d3JpdGVJUlFUaHJlc2hvbGQ=::OA==::SVJRIHRocmVzaG9sZA=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "Y2xrRnJlcQ==::MTI1MDAwMDAw::Y2xrRnJlcQ=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "YXZhbG9uU3BlYw==::Mi4w::YXZhbG9uU3BlYw=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "bGVnYWN5U2lnbmFsQWxsb3c=::ZmFsc2U=::bGVnYWN5U2lnbmFsQWxsb3c="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "ZW5hYmxlSW50ZXJhY3RpdmVJbnB1dA==::ZmFsc2U=::ZW5hYmxlSW50ZXJhY3RpdmVJbnB1dA=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_PARAMETER "ZW5hYmxlSW50ZXJhY3RpdmVPdXRwdXQ=::ZmFsc2U=::ZW5hYmxlSW50ZXJhY3RpdmVPdXRwdXQ="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9TZXJpYWw="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTMxNzExMjEzOA=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5NzY4OTMwMA=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_NAME "bmlvc19xc3lzX2p0YWdfdWFydF8w"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::QXJyaWEgMTA=::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBBWDA2NkszRjQwRTJTRw==::QXV0byBERVZJQ0U="
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Mg==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "nios_qsys_jtag_uart_0" -library "nios_qsys_jtag_uart_0" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+
+
+set_global_assignment -library "altera_avalon_jtag_uart_181" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_avalon_jtag_uart_181/synth/nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia.v"]
+set_global_assignment -library "nios_qsys_jtag_uart_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/nios_qsys_jtag_uart_0.v"]
+
+
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "nios_qsys_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia" -library "altera_avalon_jtag_uart_181" -name IP_TOOL_ENV "QsysPrimePro"
+

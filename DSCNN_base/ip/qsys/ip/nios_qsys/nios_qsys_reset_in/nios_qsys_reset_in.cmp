@@ -1,0 +1,8 @@
+	component nios_qsys_reset_in is
+		port (
+			clk       : in  std_logic := 'X'; -- clk
+			in_reset  : in  std_logic := 'X'; -- reset
+			out_reset : out std_logic         -- reset
+		);
+	end component nios_qsys_reset_in;
+

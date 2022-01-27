@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="fp_functions_0"
+ megafunction_name="ALTERA_FP_FUNCTIONS"
+ intended_family="Arria 10"
+ specifies="all_ports">
+ <global>
+  <pin name="clk" direction="input" scope="external" />
+  <pin name="areset" direction="input" scope="external" />
+  <pin name="a[31..0]" direction="input" scope="external" />
+  <pin name="b[31..0]" direction="input" scope="external" />
+  <pin name="q[31..0]" direction="output" scope="external" />
+ </global>
+</pinplan>

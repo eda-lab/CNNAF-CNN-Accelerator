@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="ram_2port_181/sim/ram_w_ctrlsig_ram_2port_181_djt6qxq.v"
+   type="VERILOG"
+   library="ram_2port_181" />
+ <file
+   path="sim/ram_w_ctrlsig.v"
+   type="VERILOG"
+   library="ram_w_ctrlsig"
+   hasInlineConfiguration="true" />
+ <topLevel name="ram_w_ctrlsig.ram_w_ctrlsig" />
+ <deviceFamily name="arria10" />
+</simPackage>

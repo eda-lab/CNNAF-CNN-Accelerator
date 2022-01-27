@@ -1,0 +1,18 @@
+# system info monitor_jtag_uart_0 on 2021.04.25.10:51:12
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for monitor_jtag_uart_0 on 2021.04.25.10:51:12
+files:
+filepath,kind,attributes,module,is_top
+sim/monitor_jtag_uart_0.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,monitor_jtag_uart_0,true
+altera_avalon_jtag_uart_181/sim/monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia.v,VERILOG,,monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+monitor_jtag_uart_0.jtag_uart_0,monitor_jtag_uart_0_altera_avalon_jtag_uart_181_mydipia

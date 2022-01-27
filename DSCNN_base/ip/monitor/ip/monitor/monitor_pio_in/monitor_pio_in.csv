@@ -1,0 +1,18 @@
+# system info monitor_pio_in on 2021.04.25.10:51:14
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for monitor_pio_in on 2021.04.25.10:51:14
+files:
+filepath,kind,attributes,module,is_top
+sim/monitor_pio_in.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,monitor_pio_in,true
+altera_avalon_pio_181/sim/monitor_pio_in_altera_avalon_pio_181_tsdoepa.v,VERILOG,,monitor_pio_in_altera_avalon_pio_181_tsdoepa,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+monitor_pio_in.pio_in,monitor_pio_in_altera_avalon_pio_181_tsdoepa

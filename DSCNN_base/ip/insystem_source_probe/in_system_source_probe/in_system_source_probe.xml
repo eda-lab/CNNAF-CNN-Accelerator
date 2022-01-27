@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2020.10.28.10:45:25"
+ outputDirectory="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/insystem_source_probe/in_system_source_probe/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Arria 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10AX066K3F40E2SG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_SOURCE_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_SOURCE_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_SOURCE_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="sources" kind="conduit" start="0">
+   <property name="associatedClock" value="source_clk" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="source" direction="output" role="source" width="5" />
+  </interface>
+  <interface name="source_clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="source_clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="probes" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="probe" direction="input" role="probe" width="3" />
+  </interface>
+ </perimeter>
+ <entity
+   kind="in_system_source_probe"
+   version="1.0"
+   name="in_system_source_probe">
+  <parameter name="AUTO_SOURCE_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_SOURCE_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_SOURCE_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10AX066K3F40E2SG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/insystem_source_probe/in_system_source_probe/synth/in_system_source_probe.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/insystem_source_probe/in_system_source_probe/synth/in_system_source_probe.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/insystem_source_probe/in_system_source_probe.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/sld/jtag/altera_in_system_sources_probes/altera_in_system_sources_probes_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="in_system_source_probe">"Generating: in_system_source_probe"</message>
+   <message level="Info" culprit="in_system_source_probe">"Generating: altsource_probe_top"</message>
+  </messages>
+ </entity>
+ <entity
+   kind="altera_in_system_sources_probes"
+   version="18.1"
+   name="altsource_probe_top">
+  <parameter name="create_source_clock" value="true" />
+  <parameter name="instance_id" value="NONE" />
+  <parameter name="source_initial_value" value="0" />
+  <parameter name="sld_auto_instance_index" value="YES" />
+  <parameter name="sld_instance_index" value="0" />
+  <parameter name="probe_width" value="3" />
+  <parameter name="source_width" value="5" />
+  <parameter name="create_source_clock_enable" value="false" />
+  <parameter name="device_family" value="Arria 10" />
+  <parameter name="enable_metastability" value="YES" />
+  <parameter name="gui_use_auto_index" value="true" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/insystem_source_probe/in_system_source_probe/altera_in_system_sources_probes_181/synth/altsource_probe_top.v"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/insystem_source_probe/in_system_source_probe/altera_in_system_sources_probes_181/synth/altsource_probe_top.v"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/sld/jtag/altera_in_system_sources_probes/altera_in_system_sources_probes_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="in_system_source_probe" as="in_system_sources_probes_0" />
+  <messages>
+   <message level="Info" culprit="in_system_source_probe">"Generating: altsource_probe_top"</message>
+  </messages>
+ </entity>
+</deploy>

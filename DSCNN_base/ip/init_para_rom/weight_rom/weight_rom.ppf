@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="rom_1port_0"
+ megafunction_name="ROM_1PORT"
+ intended_family="Arria 10"
+ specifies="all_ports">
+ <global>
+  <pin name="q[511..0]" direction="output" scope="external" />
+  <pin name="address[13..0]" direction="input" scope="external" />
+  <pin name="clock" direction="input" scope="external" />
+ </global>
+</pinplan>

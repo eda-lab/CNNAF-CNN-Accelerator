@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="fifo_181/sim/fifo_sc_fifo_181_nttqayi.v"
+   type="VERILOG"
+   library="fifo_181" />
+ <file
+   path="fifo_181/sim/fifo_sc_fifo_181_nttqayi.sdc"
+   type="SDC_ENTITY"
+   library="fifo_181" />
+ <file
+   path="sim/fifo_sc.v"
+   type="VERILOG"
+   library="fifo_sc"
+   hasInlineConfiguration="true" />
+ <topLevel name="fifo_sc.fifo_sc" />
+ <deviceFamily name="arria10" />
+</simPackage>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_fp_acc_custom_181/sim/dspba_library_package.vhd"
+   type="VHDL"
+   library="altera_fp_acc_custom_181" />
+ <file
+   path="altera_fp_acc_custom_181/sim/dspba_library.vhd"
+   type="VHDL"
+   library="altera_fp_acc_custom_181" />
+ <file
+   path="altera_fp_acc_custom_181/sim/fp_acc_altera_fp_acc_custom_181_2tuw37a.vhd"
+   type="VHDL"
+   library="altera_fp_acc_custom_181" />
+ <file
+   path="sim/fp_acc.v"
+   type="VERILOG"
+   library="fp_acc"
+   hasInlineConfiguration="true" />
+ <topLevel name="fp_acc.fp_acc" />
+ <deviceFamily name="arria10" />
+</simPackage>

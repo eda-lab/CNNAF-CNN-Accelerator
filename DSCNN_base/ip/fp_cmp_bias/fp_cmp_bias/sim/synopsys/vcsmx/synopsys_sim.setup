@@ -1,0 +1,23 @@
+
+WORK > DEFAULT
+DEFAULT:                 ./libraries/work/                   
+work:                    ./libraries/work/                   
+altera_fp_functions_181: ./libraries/altera_fp_functions_181/
+fp_cmp_bias:             ./libraries/fp_cmp_bias/            
+altera_ver:              ./libraries/altera_ver/             
+lpm_ver:                 ./libraries/lpm_ver/                
+sgate_ver:               ./libraries/sgate_ver/              
+altera_mf_ver:           ./libraries/altera_mf_ver/          
+altera_lnsim_ver:        ./libraries/altera_lnsim_ver/       
+twentynm_ver:            ./libraries/twentynm_ver/           
+twentynm_hssi_ver:       ./libraries/twentynm_hssi_ver/      
+twentynm_hip_ver:        ./libraries/twentynm_hip_ver/       
+altera:                  ./libraries/altera/                 
+lpm:                     ./libraries/lpm/                    
+sgate:                   ./libraries/sgate/                  
+altera_mf:               ./libraries/altera_mf/              
+altera_lnsim:            ./libraries/altera_lnsim/           
+twentynm:                ./libraries/twentynm/               
+twentynm_hssi:           ./libraries/twentynm_hssi/          
+twentynm_hip:            ./libraries/twentynm_hip/           
+LIBRARY_SCAN = TRUE

@@ -1,0 +1,18 @@
+# system info ram_w_ctrlsig on 2020.09.23.21:28:58
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for ram_w_ctrlsig on 2020.09.23.21:28:58
+files:
+filepath,kind,attributes,module,is_top
+sim/ram_w_ctrlsig.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,ram_w_ctrlsig,true
+ram_2port_181/sim/ram_w_ctrlsig_ram_2port_181_djt6qxq.v,VERILOG,,ram_w_ctrlsig_ram_2port_181_djt6qxq,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+ram_w_ctrlsig.ram_2port_0,ram_w_ctrlsig_ram_2port_181_djt6qxq

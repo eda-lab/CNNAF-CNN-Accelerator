@@ -1,0 +1,19 @@
+# system info fifo_ddr_rd_ins on 2020.11.13.22:35:25
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for fifo_ddr_rd_ins on 2020.11.13.22:35:25
+files:
+filepath,kind,attributes,module,is_top
+sim/fifo_ddr_rd_ins.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fifo_ddr_rd_ins,true
+fifo_181/sim/fifo_ddr_rd_ins_fifo_181_q3bq6zi.v,VERILOG,,fifo_ddr_rd_ins_fifo_181_q3bq6zi,false
+fifo_181/sim/fifo_ddr_rd_ins_fifo_181_q3bq6zi.sdc,SDC_ENTITY,NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION,fifo_ddr_rd_ins_fifo_181_q3bq6zi,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fifo_ddr_rd_ins.fifo_0,fifo_ddr_rd_ins_fifo_181_q3bq6zi

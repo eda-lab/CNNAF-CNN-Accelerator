@@ -1,0 +1,26 @@
+21:09:05 **** Incremental Build of configuration Nios II for project io_test ****
+make all 
+Info: Building /home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp/
+make --no-print-directory -C /home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp//HAL/inc -I/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp/ -I/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall -Wformat-security   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'Timer_initial':
+hello_world.c:58:4: warning: passing argument 3 of 'alt_ic_isr_register' from incompatible pointer type [-Wincompatible-pointer-types]
+    Timer_ISR_Interrupt,               //ÖÐ¶Ï·þÎñ³ÌÐò
+    ^~~~~~~~~~~~~~~~~~~
+In file included from hello_world.c:22:0:
+/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp//HAL/inc/sys/alt_irq.h:195:12: note: expected 'alt_isr_func {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+ extern int alt_ic_isr_register(alt_u32 ic_id,
+            ^~~~~~~~~~~~~~~~~~~
+Info: Linking io_test.elf
+nios2-elf-g++  -T'/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp//linker.x' -msys-crt0='/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/software/io_test_bsp/  -msmallc  -Wl,-Map=io_test.map   -O0 -g -Wall -Wformat-security   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o io_test.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert io_test.elf --thread_model hal --cpu_name nios2 --qsys true --simulation_enabled false --id 0 --sidp 0x1070 --timestamp 0 --stderr_dev jtag --stdin_dev jtag --stdout_dev jtag --sopc_system_name nios_qsys --quartus_project_dir "/home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/nios_qsys" --sopcinfo /home/gtd/workspace/qts_prj/a10_test/nios_test/qsys/nios_qsys/nios_qsys.sopcinfo
+Info: (io_test.elf) 18 KBytes program size (code + initialized data).
+Info:               44 KBytes free for stack + heap.
+Info: Creating io_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source io_test.elf >io_test.objdump
+[io_test build complete]
+
+21:09:05 Build Finished (took 215ms)
+

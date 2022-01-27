@@ -1,0 +1,34 @@
+
+WORK > DEFAULT
+DEFAULT:                             ./libraries/work/                               
+work:                                ./libraries/work/                               
+altera_merlin_master_translator_181: ./libraries/altera_merlin_master_translator_181/
+altera_merlin_slave_translator_181:  ./libraries/altera_merlin_slave_translator_181/ 
+altera_merlin_master_agent_181:      ./libraries/altera_merlin_master_agent_181/     
+altera_merlin_slave_agent_181:       ./libraries/altera_merlin_slave_agent_181/      
+altera_avalon_sc_fifo_181:           ./libraries/altera_avalon_sc_fifo_181/          
+altera_merlin_router_181:            ./libraries/altera_merlin_router_181/           
+altera_merlin_demultiplexer_181:     ./libraries/altera_merlin_demultiplexer_181/    
+altera_merlin_multiplexer_181:       ./libraries/altera_merlin_multiplexer_181/      
+altera_mm_interconnect_181:          ./libraries/altera_mm_interconnect_181/         
+altera_irq_mapper_181:               ./libraries/altera_irq_mapper_181/              
+altera_reset_controller_181:         ./libraries/altera_reset_controller_181/        
+monitor:                             ./libraries/monitor/                            
+altera_ver:                          ./libraries/altera_ver/                         
+lpm_ver:                             ./libraries/lpm_ver/                            
+sgate_ver:                           ./libraries/sgate_ver/                          
+altera_mf_ver:                       ./libraries/altera_mf_ver/                      
+altera_lnsim_ver:                    ./libraries/altera_lnsim_ver/                   
+twentynm_ver:                        ./libraries/twentynm_ver/                       
+twentynm_hssi_ver:                   ./libraries/twentynm_hssi_ver/                  
+twentynm_hip_ver:                    ./libraries/twentynm_hip_ver/                   
+altera:                              ./libraries/altera/                             
+lpm:                                 ./libraries/lpm/                                
+sgate:                               ./libraries/sgate/                              
+altera_mf:                           ./libraries/altera_mf/                          
+altera_lnsim:                        ./libraries/altera_lnsim/                       
+twentynm:                            ./libraries/twentynm/                           
+twentynm_hssi:                       ./libraries/twentynm_hssi/                      
+twentynm_hip:                        ./libraries/twentynm_hip/                       
+OTHERS=_default_synopsys_sim.setup                                                   
+LIBRARY_SCAN = TRUE

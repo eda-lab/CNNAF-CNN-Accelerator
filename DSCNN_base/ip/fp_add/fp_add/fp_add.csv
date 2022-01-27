@@ -1,0 +1,20 @@
+# system info fp_add on 2020.11.18.11:18:13
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for fp_add on 2020.11.18.11:18:13
+files:
+filepath,kind,attributes,module,is_top
+sim/fp_add.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fp_add,true
+altera_fp_functions_181/sim/dspba_library_package.vhd,VHDL,,fp_add_altera_fp_functions_181_7hdc33a,false
+altera_fp_functions_181/sim/dspba_library.vhd,VHDL,,fp_add_altera_fp_functions_181_7hdc33a,false
+altera_fp_functions_181/sim/fp_add_altera_fp_functions_181_7hdc33a.vhd,VHDL,,fp_add_altera_fp_functions_181_7hdc33a,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fp_add.fp_functions_0,fp_add_altera_fp_functions_181_7hdc33a

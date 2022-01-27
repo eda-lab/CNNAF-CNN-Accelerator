@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="sim/monitor_clk_0.v"
+   type="VERILOG"
+   library="monitor_clk_0"
+   hasInlineConfiguration="true" />
+ <topLevel name="monitor_clk_0.monitor_clk_0" />
+ <deviceFamily name="arria10" />
+</simPackage>

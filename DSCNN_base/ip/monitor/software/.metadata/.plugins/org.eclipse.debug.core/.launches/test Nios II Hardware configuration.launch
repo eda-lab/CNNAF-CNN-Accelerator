@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchConfiguration">
+<booleanAttribute key="acceptBadSysId" value="true"/>
+<booleanAttribute key="acceptBadTimestamp" value="true"/>
+<stringAttribute key="byteStreamDeviceCableName" value="USB-Blaster on localhost [1-10]"/>
+<stringAttribute key="byteStreamDeviceDeviceID" value="1"/>
+<stringAttribute key="byteStreamDeviceInstanceID" value="1"/>
+<booleanAttribute key="downloadProgram" value="true"/>
+<stringAttribute key="elfCpuName" value="cpu_nios2"/>
+<stringAttribute key="elfFile" value="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test/test.elf"/>
+<booleanAttribute key="elfProfilingEnabled" value="false"/>
+<booleanAttribute key="elfQsysGeneratedSystem" value="true"/>
+<stringAttribute key="elfQuartusProjectDir" value="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/monitor"/>
+<booleanAttribute key="elfSimulationEnabled" value="false"/>
+<stringAttribute key="elfStderrDevice" value="jtag_uart_0"/>
+<stringAttribute key="elfStdinDevice" value="jtag_uart_0"/>
+<stringAttribute key="elfStdoutDevice" value="jtag_uart_0"/>
+<stringAttribute key="elfSysIdBase" value="0x82090"/>
+<stringAttribute key="elfSysIdHash" value="0x0"/>
+<stringAttribute key="elfSysIdTimeStamp" value="0"/>
+<stringAttribute key="elfSystemName" value="monitor"/>
+<booleanAttribute key="enableElfUserFile" value="false"/>
+<booleanAttribute key="enableJdiFromElf" value="true"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.debug.cdi.gdb.plugin.Nios2GdbCdiDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="main"/>
+<booleanAttribute key="org.eclipse.cdt.launch.ENABLE_REGISTER_BOOKKEEPING" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.launch.ENABLE_VARIABLE_BOOKKEEPING" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="test.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="test"/>
+<stringAttribute key="processorCableName" value="USB-Blaster on localhost [1-10]"/>
+<stringAttribute key="processorDeviceIndex" value="1"/>
+<stringAttribute key="processorInstanceId" value="1"/>
+<booleanAttribute key="runProgram" value="true"/>
+<stringAttribute key="userQpfFile" value=""/>
+</launchConfiguration>

@@ -1,0 +1,19 @@
+# system info fifo_bias_gen on 2020.09.23.23:48:38
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for fifo_bias_gen on 2020.09.23.23:48:38
+files:
+filepath,kind,attributes,module,is_top
+sim/fifo_bias_gen.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fifo_bias_gen,true
+fifo_181/sim/fifo_bias_gen_fifo_181_nhpl7uy.v,VERILOG,,fifo_bias_gen_fifo_181_nhpl7uy,false
+fifo_181/sim/fifo_bias_gen_fifo_181_nhpl7uy.sdc,SDC_ENTITY,NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION,fifo_bias_gen_fifo_181_nhpl7uy,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fifo_bias_gen.fifo_0,fifo_bias_gen_fifo_181_nhpl7uy

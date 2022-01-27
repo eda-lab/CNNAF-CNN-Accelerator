@@ -1,0 +1,8 @@
+	component weight_rom is
+		port (
+			q       : out std_logic_vector(511 downto 0);                    -- dataout
+			address : in  std_logic_vector(13 downto 0)  := (others => 'X'); -- address
+			clock   : in  std_logic                      := 'X'              -- clk
+		);
+	end component weight_rom;
+

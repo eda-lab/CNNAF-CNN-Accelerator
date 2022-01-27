@@ -1,0 +1,14 @@
+	component fp_acc is
+		port (
+			clk    : in  std_logic                     := 'X';             -- clk
+			areset : in  std_logic                     := 'X';             -- reset
+			x      : in  std_logic_vector(31 downto 0) := (others => 'X'); -- x
+			n      : in  std_logic                     := 'X';             -- n
+			r      : out std_logic_vector(31 downto 0);                    -- r
+			xo     : out std_logic;                                        -- xo
+			xu     : out std_logic;                                        -- xu
+			ao     : out std_logic;                                        -- ao
+			en     : in  std_logic_vector(0 downto 0)  := (others => 'X')  -- en
+		);
+	end component fp_acc;
+

@@ -1,0 +1,18 @@
+# system info iopll on 2021.04.24.16:37:12
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for iopll on 2021.04.24.16:37:12
+files:
+filepath,kind,attributes,module,is_top
+sim/iopll.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,iopll,true
+altera_iopll_181/sim/iopll_altera_iopll_181_eu4yqbi.vo,VERILOG,,iopll_altera_iopll_181_eu4yqbi,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+iopll.iopll_0,iopll_altera_iopll_181_eu4yqbi

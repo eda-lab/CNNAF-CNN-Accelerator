@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2021.04.24.16:39:50"
+ outputDirectory="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/qsys/ip/nios_qsys/nios_qsys_reset_in/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Arria 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10AX066K3F40E2SG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="in_reset" kind="reset" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="in_reset" direction="input" role="reset" width="1" />
+  </interface>
+  <interface name="out_reset" kind="reset" start="1">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedDirectReset" value="in_reset" />
+   <property name="associatedResetSinks" value="in_reset" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="out_reset" direction="output" role="reset" width="1" />
+  </interface>
+ </perimeter>
+ <entity kind="nios_qsys_reset_in" version="1.0" name="nios_qsys_reset_in">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10AX066K3F40E2SG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/qsys/ip/nios_qsys/nios_qsys_reset_in/synth/nios_qsys_reset_in.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/qsys/ip/nios_qsys/nios_qsys_reset_in/synth/nios_qsys_reset_in.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/qsys/ip/nios_qsys/nios_qsys_reset_in.ip" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <messages>
+   <message level="Info" culprit="nios_qsys_reset_in">"Generating: nios_qsys_reset_in"</message>
+  </messages>
+ </entity>
+</deploy>

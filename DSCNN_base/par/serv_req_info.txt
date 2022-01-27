@@ -1,0 +1,18 @@
+<internal_error>
+<sub_system>ERR</sub_system>
+<callstack>
+	0x7f41b1dae1d6: ccl_err + 0x91d6 (_ZN22ERR_UNWINDER_LIBUNWIND15get_stack_traceEPPKviiPv + 0xb2)
+	0x7f41b1daf066: ccl_err + 0xa066 (_ZN15ERR_STACKWALKER15get_stack_traceEPPKviiPv + 0x6a)
+	0x7f41b1db2d11: ccl_err + 0xdd11 (_Z14err_terminatorv + 0x5a)
+	0x7f41d0faa1e6: jtag_client + 0x841e6 (_ZN10__cxxabiv111__terminateEPFvvE + 0x6)
+	0x7f41d0faa231: jtag_client + 0x84231
+	0x7f41d0fb3988: jtag_client + 0x8d988
+	0x7f41b1db2bba: ccl_err + 0xdbba (err_sigaction_handler + 0x77)
+	0x7f41acddb630: pthread + 0xf630
+	0x7f40c002bf40:
+</callstack>
+<error>*** Fatal Error: Unhandled Exception</error>
+<date>Wed Dec  2 17:24:39 2020
+</date>
+<version>Version 18.1.0 Build 222 09/21/2018 SJ Pro Edition</version>
+</internal_error>

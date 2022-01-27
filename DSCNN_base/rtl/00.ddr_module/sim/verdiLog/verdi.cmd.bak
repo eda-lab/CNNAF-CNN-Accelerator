@@ -1,0 +1,185 @@
+debImport "-F" "rtl_lst.list"
+debLoadSimResult \
+           /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/mobilenet_sim.fsdb
+wvCreateWindow
+verdiWindowResize -win $_Verdi_1 -10 "20" "1920" "977"
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvRestoreSignal -win $_nWave2 \
+           "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/res.rc" \
+           -overWriteAutoAlias on
+wvUnknownSaveResult -win $_nWave2 -clear
+wvSetCursor -win $_nWave2 99846.650754 -snap {("G1" 6)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 8 )} 
+wvSetCursor -win $_nWave2 193587.797220 -snap {("G1" 7)}
+wvZoomIn -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G2" 0)}
+verdiDockWidgetRestore -dock windowDock_nWave_2
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "ddr_bl_size" -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+verdiDockWidgetRestore -dock windowDock_nWave_2
+srcDeselectAll -win $_nTrace1
+srcHBSelect "ddr_module_tb.ddr4_test_driver_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "ddr_module_tb.ddr4_test_driver_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "avl_rdata" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvSelectSignal -win $_nWave2 {( "G1" 10 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 1 )} 
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 7)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetCursor -win $_nWave2 141222.968700 -snap {("G1" 6)}
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+verdiWindowResize -win $_Verdi_1 "631" "20" "900" "700"
+verdiDockWidgetHide -dock windowDock_nWave_2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "avl_be" -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+verdiDockWidgetSetCurTab -dock windowDock_nWave_2
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+verdiDockWidgetHide -dock windowDock_nWave_2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "avl_be" -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+verdiDockWidgetSetCurTab -dock windowDock_nWave_2
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvSelectSignal -win $_nWave2 {( "G1" 7 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 7 8 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 8)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSelectSignal -win $_nWave2 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 6 )} 
+wvSetRadix -win $_nWave2 -format UDec
+wvSetCursor -win $_nWave2 148376.328412 -snap {("G1" 6)}
+wvSetCursor -win $_nWave2 143011.308628 -snap {("G1" 6)}
+wvSetCursor -win $_nWave2 232428.305035 -snap {("G1" 8)}
+wvSetCursor -win $_nWave2 237346.239837 -snap {("G1" 9)}
+wvSetCursor -win $_nWave2 243381.887094 -snap {("G1" 9)}
+wvSetCursor -win $_nWave2 249641.076843 -snap {("G1" 9)}
+wvSetCursor -win $_nWave2 233098.932508 -snap {("G1" 1)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvSetCursor -win $_nWave2 237793.324819 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 231310.592580 -snap {("G1" 1)}
+wvSetSearchMode -win $_nWave2 -posedge
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+debExit

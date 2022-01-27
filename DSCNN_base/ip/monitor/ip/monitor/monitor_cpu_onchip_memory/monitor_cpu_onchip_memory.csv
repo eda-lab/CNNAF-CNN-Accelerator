@@ -1,0 +1,19 @@
+# system info monitor_cpu_onchip_memory on 2021.04.25.10:51:13
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for monitor_cpu_onchip_memory on 2021.04.25.10:51:13
+files:
+filepath,kind,attributes,module,is_top
+sim/monitor_cpu_onchip_memory.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,monitor_cpu_onchip_memory,true
+altera_avalon_onchip_memory2_181/sim/monitor_cpu_onchip_memory_cpu_onchip_memory.hex,HEX,,monitor_cpu_onchip_memory_altera_avalon_onchip_memory2_181_63qnsuy,false
+altera_avalon_onchip_memory2_181/sim/monitor_cpu_onchip_memory_altera_avalon_onchip_memory2_181_63qnsuy.v,VERILOG,,monitor_cpu_onchip_memory_altera_avalon_onchip_memory2_181_63qnsuy,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+monitor_cpu_onchip_memory.cpu_onchip_memory,monitor_cpu_onchip_memory_altera_avalon_onchip_memory2_181_63qnsuy

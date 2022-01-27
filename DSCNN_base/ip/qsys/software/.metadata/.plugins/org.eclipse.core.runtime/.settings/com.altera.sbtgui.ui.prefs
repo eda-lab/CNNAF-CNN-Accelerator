@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/qsys/software/power_test
+newSoftwareExampleWizardPage.sopcinfoFile=/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/qsys/nios_qsys/nios_qsys.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/qsys/software/power_test_bsp

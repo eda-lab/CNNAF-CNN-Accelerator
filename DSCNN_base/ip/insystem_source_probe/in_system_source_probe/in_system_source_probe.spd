@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_in_system_sources_probes_181/sim/altsource_probe.v"
+   type="VERILOG"
+   library="altera_in_system_sources_probes_181" />
+ <file
+   path="sim/in_system_source_probe.v"
+   type="VERILOG"
+   library="in_system_source_probe"
+   hasInlineConfiguration="true" />
+ <topLevel name="in_system_source_probe.in_system_source_probe" />
+ <deviceFamily name="arria10" />
+</simPackage>

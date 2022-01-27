@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2020.11.18.11:18:16"
+ outputDirectory="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Arria 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10AX066K3F40E2SG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="areset" kind="reset" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="areset" direction="input" role="reset" width="1" />
+  </interface>
+  <interface name="a" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="areset" />
+   <property name="prSafe" value="false" />
+   <port name="a" direction="input" role="a" width="32" />
+  </interface>
+  <interface name="b" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="areset" />
+   <property name="prSafe" value="false" />
+   <port name="b" direction="input" role="b" width="32" />
+  </interface>
+  <interface name="q" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="q" direction="output" role="q" width="32" />
+  </interface>
+ </perimeter>
+ <entity kind="fp_add" version="1.0" name="fp_add">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10AX066K3F40E2SG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/synth/fp_add.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/synth/fp_add.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/dsp/altera_fp_functions/source/altera_fp_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="fp_add">"Generating: fp_add"</message>
+   <message level="Info" culprit="fp_add">"Generating: fp_add_altera_fp_functions_181_7hdc33a"</message>
+   <message level="Info" culprit="fp_functions_0">/software/quartus/qts18.1pro/ip/altera/dsp/altera_fp_functions/source//cmdPolyEval.sh /software/quartus/qts18.1pro/quartus/dspba/backend/linux64 -target Arria10 -frequency 200 -name fp_add_altera_fp_functions_181_7hdc33a -noChanValid -enableHardFP 1 -printMachineReadable -noFileGenerate -constrainLatency 3 -correctRounding -speedgrade 2 FPAdd 8 23</message>
+   <message level="Info" culprit="fp_functions_0">Minimum acheivable latency at given frequency is 3 cycles, register padding will occur to meet latency target if necessary</message>
+   <message level="Info" culprit="fp_functions_0">/software/quartus/qts18.1pro/ip/altera/dsp/altera_fp_functions/source//cmdPolyEval.sh /software/quartus/qts18.1pro/quartus/dspba/backend/linux64 -target Arria10 -frequency 200 -name fp_add_altera_fp_functions_181_7hdc33a -noChanValid -enableHardFP 1 -printMachineReadable -lang VHDL -constrainLatency 3 -correctRounding -speedgrade 2 FPAdd 8 23</message>
+   <message level="Info" culprit="fp_functions_0">DSP Blocks Used: 2</message>
+   <message level="Info" culprit="fp_functions_0">LUTs Used: 0</message>
+   <message level="Info" culprit="fp_functions_0">Memory Bits Used: 0</message>
+   <message level="Info" culprit="fp_functions_0">Memory Blocks Used: 0</message>
+  </messages>
+ </entity>
+ <entity
+   kind="altera_fp_functions"
+   version="18.1"
+   name="fp_add_altera_fp_functions_181_7hdc33a">
+  <parameter name="fp_man" value="23" />
+  <parameter name="gen_enable" value="false" />
+  <parameter name="fp_exp_derived" value="8" />
+  <parameter name="use_rounding_mode" value="true" />
+  <parameter name="fp_in_exp" value="8" />
+  <parameter name="validation_failed" value="false" />
+  <parameter name="fxpt_width" value="32" />
+  <parameter name="manual_dsp_planning" value="true" />
+  <parameter name="force_elaborate" value="0" />
+  <parameter name="EXP_LOG_function" value="EXPE" />
+  <parameter name="fp_format" value="single" />
+  <parameter name="fp_out_man_derived" value="8" />
+  <parameter name="latency_target" value="3" />
+  <parameter name="frequency_target" value="200" />
+  <parameter name="number_of_inputs" value="2" />
+  <parameter name="fp_in_format" value="single" />
+  <parameter name="select_signal_enable" value="false" />
+  <parameter name="derivedfunction" value="ADD" />
+  <parameter name="scale_by_pi" value="false" />
+  <parameter name="TRIG_function" value="SIN" />
+  <parameter name="performance_goal" value="combined" />
+  <parameter name="frequency_feedback" value="0" />
+  <parameter name="fp_out_man" value="23" />
+  <parameter
+     name="rounding_mode_derived"
+     value="nearest with tie breaking to even" />
+  <parameter name="fp_in_man_derived" value="8" />
+  <parameter name="faithful_rounding" value="false" />
+  <parameter name="rounding_mode" value="nearest with tie breaking away from zero" />
+  <parameter name="fp_man_derived" value="23" />
+  <parameter name="fp_in_man" value="23" />
+  <parameter name="selected_device_family" value="Arria 10" />
+  <parameter name="fp_exp" value="8" />
+  <parameter name="fp_out_exp_derived" value="8" />
+  <parameter name="ALL_function" value="ADD" />
+  <parameter name="trig_no_range_reduction" value="false" />
+  <parameter name="divide_type" value="0" />
+  <parameter name="forceRegisters" value="1111" />
+  <parameter name="enable_hard_fp" value="true" />
+  <parameter name="ARITH_function" value="ADD" />
+  <parameter name="fp_out_format" value="single" />
+  <parameter name="fxpt_fraction" value="0" />
+  <parameter name="fxpt_sign" value="1" />
+  <parameter name="selected_device_speedgrade" value="2" />
+  <parameter name="CONVERT_function" value="FXP_FP" />
+  <parameter name="report_resources_to_xml" value="false" />
+  <parameter name="latency_feedback" value="3" />
+  <parameter name="fp_in_exp_derived" value="8" />
+  <parameter name="COMPARE_function" value="MIN" />
+  <parameter name="FUNCTION_FAMILY" value="ARITH" />
+  <parameter name="fp_out_exp" value="8" />
+  <parameter name="ROOTS_function" value="SQRT" />
+  <parameter name="exponent_width" value="23" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/altera_fp_functions_181/synth/dspba_library_package.vhd"
+       attributes="" />
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/altera_fp_functions_181/synth/dspba_library.vhd"
+       attributes="" />
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/altera_fp_functions_181/synth/fp_add_altera_fp_functions_181_7hdc33a.vhd"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/altera_fp_functions_181/synth/dspba_library_package.vhd"
+       attributes="" />
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/altera_fp_functions_181/synth/dspba_library.vhd"
+       attributes="" />
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/ip/fp_add/fp_add/altera_fp_functions_181/synth/fp_add_altera_fp_functions_181_7hdc33a.vhd"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/dsp/altera_fp_functions/source/altera_fp_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="fp_add" as="fp_functions_0" />
+  <messages>
+   <message level="Info" culprit="fp_add">"Generating: fp_add_altera_fp_functions_181_7hdc33a"</message>
+   <message level="Info" culprit="fp_functions_0">/software/quartus/qts18.1pro/ip/altera/dsp/altera_fp_functions/source//cmdPolyEval.sh /software/quartus/qts18.1pro/quartus/dspba/backend/linux64 -target Arria10 -frequency 200 -name fp_add_altera_fp_functions_181_7hdc33a -noChanValid -enableHardFP 1 -printMachineReadable -noFileGenerate -constrainLatency 3 -correctRounding -speedgrade 2 FPAdd 8 23</message>
+   <message level="Info" culprit="fp_functions_0">Minimum acheivable latency at given frequency is 3 cycles, register padding will occur to meet latency target if necessary</message>
+   <message level="Info" culprit="fp_functions_0">/software/quartus/qts18.1pro/ip/altera/dsp/altera_fp_functions/source//cmdPolyEval.sh /software/quartus/qts18.1pro/quartus/dspba/backend/linux64 -target Arria10 -frequency 200 -name fp_add_altera_fp_functions_181_7hdc33a -noChanValid -enableHardFP 1 -printMachineReadable -lang VHDL -constrainLatency 3 -correctRounding -speedgrade 2 FPAdd 8 23</message>
+   <message level="Info" culprit="fp_functions_0">DSP Blocks Used: 2</message>
+   <message level="Info" culprit="fp_functions_0">LUTs Used: 0</message>
+   <message level="Info" culprit="fp_functions_0">Memory Bits Used: 0</message>
+   <message level="Info" culprit="fp_functions_0">Memory Blocks Used: 0</message>
+  </messages>
+ </entity>
+</deploy>

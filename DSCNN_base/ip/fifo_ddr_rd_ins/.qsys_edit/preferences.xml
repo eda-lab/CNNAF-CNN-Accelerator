@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <window width="1100" height="800" x="194" y="63" />
+ <generation path="" simulation="VERILOG" block_symbol_file="0" />
+ <hdlexample language="VERILOG" />
+ <library expandedCategories="Project,Existing IP Variants,Library" />
+</preferences>

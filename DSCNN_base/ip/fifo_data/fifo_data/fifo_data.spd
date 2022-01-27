@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="fifo_181/sim/fifo_data_fifo_181_elq6aki.v"
+   type="VERILOG"
+   library="fifo_181" />
+ <file
+   path="fifo_181/sim/fifo_data_fifo_181_elq6aki.sdc"
+   type="SDC_ENTITY"
+   library="fifo_181" />
+ <file
+   path="sim/fifo_data.v"
+   type="VERILOG"
+   library="fifo_data"
+   hasInlineConfiguration="true" />
+ <topLevel name="fifo_data.fifo_data" />
+ <deviceFamily name="arria10" />
+</simPackage>

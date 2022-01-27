@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="fifo_0"
+ megafunction_name="FIFO"
+ intended_family="Arria 10"
+ specifies="all_ports">
+ <global>
+  <pin name="data[546..0]" direction="input" scope="external" />
+  <pin name="wrreq" direction="input" scope="external" />
+  <pin name="rdreq" direction="input" scope="external" />
+  <pin name="wrclk" direction="input" scope="external" />
+  <pin name="rdclk" direction="input" scope="external" />
+  <pin name="aclr" direction="input" scope="external" />
+  <pin name="q[546..0]" direction="output" scope="external" />
+  <pin name="wrusedw[5..0]" direction="output" scope="external" />
+  <pin name="rdempty" direction="output" scope="external" />
+  <pin name="wrfull" direction="output" scope="external" />
+ </global>
+</pinplan>

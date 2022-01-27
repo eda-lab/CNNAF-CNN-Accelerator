@@ -1,0 +1,148 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "unistd.h"
+#include "system.h"
+#include "altera_avalon_timer_regs.h" 	//Timer 寄存器头文件
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+#include "math.h"
+//#include "stddef.h"
+#include "altera_avalon_pio_regs.h"
+
+void IRQ_calc_finish_Interrupts(); 	//中断初始化函数
+void IRQ_init();
+
+alt_u8 rd_res_start = 0;
+alt_u8 rd_res_finish = 1;
+float rd_res[1001];
+float rd_res_num = 0.0;
+int infer_res = 0;
+int calc_fps_last = 0;
+int calc_fps = 0;
+int calc_used_ddr_rdy = 0;
+int calc_unused_ddr_rdy = 0;
+
+void Timer_ISR_Interrupt(void) {
+	int rd_fps = IORD_ALTERA_AVALON_PIO_DATA(CALC_FPS_BASE);
+	printf("rd_fps: %d, calc_fps_last: %d\n", rd_fps, calc_fps_last);
+	calc_fps = (rd_fps - calc_fps_last) / 10;
+	calc_fps_last = rd_fps;
+	printf("calc fps = %d\n", calc_fps);
+	IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER_BASE, 0);
+}
+
+void Timer_initial(void){
+	IOWR_ALTERA_AVALON_TIMER_PERIODH(TIMER_BASE, 0x3B9A); //3B9A
+	IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER_BASE, 0xC9FF); //C9FF
+
+	//设置CONTROL 寄存器
+	IOWR_ALTERA_AVALON_TIMER_CONTROL(
+			TIMER_BASE, ALTERA_AVALON_TIMER_CONTROL_ITO_MSK     //使能计时器中断
+					  | ALTERA_AVALON_TIMER_CONTROL_CONT_MSK    //计时器连续运行
+					  | ALTERA_AVALON_TIMER_CONTROL_START_MSK); //启动计时器
+
+	alt_ic_isr_register(
+			TIMER_IRQ_INTERRUPT_CONTROLLER_ID, //中断控制器ID
+			TIMER_IRQ,                         //硬件中断号
+			Timer_ISR_Interrupt,               //中断服务程序
+			0,                       		   //用于传递参数的结构体指针
+			0);
+}
+
+
+void Read_data(void)
+{
+	for (int i = 0; i < 1001; i++) {
+		IOWR_ALTERA_AVALON_PIO_DATA(DATA_ADDR_BASE, i);
+		calc_unused_ddr_rdy = IORD_ALTERA_AVALON_PIO_DATA(UNUSED_DDRVLD_BASE);
+		calc_used_ddr_rdy = IORD_ALTERA_AVALON_PIO_DATA(USED_DDRVLD_BASE);
+		rd_res[i] = IORD_ALTERA_AVALON_PIO_DATA(CALC_DATA_BASE);
+	}
+	IOWR_ALTERA_AVALON_PIO_DATA(DATA_ADDR_BASE, 0); //
+}
+
+void softmax(void) {
+	float exp_res = 0.0;
+	for (int i = 0; i < 1001; i++) {
+		exp_res = rd_res[i] * rd_res[i];
+		rd_res[i] = exp_res;
+		rd_res_num += exp_res;
+	}
+	for (int i = 0; i < 1001; i++) {
+		rd_res[i] = rd_res[i]/rd_res_num;
+	}
+	for (int i = 0; i < 1001; i++) {
+		if (rd_res[i] > rd_res[infer_res]) {
+			infer_res = i;
+		}
+	}
+}
+
+int get_utilization(){
+	float used = (float)calc_used_ddr_rdy;
+	float unused = (float)calc_unused_ddr_rdy;
+	used = used / (used + unused);
+	used *= 1000;
+	return (int)used;
+}
+
+void IRQ_calc_finish_Interrupts()
+{
+	if (rd_res_finish == 1) {
+		rd_res_finish = 0;
+		rd_res_start = 1;
+	}
+}
+
+
+void IRQ_init()
+{
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(CALC_FINISH_BASE, 0x01);
+
+	alt_ic_isr_register(
+		CALC_FINISH_IRQ_INTERRUPT_CONTROLLER_ID,  // 中断控制器标号，从system.h 复制
+		CALC_FINISH_IRQ                        ,  // 硬件中断号，从system.h 复制
+		IRQ_calc_finish_Interrupts             	,  // 中断服务子函数
+		0x0                             ,  // 指向与设备驱动实例相关的数据结构体
+		0x0);
+}
+
+int main()
+{
+    printf("Hello from Nios II!\n");
+    Timer_initial();
+    IRQ_init();
+    while(1) {
+    	if (rd_res_start == 1) {
+    		rd_res_start = 0;
+    		Read_data();
+    		rd_res_num = 0.0;
+    		infer_res = 0;
+    		softmax();
+    		printf("Infer result is: %d\n", infer_res);
+    		int utilization = get_utilization();
+    		printf("used ddr: %d, unused ddr: %d\n",calc_used_ddr_rdy, calc_unused_ddr_rdy);
+    		printf("ddr utilization: %d", utilization);
+    		rd_res_finish = 1;
+    	}
+    }
+    return 0;
+}
+
+
+

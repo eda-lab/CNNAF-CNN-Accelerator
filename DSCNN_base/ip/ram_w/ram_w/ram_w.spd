@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="ram_2port_181/sim/ram_w_ram_2port_181_pyapd2a.v"
+   type="VERILOG"
+   library="ram_2port_181" />
+ <file
+   path="sim/ram_w.v"
+   type="VERILOG"
+   library="ram_w"
+   hasInlineConfiguration="true" />
+ <topLevel name="ram_w.ram_w" />
+ <deviceFamily name="arria10" />
+</simPackage>

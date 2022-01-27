@@ -1,0 +1,9 @@
+14:26:27 **** Incremental Build of configuration Nios II for project mobilenetv2 ****
+make all 
+Info: Building /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_optimal/ip/qsys/software/mobilenetv2_bsp/
+make --no-print-directory -C /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_optimal/ip/qsys/software/mobilenetv2_bsp/
+[BSP build complete]
+[mobilenetv2 build complete]
+
+14:26:27 Build Finished (took 56ms)
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_avalon_sysid_qsys_181/sim/altera_avalon_sysid_qsys.v"
+   type="VERILOG"
+   library="altera_avalon_sysid_qsys_181" />
+ <file
+   path="sim/monitor_sysid_qsys_0.v"
+   type="VERILOG"
+   library="monitor_sysid_qsys_0"
+   hasInlineConfiguration="true" />
+ <topLevel name="monitor_sysid_qsys_0.monitor_sysid_qsys_0" />
+ <deviceFamily name="arria10" />
+</simPackage>

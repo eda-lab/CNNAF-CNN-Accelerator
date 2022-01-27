@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2020.09.23.23:45:35"
+ outputDirectory="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Arria 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10AX066K3F40E2SG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="fifo_input" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="data" direction="input" role="datain" width="33" />
+   <port name="wrreq" direction="input" role="wrreq" width="1" />
+   <port name="rdreq" direction="input" role="rdreq" width="1" />
+   <port name="wrclk" direction="input" role="wrclk" width="1" />
+   <port name="rdclk" direction="input" role="rdclk" width="1" />
+   <port name="aclr" direction="input" role="aclr" width="1" />
+  </interface>
+  <interface name="fifo_output" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="q" direction="output" role="dataout" width="33" />
+   <port name="wrusedw" direction="output" role="wrusedw" width="8" />
+   <port name="rdempty" direction="output" role="rdempty" width="1" />
+   <port name="wrfull" direction="output" role="wrfull" width="1" />
+  </interface>
+ </perimeter>
+ <entity kind="veri_data_tx_fifo" version="1.0" name="veri_data_tx_fifo">
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="10AX066K3F40E2SG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo/synth/veri_data_tx_fifo.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo/synth/veri_data_tx_fifo.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/megafunctions/fifo/fifo_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="veri_data_tx_fifo">"Generating: veri_data_tx_fifo"</message>
+   <message level="Info" culprit="veri_data_tx_fifo">"Generating: veri_data_tx_fifo_fifo_181_26xpu7a"</message>
+  </messages>
+ </entity>
+ <entity kind="fifo" version="18.1" name="veri_data_tx_fifo_fifo_181_26xpu7a">
+  <parameter name="GUI_Full" value="true" />
+  <parameter name="GUI_RdUsedw_width" value="8" />
+  <parameter name="GUI_AlmostFullThr" value="1" />
+  <parameter name="GUI_AlmostEmpty" value="false" />
+  <parameter name="DEVICE_FAMILY" value="Arria 10" />
+  <parameter name="GUI_RAM_BLOCK_TYPE" value="Auto" />
+  <parameter name="GUI_Empty" value="true" />
+  <parameter name="GUI_wsEmpty" value="false" />
+  <parameter name="GUI_msb_usedw" value="false" />
+  <parameter name="GUI_WrUsedw_width" value="8" />
+  <parameter name="GUI_rsEmpty" value="true" />
+  <parameter name="GUI_Optimize" value="0" />
+  <parameter name="GUI_Depth" value="256" />
+  <parameter name="GUI_LE_BasedFIFO" value="false" />
+  <parameter name="GUI_UsedW" value="true" />
+  <parameter name="GUI_wsUsedW" value="true" />
+  <parameter name="GUI_LegacyRREQ" value="0" />
+  <parameter name="GUI_Usedw_width" value="8" />
+  <parameter name="GUI_Optimize_max" value="0" />
+  <parameter name="GUI_CLOCKS_ARE_SYNCHRONIZED" value="0" />
+  <parameter name="GUI_rsUsedW" value="false" />
+  <parameter name="GUI_read_aclr_synch" value="false" />
+  <parameter name="GUI_AlmostFull" value="false" />
+  <parameter name="GUI_MAX_DEPTH" value="Auto" />
+  <parameter name="GUI_OVERFLOW_CHECKING" value="false" />
+  <parameter name="GUI_UNDERFLOW_CHECKING" value="false" />
+  <parameter name="GUI_output_width" value="8" />
+  <parameter name="GUI_delaypipe" value="4" />
+  <parameter name="GUI_wsFull" value="true" />
+  <parameter name="GUI_ENABLE_ECC" value="false" />
+  <parameter name="GUI_Clock" value="4" />
+  <parameter name="GUI_dc_aclr" value="true" />
+  <parameter name="GUI_rsFull" value="false" />
+  <parameter name="GUI_sc_sclr" value="false" />
+  <parameter name="GUI_diff_widths" value="false" />
+  <parameter name="GUI_MAX_DEPTH_BY_9" value="false" />
+  <parameter name="GUI_AlmostEmptyThr" value="1" />
+  <parameter name="GUI_TESTBENCH" value="false" />
+  <parameter name="GUI_synStage" value="3" />
+  <parameter name="GUI_write_aclr_synch" value="false" />
+  <parameter name="GUI_sc_aclr" value="false" />
+  <parameter name="GUI_DISABLE_DCFIFO_EMBEDDED_TIMING_CONSTRAINT" value="true" />
+  <parameter name="GUI_Width" value="33" />
+  <generatedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo/fifo_181/synth/veri_data_tx_fifo_fifo_181_26xpu7a.v"
+       attributes="" />
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo/fifo_181/synth/veri_data_tx_fifo_fifo_181_26xpu7a.sdc"
+       attributes="NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo/fifo_181/synth/veri_data_tx_fifo_fifo_181_26xpu7a.v"
+       attributes="" />
+   <file
+       path="/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator/ip/veri_data_tx_fifo/veri_data_tx_fifo/fifo_181/synth/veri_data_tx_fifo_fifo_181_26xpu7a.sdc"
+       attributes="NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/software/quartus/qts18.1pro/ip/altera/megafunctions/fifo/fifo_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="veri_data_tx_fifo" as="fifo_0" />
+  <messages>
+   <message level="Info" culprit="veri_data_tx_fifo">"Generating: veri_data_tx_fifo_fifo_181_26xpu7a"</message>
+  </messages>
+ </entity>
+</deploy>

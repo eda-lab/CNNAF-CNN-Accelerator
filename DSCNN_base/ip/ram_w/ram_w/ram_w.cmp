@@ -1,0 +1,12 @@
+	component ram_w is
+		port (
+			data      : in  std_logic_vector(511 downto 0) := (others => 'X'); -- datain
+			q         : out std_logic_vector(511 downto 0);                    -- dataout
+			wraddress : in  std_logic_vector(7 downto 0)   := (others => 'X'); -- wraddress
+			rdaddress : in  std_logic_vector(7 downto 0)   := (others => 'X'); -- rdaddress
+			wren      : in  std_logic                      := 'X';             -- wren
+			wrclock   : in  std_logic                      := 'X';             -- clk
+			rdclock   : in  std_logic                      := 'X'              -- clk
+		);
+	end component ram_w;
+

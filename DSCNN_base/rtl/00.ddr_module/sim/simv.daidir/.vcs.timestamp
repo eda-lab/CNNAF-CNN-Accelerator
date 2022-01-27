@@ -1,0 +1,88 @@
+0 
+29
++itf+/software/synopsys/vcs-mx-2016/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-F rtl_lst.list
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/software/synopsys/vcs-mx-2016/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /software/synopsys/vcs-mx-2016/linux64/lib/libvirsim.so /software/synopsys/vcs-mx-2016/linux64/lib/liberrorinf.so /software/synopsys/vcs-mx-2016/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/software/synopsys/vcs-mx-2016/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/software/synopsys/verdi-2016/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/software/synopsys/vcs-mx-2016/include
+-P
+-debug_access
+-fsdb
+-gen_obj
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/software/synopsys/vcs-mx-2016/linux64/bin/vcs1
+/software/synopsys/verdi-2016/share/PLI/VCS/LINUX64/verdi.tab
+41
+sysc_uni_pwd=/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim
+XMODIFIERS=@im=ibus
+XDG_SESSION_ID=c2
+XDG_RUNTIME_DIR=/run/user/1001
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/gtd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=GNOME
+VTE_VERSION=5202
+VNCDESKTOP=hdu-eda:2 (gtd)
+VMR_MODE_FLAG=32
+VERDI_LIB=/software/synopsys/verdi-2016/share/PLI/VCS/linux64
+VERDI_HOME=/software/synopsys/verdi-2016
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/software/synopsys/vcs-mx-2016
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/software/synopsys/vcs-mx-2016/linux64
+SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+SSH_AGENT_PID=2722
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2463,unix/unix:/tmp/.ICE-unix/2463
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+OVA_UUM=0
+NOVAS_HOME=/software/synopsys/verdi-2016
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.99
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/cc58e5f0_09bf_443a_8a3c_a975319559c5
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DVE_HOME=/software/synopsys/vcs-mx-2016/gui/dve
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-kxrxJEao6L,guid=568bd083a4b1f1f1edbe36c95fbe3f23
+COLORTERM=truecolor
+0
+7
+1606659414 ../../15.ddr_test/ddr4_test_driver.v
+1606192467 ../c_ddr_intf.sv
+1606657758 ../c_ddr_model.sv
+1606192467 ../ddr_module_tb.sv
+1604912097 rtl_lst.list
+1468145700 /software/synopsys/verdi-2016/share/PLI/VCS/LINUX64/verdi.tab
+1464145466 /software/synopsys/vcs-mx-2016/linux64/lib/vcsdp_lite.tab
+4
+0 
+1464147802 /software/synopsys/vcs-mx-2016/linux64/lib/libvirsim.so
+1464147272 /software/synopsys/vcs-mx-2016/linux64/lib/liberrorinf.so
+1464147248 /software/synopsys/vcs-mx-2016/linux64/lib/libsnpsmalloc.so
+1606659419 simv.daidir

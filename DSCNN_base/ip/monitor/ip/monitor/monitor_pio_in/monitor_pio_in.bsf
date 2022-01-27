@@ -1,0 +1,89 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 320 240)
+	(text "monitor_pio_in" (rect 117 -1 174 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 224 20 236)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" (font_size 8)))
+		(text "clk" (rect 4 61 22 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 128 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_n" (rect 0 0 30 12)(font "Arial" (font_size 8)))
+		(text "reset_n" (rect 4 101 46 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 128 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "address[1..0]" (rect 0 0 50 12)(font "Arial" (font_size 8)))
+		(text "address[1..0]" (rect 4 141 82 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 128 152)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "in_port[31..0]" (rect 0 0 50 12)(font "Arial" (font_size 8)))
+		(text "in_port[31..0]" (rect 4 197 88 208)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 128 208)(line_width 3))
+	)
+	(port
+		(pt 0 168)
+		(output)
+		(text "readdata[31..0]" (rect 0 0 57 12)(font "Arial" (font_size 8)))
+		(text "readdata[31..0]" (rect 4 157 94 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 128 168)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 113 43 244 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 133 67 284 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 99 83 228 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 133 107 308 224)(font "Arial" (color 0 0 0)))
+		(text "s1" (rect 117 123 246 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "address" (rect 133 147 308 304)(font "Arial" (color 0 0 0)))
+		(text "readdata" (rect 133 163 314 336)(font "Arial" (color 0 0 0)))
+		(text "external_connection" (rect 14 179 142 371)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 203 302 416)(font "Arial" (color 0 0 0)))
+		(text " monitor_pio_in " (rect 254 224 604 458)(font "Arial" ))
+		(line (pt 128 32)(pt 192 32)(line_width 1))
+		(line (pt 192 32)(pt 192 224)(line_width 1))
+		(line (pt 128 224)(pt 192 224)(line_width 1))
+		(line (pt 128 32)(pt 128 224)(line_width 1))
+		(line (pt 129 52)(pt 129 76)(line_width 1))
+		(line (pt 130 52)(pt 130 76)(line_width 1))
+		(line (pt 129 92)(pt 129 116)(line_width 1))
+		(line (pt 130 92)(pt 130 116)(line_width 1))
+		(line (pt 129 132)(pt 129 172)(line_width 1))
+		(line (pt 130 132)(pt 130 172)(line_width 1))
+		(line (pt 129 188)(pt 129 212)(line_width 1))
+		(line (pt 130 188)(pt 130 212)(line_width 1))
+		(line (pt 0 0)(pt 320 0)(line_width 1))
+		(line (pt 320 0)(pt 320 240)(line_width 1))
+		(line (pt 0 240)(pt 320 240)(line_width 1))
+		(line (pt 0 0)(pt 0 240)(line_width 1))
+	)
+)

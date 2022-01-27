@@ -1,0 +1,58 @@
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_fp_acc_custom"
+set_global_assignment -library "fp_acc" -name SOPCINFO_FILE [file join $::quartus(qip_path) "fp_acc.sopcinfo"]
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name SLD_INFO "QSYS_NAME fp_acc HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "fp_acc" -name MISC_FILE [file join $::quartus(qip_path) "fp_acc.cmp"]
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_TARGETED_DEVICE_FAMILY "Arria 10"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_GENERATED_DEVICE_FAMILY "{Arria 10}"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "fp_acc" -name MISC_FILE [file join $::quartus(qip_path) "../fp_acc.ip"]
+
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_NAME "ZnBfYWNjX2FsdGVyYV9mcF9hY2NfY3VzdG9tXzE4MV8ydHV3Mzdh"
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_DISPLAY_NAME "RmxvYXRpbmcgUG9pbnQgQ3VzdG9tIEFjY3VtdWxhdG9yIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_DESCRIPTION "QW4gYXBwbGljYXRpb24tc3BlY2lmaWMgZmxvYXRpbmcgcG9pbnQgYWNjdW11bGF0b3IuIEEgZmxvYXRpbmcgcG9pbnQgYWNjdW11bGF0b3IgdGhhdCBjYW4gYmUgY3VzdG9taXplZCB0byB0aGUgcmVxdWlyZWQgcmFuZ2Ugb2YgaW5wdXQgYW5kIG91dHB1dCB2YWx1ZXMuIFRoZSBhY2N1bXVsYXRvciB3aWxsIGJlIGJ1aWx0IHRvIG9wZXJhdGUgYXQgdGhlIHRhcmdldCBmcmVxdWVuY3kgb24gdGhlIHRhcmdldCBkZXZpY2UgZmFtaWx5Lg=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "ZnBfZm9ybWF0::c2luZ2xl::RmxvYXRpbmcgcG9pbnQgZm9ybWF0"
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "ZnJlcXVlbmN5::MjAw::VGFyZ2V0IGZyZXF1ZW5jeQ=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "Z2VuX2VuYWJsZQ==::dHJ1ZQ==::R2VuZXJhdGUgYW4gZW5hYmxlIHBvcnQ="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "TVNCQQ==::MjA=::TVNCQQ=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "bWF4TVNCWA==::MTI=::bWF4TVNCWA=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "TFNCQQ==::LTI2::TFNCQQ=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "c2VsZWN0ZWRfZGV2aWNlX2ZhbWlseQ==::QXJyaWEgMTA=::c2VsZWN0ZWRfZGV2aWNlX2ZhbWlseQ=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "c2VsZWN0ZWRfZGV2aWNlX3NwZWVkZ3JhZGU=::Mg==::c2VsZWN0ZWRfZGV2aWNlX3NwZWVkZ3JhZGU="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_PARAMETER "dmFsaWRhdGlvbl9mYWlsZWQ=::ZmFsc2U=::dmFsaWRhdGlvbl9mYWlsZWQ="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0FyaXRobWV0aWM="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2VpczE0MTA3NjQ4MTg5MjQvZWlzMTQxMDkzNjk2NjUwOA=="
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5ODAxMzQwOA=="
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_NAME "ZnBfYWNj"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::QXJyaWEgMTA=::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBBWDA2NkszRjQwRTJTRw==::QXV0byBERVZJQ0U="
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Mg==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "fp_acc" -library "fp_acc" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+
+
+set_global_assignment -library "altera_fp_acc_custom_181" -name VHDL_FILE [file join $::quartus(qip_path) "altera_fp_acc_custom_181/synth/dspba_library_package.vhd"]
+set_global_assignment -library "altera_fp_acc_custom_181" -name VHDL_FILE [file join $::quartus(qip_path) "altera_fp_acc_custom_181/synth/dspba_library.vhd"]
+set_global_assignment -library "altera_fp_acc_custom_181" -name VHDL_FILE [file join $::quartus(qip_path) "altera_fp_acc_custom_181/synth/fp_acc_altera_fp_acc_custom_181_2tuw37a.vhd"]
+set_global_assignment -library "fp_acc" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/fp_acc.v"]
+
+
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_TOOL_NAME "altera_fp_acc_custom"
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "fp_acc_altera_fp_acc_custom_181_2tuw37a" -library "altera_fp_acc_custom_181" -name IP_TOOL_ENV "QsysPrimePro"
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_avalon_pio_181/sim/monitor_pio_out_altera_avalon_pio_181_byto2vi.v"
+   type="VERILOG"
+   library="altera_avalon_pio_181" />
+ <file
+   path="sim/monitor_pio_out.v"
+   type="VERILOG"
+   library="monitor_pio_out"
+   hasInlineConfiguration="true" />
+ <topLevel name="monitor_pio_out.monitor_pio_out" />
+ <deviceFamily name="arria10" />
+</simPackage>

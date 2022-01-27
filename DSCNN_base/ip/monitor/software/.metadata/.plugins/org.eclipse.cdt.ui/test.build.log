@@ -1,0 +1,9 @@
+11:38:15 **** Incremental Build of configuration Nios II for project test ****
+make all 
+Info: Building /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+make --no-print-directory -C /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+[BSP build complete]
+[test build complete]
+
+11:38:15 Build Finished (took 111ms)
+

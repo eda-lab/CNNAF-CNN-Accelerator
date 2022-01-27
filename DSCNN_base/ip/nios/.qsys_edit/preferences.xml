@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <window width="1920" height="1014" x="0" y="28" />
+ <library
+   expandedCategories="Library/Memory Interfaces and Controllers/Flash,Existing IP Variants,Library,Project,Library/Memory Interfaces and Controllers" />
+ <systemtable filter="All Interfaces" />
+ <generation path="" />
+</preferences>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <window width="1631" height="800" x="246" y="123" />
+ <generation
+   path=""
+   simulation="VERILOG"
+   block_symbol_file="0"
+   documentation="0"
+   use_parallel_ip_generation="1"
+   clear_previous="1"
+   greybox="1" />
+ <library expandedCategories="Project,Library,Existing IP Variants" />
+</preferences>

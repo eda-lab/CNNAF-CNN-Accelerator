@@ -1,0 +1,15 @@
+	component acc_data_fifo is
+		port (
+			data    : in  std_logic_vector(511 downto 0) := (others => 'X'); -- datain
+			wrreq   : in  std_logic                      := 'X';             -- wrreq
+			rdreq   : in  std_logic                      := 'X';             -- rdreq
+			wrclk   : in  std_logic                      := 'X';             -- wrclk
+			rdclk   : in  std_logic                      := 'X';             -- rdclk
+			aclr    : in  std_logic                      := 'X';             -- aclr
+			q       : out std_logic_vector(511 downto 0);                    -- dataout
+			wrusedw : out std_logic_vector(8 downto 0);                      -- wrusedw
+			rdempty : out std_logic;                                         -- rdempty
+			wrfull  : out std_logic                                          -- wrfull
+		);
+	end component acc_data_fifo;
+

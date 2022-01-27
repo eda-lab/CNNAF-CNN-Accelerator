@@ -1,0 +1,907 @@
+Archive member included to satisfy reference by file (symbol)
+
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+                              obj/default/main/main.o (__udivsi3)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                              obj/default/driver/ina3221.o (printf)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                              obj/default/driver/ina3221.o (puts)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o) (strlen)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o) (___vfprintf_internal_r)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o) (__sfvwrite_small_dev)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o) (_impure_ptr)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o) (errno)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o (alt_load)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o (alt_main)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o) (write)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o) (close)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o) (alt_fd_list)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o) (alt_dev_llist_insert)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o) (alt_errno)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o) (alt_io_redirect)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o) (open)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o) (alt_release_fd)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o) (alt_find_dev)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o) (alt_find_file)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o) (alt_get_fd)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o) (exit)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o) (__call_exitprocs)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000040000 0x0000000000000020
+cpu_onchip_memory 0x0000000000040020 0x000000000000ffe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/driver/ina3221.o
+LOAD obj/default/driver/qsys.o
+LOAD obj/default/driver/tmp513.o
+LOAD obj/default/main/main.o
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libstdc++.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a
+START GROUP
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a
+LOAD /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+END GROUP
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a
+                0x0000000000040000                __alt_mem_cpu_onchip_memory = 0x40000
+
+.entry          0x0000000000040000       0x20
+ *(.entry)
+ .entry         0x0000000000040000       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+                0x0000000000040000                __reset
+
+.exceptions     0x0000000000040020        0x0
+                0x0000000000040020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000040020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000040020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000040020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000040020     0x3418
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000040020       0x3c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+                0x0000000000040020                _start
+ .text          0x000000000004005c      0xc28 obj/default/driver/ina3221.o
+                0x000000000004005c                Ina3221_Reg_Write
+                0x00000000000404e8                Ina3221_Reg_Read
+                0x0000000000040a34                Read_Ina3221_Information
+                0x0000000000040b88                Power_Monitor
+ .text          0x0000000000040c84       0x3c obj/default/driver/qsys.o
+                0x0000000000040c84                Delay
+ .text          0x0000000000040cc0      0xb64 obj/default/driver/tmp513.o
+                0x0000000000040cc0                Tmp513_Reg_Write
+                0x000000000004114c                Tmp513_Reg_Read
+                0x00000000000416d0                Read_Tmp513_Information
+ .text          0x0000000000041824      0x184 obj/default/main/main.o
+                0x0000000000041824                main
+ .text          0x00000000000419a8      0x1bc /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+                0x00000000000419a8                __divsi3
+                0x0000000000041a30                __modsi3
+                0x0000000000041aa8                __udivsi3
+                0x0000000000041b0c                __umodsi3
+ .text          0x0000000000041b64        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000041b64       0x3c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                0x0000000000041b64                _printf_r
+ .text.printf   0x0000000000041ba0       0x48 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                0x0000000000041ba0                printf
+ .text          0x0000000000041be8        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .text._puts_r  0x0000000000041be8       0x84 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                0x0000000000041be8                _puts_r
+ .text.puts     0x0000000000041c6c       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                0x0000000000041c6c                puts
+ .text          0x0000000000041c7c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000041c7c       0x1c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                0x0000000000041c7c                strlen
+ .text          0x0000000000041c98        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .text.print_repeat
+                0x0000000000041c98       0x6c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .text.___vfprintf_internal_r
+                0x0000000000041d04      0x4f8 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                0x0000000000041d04                ___vfprintf_internal_r
+ .text.__vfprintf_internal
+                0x00000000000421fc       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                0x00000000000421fc                __vfprintf_internal
+ .text          0x0000000000042214        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x0000000000042214       0xa8 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x0000000000042214                __sfvwrite_small_dev
+ .text          0x00000000000422bc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .text          0x00000000000422bc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .text._write_r
+                0x00000000000422bc       0x50 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+                0x00000000000422bc                _write_r
+ .text          0x000000000004230c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .text          0x000000000004230c       0xec /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+                0x0000000000042374                alt_load
+ .text          0x00000000000423f8       0x6c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+                0x00000000000423f8                alt_main
+ .text          0x0000000000042464      0x134 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+                0x00000000000424a0                write
+ .text          0x0000000000042598       0x70 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000000042598                alt_irq_init
+                0x00000000000425d0                alt_sys_init
+ .text          0x0000000000042608       0xc0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x0000000000042608                altera_avalon_jtag_uart_read_fd
+                0x0000000000042668                altera_avalon_jtag_uart_write_fd
+ .text          0x00000000000426c8       0xec /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00000000000426c8                altera_avalon_jtag_uart_read
+ .text          0x00000000000427b4       0x94 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000000427b4                altera_avalon_jtag_uart_write
+ .text          0x0000000000042848      0x10c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+                0x0000000000042884                close
+ .text          0x0000000000042954       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000042954                alt_dcache_flush_all
+ .text          0x0000000000042974       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+                0x00000000000429a0                alt_dev_reg
+ .text          0x00000000000429d4       0xe0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000042a10                alt_dev_llist_insert
+ .text          0x0000000000042ab4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000042ab4       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000042ab4                alt_icache_flush_all
+ .text          0x0000000000042ad4      0x12c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000042b84                alt_io_redirect
+ .text          0x0000000000042c00      0x248 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+                0x0000000000042cf4                open
+ .text          0x0000000000042e48       0x58 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+                0x0000000000042e48                alt_release_fd
+ .text          0x0000000000042ea0       0x24 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000042ea0                altera_nios2_gen2_irq_init
+ .text          0x0000000000042ec4      0x160 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+                0x0000000000042ec4                alt_find_dev
+ .text          0x0000000000043024      0x184 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+                0x0000000000043024                alt_find_file
+ .text          0x00000000000431a8       0xa0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+                0x00000000000431a8                alt_get_fd
+ .text          0x0000000000043248        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .text.exit     0x0000000000043248       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+                0x0000000000043248                exit
+ .text          0x0000000000043268        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000043268      0x19c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+                0x0000000000043268                __call_exitprocs
+ .text          0x0000000000043404       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+                0x0000000000043404                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000043438                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000043438                . = ALIGN (0x4)
+
+.rodata         0x0000000000043438      0x4d4
+                0x0000000000043438                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000043438                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000043438      0x185 obj/default/driver/ina3221.o
+ *fill*         0x00000000000435bd        0x3 
+ .rodata        0x00000000000435c0      0x189 obj/default/driver/tmp513.o
+ *fill*         0x0000000000043749        0x3 
+ .rodata        0x000000000004374c      0x187 obj/default/main/main.o
+ *fill*         0x00000000000438d3        0x1 
+ .rodata._puts_r.str1.4
+                0x00000000000438d4        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                                          0x2 (size before relaxing)
+ .rodata        0x00000000000438d8       0x11 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ *fill*         0x00000000000438e9        0x3 
+ .rodata        0x00000000000438ec       0x11 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x00000000000438fd        0x3 
+ .rodata        0x0000000000043900        0xa /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x000000000004390c                . = ALIGN (0x4)
+ *fill*         0x000000000004390a        0x2 
+                0x000000000004390c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000043438                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000000000004390c      0x2d8 load address 0x0000000000043be4
+                0x000000000004390c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000000000004390c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000004390c        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000004390c        0x0 obj/default/driver/ina3221.o
+ .data          0x000000000004390c        0x0 obj/default/driver/qsys.o
+ .data          0x000000000004390c        0x0 obj/default/driver/tmp513.o
+ .data          0x000000000004390c        0x0 obj/default/main/main.o
+ .data          0x000000000004390c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .data          0x000000000004390c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .data          0x000000000004390c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .data          0x000000000004390c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .data          0x000000000004390c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .data          0x000000000004390c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x000000000004390c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x000000000004390c       0xe4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .data          0x00000000000439f0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .data          0x00000000000439f0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .data          0x00000000000439f0        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x00000000000439f0        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x00000000000439f0        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .data          0x00000000000439f0       0x2c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000043a1c        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000000000043a1c        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000000000043a1c        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000043a1c        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .data          0x0000000000043a1c        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000043a1c      0x1a8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000000000043a1c                alt_dev_null
+                0x0000000000043a44                alt_fd_list
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .data          0x0000000000043bc4        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .data          0x0000000000043bc4        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000043bc4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+                0x000000000004bbc4                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata._global_impure_ptr
+                0x0000000000043bc4        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                0x0000000000043bc4                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000043bc8        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                0x0000000000043bc8                _impure_ptr
+ .sdata         0x0000000000043bcc       0x14 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000000000043bcc                alt_fs_list
+                0x0000000000043bd4                alt_dev_list
+                0x0000000000043bdc                alt_max_fd
+ .sdata         0x0000000000043be0        0x4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+                0x0000000000043be0                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000043be4                . = ALIGN (0x4)
+                0x0000000000043be4                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000043be4                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000043be4                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000043ebc       0x10
+                0x0000000000043ebc                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000043ebc        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                0x0000000000043ebc                errno
+ .sbss          0x0000000000043ec0        0xc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000000043ec0                alt_argc
+                0x0000000000043ec4                alt_argv
+                0x0000000000043ec8                alt_envp
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000043ecc        0x0 obj/default/driver/ina3221.o
+ .bss           0x0000000000043ecc        0x0 obj/default/driver/qsys.o
+ .bss           0x0000000000043ecc        0x0 obj/default/driver/tmp513.o
+ .bss           0x0000000000043ecc        0x0 obj/default/main/main.o
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .bss           0x0000000000043ecc        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000043ecc        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+                0x0000000000043ecc                . = ALIGN (0x4)
+                0x0000000000043ecc                __bss_end = ABSOLUTE (.)
+
+.cpu_onchip_memory
+                0x0000000000043ecc        0x0
+                [!provide]                        PROVIDE (_alt_partition_cpu_onchip_memory_start, ABSOLUTE (.))
+ *(.cpu_onchip_memory .cpu_onchip_memory. cpu_onchip_memory.*)
+                0x0000000000043ecc                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_cpu_onchip_memory_end, ABSOLUTE (.))
+                0x0000000000043ecc                _end = ABSOLUTE (.)
+                0x0000000000043ecc                end = ABSOLUTE (.)
+                0x0000000000043ecc                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_cpu_onchip_memory_load_addr, LOADADDR (.cpu_onchip_memory))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2c
+ *(.comment)
+ .comment       0x0000000000000000       0x2c obj/default/driver/ina3221.o
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000002c       0x2d obj/default/driver/qsys.o
+ .comment       0x000000000000002c       0x2d obj/default/driver/tmp513.o
+ .comment       0x000000000000002c       0x2d obj/default/main/main.o
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x4b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/driver/ina3221.o
+ .debug_aranges
+                0x0000000000000048       0x20 obj/default/driver/qsys.o
+ .debug_aranges
+                0x0000000000000068       0x20 obj/default/driver/tmp513.o
+ .debug_aranges
+                0x0000000000000088       0x20 obj/default/main/main.o
+ .debug_aranges
+                0x00000000000000a8       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000000000000c8       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_aranges
+                0x00000000000000f0       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x0000000000000118       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000138       0x30 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_aranges
+                0x0000000000000168       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x0000000000000188       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x00000000000001c0       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000218       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x0000000000000238       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000258       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000278       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000298       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000000000002b8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000002d8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000002f8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000318       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000338       0x18 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000350       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000370       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000390       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000000000003b0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000003d0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000003f0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000410       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x0000000000000430       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x0000000000000450       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000470       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000490       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x15638
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022      0xa2c obj/default/driver/ina3221.o
+ .debug_info    0x0000000000000a4e      0x8b3 obj/default/driver/qsys.o
+ .debug_info    0x0000000000001301      0x9b5 obj/default/driver/tmp513.o
+ .debug_info    0x0000000000001cb6      0x931 obj/default/main/main.o
+ .debug_info    0x00000000000025e7      0x2c7 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_info    0x00000000000028ae      0x95b /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_info    0x0000000000003209      0x930 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_info    0x0000000000003b39      0x6a5 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x00000000000041de     0x1367 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_info    0x0000000000005545      0x8fd /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x0000000000005e42      0x687 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_info    0x00000000000064c9      0x764 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_info    0x0000000000006c2d      0x67c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00000000000072a9      0x962 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000007c0b      0xd83 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x000000000000898e      0xdc2 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_info    0x0000000000009750      0xb99 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x000000000000a2e9      0x39d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x000000000000a686      0xa25 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000000000000b0ab      0xa03 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000000000000baae      0xba3 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .debug_info    0x000000000000c651      0x8af /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000cf00      0xdf3 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000000000000dcf3      0x9d7 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000000000000e6ca      0x8ea /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x000000000000efb4      0x8af /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000000f863      0xd81 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00000000000105e4      0xbdf /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .debug_info    0x00000000000111c3      0x2bc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000000000001147f      0x8cf /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000011d4e      0xb0d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x000000000001285b      0xaff /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x000000000001335a      0xb34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000013e8e      0x71f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_info    0x00000000000145ad      0x762 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000014d0f      0x929 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x430f
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x23e obj/default/driver/ina3221.o
+ .debug_abbrev  0x0000000000000250      0x1b4 obj/default/driver/qsys.o
+ .debug_abbrev  0x0000000000000404      0x206 obj/default/driver/tmp513.o
+ .debug_abbrev  0x000000000000060a      0x1c3 obj/default/main/main.o
+ .debug_abbrev  0x00000000000007cd       0xe0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x00000000000008ad      0x22b /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_abbrev  0x0000000000000ad8      0x1f7 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x0000000000000ccf      0x180 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000000e4f      0x303 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_abbrev  0x0000000000001152      0x203 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000001355      0x15c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000000000014b1      0x1c0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x0000000000001671      0x166 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000000000017d7      0x1ec /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000019c3      0x1ee /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000001bb1      0x221 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000000000001dd2      0x21d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000001fef      0x111 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000002100      0x209 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000002309      0x202 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000000000000250b      0x20d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000002718      0x1b6 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000000000028ce      0x1fe /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000002acc      0x232 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000002cfe      0x1b5 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000002eb3      0x1b6 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000003069      0x200 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000003269      0x236 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x000000000000349f       0xdc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x000000000000357b      0x1bb /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000003736      0x1ea /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000003920      0x1ea /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000003b0a      0x1fb /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000000000003d05      0x1ba /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000003ebf      0x22e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00000000000040ed      0x222 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x48da
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066      0x37a obj/default/driver/ina3221.o
+ .debug_line    0x00000000000003e0      0x136 obj/default/driver/qsys.o
+ .debug_line    0x0000000000000516      0x372 obj/default/driver/tmp513.o
+ .debug_line    0x0000000000000888      0x19a obj/default/main/main.o
+ .debug_line    0x0000000000000a22      0x10d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000000b2f      0x21e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_line    0x0000000000000d4d      0x22c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_line    0x0000000000000f79      0x1da /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000001153      0x44f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_line    0x00000000000015a2      0x220 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x00000000000017c2      0x157 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_line    0x0000000000001919      0x1ee /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000001b07      0x1c8 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000001ccf      0x1db /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000001eaa      0x2c7 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000002171      0x2f1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_line    0x0000000000002462      0x201 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000002663      0x112 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x0000000000002775      0x246 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000029bb      0x23d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000002bf8      0x20c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000002e04      0x19e /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000002fa2      0x2b6 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000003258      0x1c5 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x000000000000341d      0x147 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000003564      0x19c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000003700      0x2ad /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000000000039ad      0x21d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000000000003bca       0xae /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000003c78      0x147 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000003dbf      0x1ce /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000003f8d      0x1c8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000004155      0x1cd /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000004322      0x1f2 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_line    0x0000000000004514      0x25f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000004773      0x167 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0x9b8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xb0 obj/default/driver/ina3221.o
+ .debug_frame   0x00000000000000b0       0x34 obj/default/driver/qsys.o
+ .debug_frame   0x00000000000000e4       0x88 obj/default/driver/tmp513.o
+ .debug_frame   0x000000000000016c       0x2c obj/default/main/main.o
+ .debug_frame   0x0000000000000198       0x50 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000001e8       0x48 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000230       0x48 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x0000000000000278       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000298       0x90 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_frame   0x0000000000000328       0x3c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x0000000000000364       0x30 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000394       0x5c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000003f0       0x2c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000000000000041c       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_frame   0x000000000000047c       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000004dc       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x000000000000053c       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000570       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000005a4       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000604       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000638       0x5c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000694       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000000000006f4       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000728       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000000788       0x84 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+ .debug_frame   0x000000000000080c       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000840       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000874       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000000000008a8       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000000000008dc       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000000910       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000938       0x54 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000000000000098c       0x2c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x1bd3
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x87 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000087      0x566 obj/default/driver/ina3221.o
+                                        0x622 (size before relaxing)
+ .debug_str     0x00000000000005ed       0x14 obj/default/driver/qsys.o
+                                        0x53c (size before relaxing)
+ .debug_str     0x0000000000000601       0x49 obj/default/driver/tmp513.o
+                                        0x5dd (size before relaxing)
+ .debug_str     0x000000000000064a       0x3e obj/default/main/main.o
+                                        0x59e (size before relaxing)
+ .debug_str     0x0000000000000688      0x179 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+                                        0x1c4 (size before relaxing)
+ .debug_str     0x0000000000000801      0x33b /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                                        0x6af (size before relaxing)
+ .debug_str     0x0000000000000b3c       0x62 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                                        0x678 (size before relaxing)
+ .debug_str     0x0000000000000b9e       0xc7 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                                        0x525 (size before relaxing)
+ .debug_str     0x0000000000000c65      0x478 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                                        0xbbf (size before relaxing)
+ .debug_str     0x00000000000010dd       0x62 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x68b (size before relaxing)
+ .debug_str     0x000000000000113f       0xd1 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                                        0x51b (size before relaxing)
+ .debug_str     0x0000000000001210       0x44 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+                                        0x561 (size before relaxing)
+ .debug_str     0x0000000000001254       0x3e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                                        0x522 (size before relaxing)
+ .debug_str     0x0000000000001292       0xf1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_load.o)
+                                        0x627 (size before relaxing)
+ .debug_str     0x0000000000001383      0x1f1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_main.o)
+                                        0x7dd (size before relaxing)
+ .debug_str     0x0000000000001574       0x31 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_write.o)
+                                        0x7cb (size before relaxing)
+ .debug_str     0x00000000000015a5      0x10c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_sys_init.o)
+                                        0x6ee (size before relaxing)
+ .debug_str     0x00000000000016b1       0x71 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x30d (size before relaxing)
+ .debug_str     0x0000000000001722       0x4f /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x667 (size before relaxing)
+ .debug_str     0x0000000000001771       0x4a /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x65d (size before relaxing)
+ .debug_str     0x00000000000017bb       0x1b /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_close.o)
+                                        0x671 (size before relaxing)
+ .debug_str     0x00000000000017d6       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x56a (size before relaxing)
+ .debug_str     0x000000000000180a       0x4c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev.o)
+                                        0x7d4 (size before relaxing)
+ .debug_str     0x0000000000001856       0x4b /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x5ee (size before relaxing)
+ .debug_str     0x00000000000018a1       0x14 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_errno.o)
+                                        0x567 (size before relaxing)
+ .debug_str     0x00000000000018b5       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x56a (size before relaxing)
+ .debug_str     0x00000000000018e9       0x56 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_io_redirect.o)
+                                        0x7d2 (size before relaxing)
+ .debug_str     0x000000000000193f       0x36 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_open.o)
+                                        0x672 (size before relaxing)
+ .debug_str     0x0000000000001975       0x28 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_release_fd.o)
+                                        0x21f (size before relaxing)
+ .debug_str     0x000000000000199d       0x3b /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x57e (size before relaxing)
+ .debug_str     0x00000000000019d8       0x36 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_dev.o)
+                                        0x625 (size before relaxing)
+ .debug_str     0x0000000000001a0e       0x26 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_find_file.o)
+                                        0x627 (size before relaxing)
+ .debug_str     0x0000000000001a34       0x30 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_get_fd.o)
+                                        0x643 (size before relaxing)
+ .debug_str     0x0000000000001a64       0xd6 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+                                        0x567 (size before relaxing)
+ .debug_str     0x0000000000001b3a       0x6f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+                                        0x569 (size before relaxing)
+ .debug_str     0x0000000000001ba9       0x2a /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(alt_exit.o)
+                                        0x573 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1377
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x55e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_loc     0x000000000000055e       0xc6 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_loc     0x0000000000000624       0x97 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x00000000000006bb       0x29 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000006e4      0x941 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_loc     0x0000000000001025       0xff /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x0000000000001124       0xa5 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x00000000000011c9       0x1e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_loc     0x00000000000011e7      0x190 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+                0x0000000000050000                __alt_data_end = 0x50000
+                0x0000000000050000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x50000)
+OUTPUT(test.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x1c0
+ .debug_ranges  0x0000000000000000       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x68 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x0000000000000088       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_ranges  0x00000000000000a0       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_ranges  0x00000000000000b8       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x00000000000000c8       0x88 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_ranges  0x0000000000000150       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x0000000000000160       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_ranges  0x0000000000000170       0x18 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000188       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000198       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)

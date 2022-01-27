@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_fp_functions_181/sim/dspba_library_package.vhd"
+   type="VHDL"
+   library="altera_fp_functions_181" />
+ <file
+   path="altera_fp_functions_181/sim/dspba_library.vhd"
+   type="VHDL"
+   library="altera_fp_functions_181" />
+ <file
+   path="altera_fp_functions_181/sim/fp_cmp_bias_altera_fp_functions_181_zhf76iy.vhd"
+   type="VHDL"
+   library="altera_fp_functions_181" />
+ <file
+   path="sim/fp_cmp_bias.v"
+   type="VERILOG"
+   library="fp_cmp_bias"
+   hasInlineConfiguration="true" />
+ <topLevel name="fp_cmp_bias.fp_cmp_bias" />
+ <deviceFamily name="arria10" />
+</simPackage>

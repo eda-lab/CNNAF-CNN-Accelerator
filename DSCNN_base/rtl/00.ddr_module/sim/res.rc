@@ -1,0 +1,95 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -1 27 1920 977 214 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / -i 0 "" "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/mobilenet_sim.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 266416.306290 450151.689938
+cursor 304000.000000
+marker 0.000000
+
+; visible top row signal index
+top 0
+; marker line index
+markerPos 25
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/mobilenet_sim.fsdb"
+addSignal -h 15 /ddr_module_tb/ddr_clk
+addSignal -h 15 -holdScope ddr_rst_n
+addSignal -h 15 -holdScope ddr_ready
+addSignal -h 15 -holdScope ddr_rd_req
+addSignal -h 15 -holdScope ddr_wr_req
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_address[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_bl_size[3:0]
+addSignal -h 15 -holdScope ddr_rd_data_vld
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_rd_data[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_wr_data[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_be[63:0]
+addGroup "G2"
+addSignal -h 15 -UNSIGNED -UDEC /ddr_module_tb/ddr4_test_driver_tb/cur_st[7:0]
+addGroup "G3"
+addSignal -h 15 /ddr_module_tb/ddr_clk
+addSignal -h 15 -holdScope ddr_rst_n
+addSignal -h 15 -holdScope ddr_ready
+addSignal -h 15 -holdScope ddr_rd_req
+addSignal -h 15 -holdScope ddr_wr_req
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_address[25:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_bl_size[6:0]
+addSignal -h 15 -holdScope ddr_rd_data_vld
+addSignal -h 15 -UNSIGNED -UDEC -holdScope ddr_rd_data[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_wr_data[511:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ddr_be[63:0]
+addGroup "G4"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/mobilenet_sim.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/_$novas_unit__1"
+"/ddr_module_tb"
+"/ddr_module_tb/ddr_intf"
+
+SCOPE_LIST_BEGIN
+"/_$novas_unit__1"
+"/ddr_module_tb"
+"/ddr_module_tb/ddr4_test_driver_tb"
+"/ddr_module_tb/ddr_intf"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

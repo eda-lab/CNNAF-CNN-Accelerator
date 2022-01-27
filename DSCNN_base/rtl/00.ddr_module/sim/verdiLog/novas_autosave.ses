@@ -1,0 +1,52 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+postSimFile = /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/mobilenet_sim.fsdb
+syncTime = 304000
+viewport = 0 27 1920 977 634 463 323 1918
+activeNode = "ddr_module_tb.ddr4_test_driver_tb"
+activeScope = "ddr_module_tb.ddr4_test_driver_tb"
+activeFile = "../../15.ddr_test/ddr4_test_driver.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 25
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "ddr_module_tb.ddr4_test_driver_tb"
+Scope2 = "ddr_module_tb"
+multipleSelection = 1 21 1 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = ddr_module_tb.ddr4_test_driver_tb
+File = /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/15.ddr_test/ddr4_test_driver.v
+Line = 26
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim
+design = DebussyLib
+hostCommand = hostCommand -F rtl_lst.list
+[nMemoryManager]
+FsdbFile = /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4/rtl/00.ddr_module/sim/mobilenet_sim.fsdb
+UserActionNum = 0
+nMemWindowNum = 0

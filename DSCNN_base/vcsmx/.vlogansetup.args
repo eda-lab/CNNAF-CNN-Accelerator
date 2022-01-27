@@ -1,0 +1,6 @@
+4
+873557320
+../rtl/14.ddr_interface/ddr_rd_data_sync.v 
+-full64 +v2k +systemverilogext+.sv ../rtl/14.ddr_interface/ddr_rd_data_sync.v
+   /software/synopsys/vcs-mx-2016/linux64/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= -Mcfl=' -pipe -O -I/software/synopsys/vcs-mx-2016/include ' -Mldflags=" -Wl,-E,-rpath /software/synopsys/vcs-mx-2016/linux64/lib " -Mout=simv -Mamsrun="" -Mvcsaceobjs="" -Mobjects=" " -Msaverestoreobj= -Mcrt0="" -Mcrtn="" -Mcsrc="" -Msyslibs="-lncurses -L/usr/X11R6/lib64 -lX11 -ldl -ldl "
+-Xvlogan=0x1 -full64 +v2k  +systemverilogext+.sv  "../rtl/14.ddr_interface/ddr_rd_data_sync.v"  +mixedhdl2    

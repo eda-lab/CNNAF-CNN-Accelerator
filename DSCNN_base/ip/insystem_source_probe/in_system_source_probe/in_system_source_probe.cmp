@@ -1,0 +1,8 @@
+	component in_system_source_probe is
+		port (
+			source     : out std_logic_vector(4 downto 0);                    -- source
+			source_clk : in  std_logic                    := 'X';             -- clk
+			probe      : in  std_logic_vector(2 downto 0) := (others => 'X')  -- probe
+		);
+	end component in_system_source_probe;
+

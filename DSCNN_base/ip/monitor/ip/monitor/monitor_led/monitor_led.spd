@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_avalon_pio_181/sim/monitor_led_altera_avalon_pio_181_yktquyy.v"
+   type="VERILOG"
+   library="altera_avalon_pio_181" />
+ <file
+   path="sim/monitor_led.v"
+   type="VERILOG"
+   library="monitor_led"
+   hasInlineConfiguration="true" />
+ <topLevel name="monitor_led.monitor_led" />
+ <deviceFamily name="arria10" />
+</simPackage>

@@ -1,0 +1,1228 @@
+Archive member included to satisfy reference by file (symbol)
+
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+                              obj/default/hello_world.o (__divsi3)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+                              obj/default/hello_world.o (__addsf3)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+                              obj/default/hello_world.o (__divsf3)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+                              obj/default/hello_world.o (__gtsf2)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+                              obj/default/hello_world.o (__mulsf3)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+                              obj/default/hello_world.o (__fixsfsi)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+                              obj/default/hello_world.o (__floatsisf)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o) (__clzsi2)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o) (__clz_tab)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+                              obj/default/hello_world.o (memcpy)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                              obj/default/hello_world.o (printf)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                              obj/default/hello_world.o (puts)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o) (strlen)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o) (___vfprintf_internal_r)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o) (__sfvwrite_small_dev)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o) (_impure_ptr)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o) (errno)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+                              obj/default/hello_world.o (alt_ic_isr_register)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o) (alt_irq_active)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o (alt_load)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o (alt_main)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o) (write)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o) (close)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o) (alt_fd_list)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o) (alt_dev_llist_insert)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o) (alt_errno)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o) (alt_io_redirect)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o) (open)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o) (alt_release_fd)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o) (_alt_tick_rate)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o) (alt_find_dev)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o) (alt_find_file)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o) (alt_get_fd)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+                              /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o) (exit)
+/software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o) (__call_exitprocs)
+/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+                              /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+rd_res_f            0xfa4             obj/default/hello_world.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000010000 0x0000000000000020
+onchip_ram       0x0000000000010020 0x000000000000ffe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libstdc++.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a
+START GROUP
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a
+LOAD /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+END GROUP
+LOAD /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a
+                0x0000000000010000                __alt_mem_onchip_ram = 0x10000
+
+.entry          0x0000000000010000       0x20
+ *(.entry)
+ .entry         0x0000000000010000       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+                0x0000000000010000                __reset
+
+.exceptions     0x0000000000010020      0x218
+                0x0000000000010020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000010020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000010020        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000010020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000010020        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000010020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000010020       0x54 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000010074       0x10 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000010084        0x4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000010088        0x4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000001008c        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000001008c        0x8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000010094       0x14 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000100a8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000100a8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000100a8       0x54 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000100fc       0xc8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000100fc                alt_irq_handler
+ .exceptions    0x00000000000101c4       0x74 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000101c4                alt_instruction_exception_entry
+                0x0000000000010238                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000010020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000010238     0x36c0
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000010238       0x4c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+                0x0000000000010238                _start
+ .text          0x0000000000010284      0x4e0 obj/default/hello_world.o
+                0x0000000000010284                Timer_ISR_Interrupt
+                0x00000000000102f4                Timer_initial
+                0x0000000000010350                Read_data
+                0x0000000000010408                softmax
+                0x000000000001048c                get_ddr_utilization
+                0x000000000001051c                get_unit_utilization
+                0x0000000000010598                IRQ_calc_finish_Interrupts
+                0x00000000000105dc                IRQ_init
+                0x0000000000010630                main
+ .text          0x0000000000010764      0x1bc /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+                0x0000000000010764                __divsi3
+                0x00000000000107ec                __modsi3
+                0x0000000000010864                __udivsi3
+                0x00000000000108c8                __umodsi3
+ .text          0x0000000000010920      0x550 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+                0x0000000000010920                __addsf3
+ .text          0x0000000000010e70      0x428 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+                0x0000000000010e70                __divsf3
+ .text          0x0000000000011298       0xc0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+                0x0000000000011298                __gtsf2
+                0x0000000000011298                __gesf2
+ .text          0x0000000000011358      0x3ec /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+                0x0000000000011358                __mulsf3
+ .text          0x0000000000011744       0x70 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+                0x0000000000011744                __fixsfsi
+ .text          0x00000000000117b4      0x12c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+                0x00000000000117b4                __floatsisf
+ .text          0x00000000000118e0       0x54 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+                0x00000000000118e0                __clzsi2
+ .text          0x0000000000011934        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .text          0x0000000000011934        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000000011934       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+                0x0000000000011934                memcpy
+ .text          0x000000000001195c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .text._printf_r
+                0x000000000001195c       0x3c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                0x000000000001195c                _printf_r
+ .text.printf   0x0000000000011998       0x48 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                0x0000000000011998                printf
+ .text          0x00000000000119e0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .text._puts_r  0x00000000000119e0       0x84 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                0x00000000000119e0                _puts_r
+ .text.puts     0x0000000000011a64       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                0x0000000000011a64                puts
+ .text          0x0000000000011a74        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000011a74       0x1c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                0x0000000000011a74                strlen
+ .text          0x0000000000011a90        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .text.print_repeat
+                0x0000000000011a90       0x6c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .text.___vfprintf_internal_r
+                0x0000000000011afc      0x4f8 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                0x0000000000011afc                ___vfprintf_internal_r
+ .text.__vfprintf_internal
+                0x0000000000011ff4       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                0x0000000000011ff4                __vfprintf_internal
+ .text          0x000000000001200c        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x000000000001200c       0xa8 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x000000000001200c                __sfvwrite_small_dev
+ .text          0x00000000000120b4        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .text          0x00000000000120b4        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .text._write_r
+                0x00000000000120b4       0x50 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+                0x00000000000120b4                _write_r
+ .text          0x0000000000012104        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000012104      0x1b0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+                0x0000000000012104                alt_ic_isr_register
+                0x0000000000012154                alt_ic_irq_enable
+                0x00000000000121dc                alt_ic_irq_disable
+                0x0000000000012268                alt_ic_irq_enabled
+ .text          0x00000000000122b4       0xe4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000000000122b4                alt_iic_isr_register
+ .text          0x0000000000012398        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000012398        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000012398        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000012398       0xec /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+                0x0000000000012400                alt_load
+ .text          0x0000000000012484       0x6c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000000012484                alt_main
+ .text          0x00000000000124f0      0x134 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+                0x000000000001252c                write
+ .text          0x0000000000012624       0x84 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000000012624                alt_irq_init
+                0x000000000001265c                alt_sys_init
+ .text          0x00000000000126a8       0xc0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00000000000126a8                altera_avalon_jtag_uart_read_fd
+                0x0000000000012708                altera_avalon_jtag_uart_write_fd
+ .text          0x0000000000012768       0xec /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000012768                altera_avalon_jtag_uart_read
+ .text          0x0000000000012854       0x94 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000012854                altera_avalon_jtag_uart_write
+ .text          0x00000000000128e8       0xf4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x0000000000012960                alt_avalon_timer_sc_init
+ .text          0x00000000000129dc      0x10c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+                0x0000000000012a18                close
+ .text          0x0000000000012ae8       0x48 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000012ae8                alt_dcache_flush_all
+ .text          0x0000000000012b30       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000000000012b5c                alt_dev_reg
+ .text          0x0000000000012b90       0xe0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000012bcc                alt_dev_llist_insert
+ .text          0x0000000000012c70        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000012c70        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000012c70       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000012c70                alt_icache_flush_all
+ .text          0x0000000000012ca4       0x98 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000012ca4                alt_exception_cause_generated_bad_addr
+ .text          0x0000000000012d3c      0x12c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000012dec                alt_io_redirect
+ .text          0x0000000000012e68      0x248 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+                0x0000000000012f5c                open
+ .text          0x00000000000130b0       0x58 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+                0x00000000000130b0                alt_release_fd
+ .text          0x0000000000013108      0x1c8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000000000013108                alt_alarm_stop
+                0x00000000000131a4                alt_tick
+ .text          0x00000000000132d0       0x24 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000132d0                altera_nios2_gen2_irq_init
+ .text          0x00000000000132f4      0x160 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+                0x00000000000132f4                alt_find_dev
+ .text          0x0000000000013454      0x184 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+                0x0000000000013454                alt_find_file
+ .text          0x00000000000135d8       0xa0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+                0x00000000000135d8                alt_get_fd
+ .text          0x0000000000013678       0x90 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000013678                alt_icache_flush
+ .text          0x0000000000013708        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .text.exit     0x0000000000013708       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+                0x0000000000013708                exit
+ .text          0x0000000000013728        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000013728      0x19c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+                0x0000000000013728                __call_exitprocs
+ .text          0x00000000000138c4       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+                0x00000000000138c4                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00000000000138f8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00000000000138f8                . = ALIGN (0x4)
+
+.rodata         0x00000000000138f8      0x1f8
+                0x00000000000138f8                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00000000000138f8                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00000000000138f8       0xcd obj/default/hello_world.o
+ .rodata        0x00000000000139c5      0x100 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+                0x00000000000139c5                __clz_tab
+ *fill*         0x0000000000013ac5        0x3 
+ .rodata._puts_r.str1.4
+                0x0000000000013ac8        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                                          0x2 (size before relaxing)
+ .rodata        0x0000000000013acc        0xa /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ *fill*         0x0000000000013ad6        0x2 
+ .rodata        0x0000000000013ad8        0xa /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x0000000000013ae2        0x2 
+ .rodata        0x0000000000013ae4        0xa /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x0000000000013af0                . = ALIGN (0x4)
+ *fill*         0x0000000000013aee        0x2 
+                0x0000000000013af0                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00000000000138f8                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000000013af0      0x2e8 load address 0x0000000000013dd8
+                0x0000000000013af0                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000013af0                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000013af0        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000013af0        0x0 obj/default/hello_world.o
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x0000000000013af0        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000013af0       0xe4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .data          0x0000000000013bd4        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .data          0x0000000000013bd4        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x0000000000013bd4        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .data          0x0000000000013bd4       0x2c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000013c00        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000000000013c00        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000000000013c00        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000013c00        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x0000000000013c00        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .data          0x0000000000013c00        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000013c00      0x1a8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000000000013c00                alt_dev_null
+                0x0000000000013c28                alt_fd_list
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000000000013da8        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .data          0x0000000000013da8        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000013da8        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+                0x000000000001bda8                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000013da8        0x1 obj/default/hello_world.o
+                0x0000000000013da8                rd_res_finish
+ *fill*         0x0000000000013da9        0x3 
+ .sdata._global_impure_ptr
+                0x0000000000013dac        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                0x0000000000013dac                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000013db0        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                0x0000000000013db0                _impure_ptr
+ .sdata         0x0000000000013db4        0x4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000013db4                alt_priority_mask
+ .sdata         0x0000000000013db8       0x14 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000000000013db8                alt_fs_list
+                0x0000000000013dc0                alt_dev_list
+                0x0000000000013dc8                alt_max_fd
+ .sdata         0x0000000000013dcc        0x4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+                0x0000000000013dcc                alt_errno
+ .sdata         0x0000000000013dd0        0x8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000000000013dd0                alt_alarm_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000013dd8                . = ALIGN (0x4)
+                0x0000000000013dd8                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000013dd8                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000013dd8                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00000000000140c0     0x10f8
+                0x00000000000140c0                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00000000000140c0       0x30 obj/default/hello_world.o
+                0x00000000000140c0                rd_res_start
+                0x00000000000140c1                show_msg
+                0x00000000000140c4                rd_res_num
+                0x00000000000140c8                infer_res
+                0x00000000000140cc                res
+                0x00000000000140d0                calc_fps_last
+                0x00000000000140d4                rd_fps
+                0x00000000000140d8                calc_fps
+                0x00000000000140dc                calc_used_ddr_rdy
+                0x00000000000140e0                calc_used_wr_ddr_rdy
+                0x00000000000140e4                calc_unused_ddr_rdy
+                0x00000000000140e8                calc_used_unit
+                0x00000000000140ec                calc_total_unit
+ .sbss          0x00000000000140f0        0x4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                0x00000000000140f0                errno
+ .sbss          0x00000000000140f4        0x4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x00000000000140f4                alt_irq_active
+ .sbss          0x00000000000140f8        0xc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+                0x00000000000140f8                alt_argc
+                0x00000000000140fc                alt_argv
+                0x0000000000014100                alt_envp
+ .sbss          0x0000000000014104        0x4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000014104                alt_instruction_exception_handler
+ .sbss          0x0000000000014108        0xc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000000000014108                _alt_tick_rate
+                0x000000000001410c                _alt_nticks
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000014114        0x0 obj/default/hello_world.o
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .bss           0x0000000000014114        0x0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000014114        0x0 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000000000014114      0xfa4 obj/default/hello_world.o
+                0x0000000000014114                rd_res_f
+ COMMON         0x00000000000150b8      0x100 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000150b8                alt_irq
+                0x00000000000151b8                . = ALIGN (0x4)
+                0x00000000000151b8                __bss_end = ABSOLUTE (.)
+
+.onchip_ram     0x00000000000151b8        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_start, ABSOLUTE (.))
+ *(.onchip_ram .onchip_ram. onchip_ram.*)
+                0x00000000000151b8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_end, ABSOLUTE (.))
+                0x00000000000151b8                _end = ABSOLUTE (.)
+                0x00000000000151b8                end = ABSOLUTE (.)
+                0x00000000000151b8                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_load_addr, LOADADDR (.onchip_ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2c
+ *(.comment)
+ .comment       0x0000000000000000       0x2c obj/default/hello_world.o
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .comment       0x000000000000002c       0x2d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .comment       0x000000000000002c       0x2d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x6d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x0000000000000048       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000068       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .debug_aranges
+                0x0000000000000088       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .debug_aranges
+                0x0000000000000108       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .debug_aranges
+                0x0000000000000128       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000148       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000160       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000180       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_aranges
+                0x00000000000001a8       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x00000000000001d0       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000001f0       0x30 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_aranges
+                0x0000000000000220       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x0000000000000240       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000258       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x0000000000000278       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000290       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000002b0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000000000002d0       0x30 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000300       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000320       0x18 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000338       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000358       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000378       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x0000000000000398       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000003b8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000000000003d8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x00000000000003f8       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000418       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x0000000000000438       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x0000000000000458       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000478       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000498       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000000000004b8       0x18 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000004d0       0x38 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000508       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000528       0x28 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000550       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000570       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x0000000000000590       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000005b0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000000000005d0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000005f0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000610       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x0000000000000630       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x0000000000000650       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000670       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000690       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000000000006b0       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x196ee
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022      0xc02 obj/default/hello_world.o
+ .debug_info    0x0000000000000c24      0x2c7 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000000eeb      0x31a /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .debug_info    0x0000000000001205      0x30e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .debug_info    0x0000000000001513      0x228 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .debug_info    0x000000000000173b      0x378 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .debug_info    0x0000000000001ab3      0x1cf /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .debug_info    0x0000000000001c82      0x230 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .debug_info    0x0000000000001eb2      0x1d1 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000002083      0x16e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .debug_info    0x00000000000021f1      0x6f6 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000000028e7      0x95b /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_info    0x0000000000003242      0x930 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_info    0x0000000000003b72      0x6a5 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000004217     0x1367 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_info    0x000000000000557e      0x8fd /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x0000000000005e7b      0x687 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000000000006502      0x764 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_info    0x0000000000006c66      0x67c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00000000000072e2      0xb71 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000007e53      0xa26 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000008879       0x22 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000889b      0x9be /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000009259       0x88 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00000000000092e1      0x962 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000009c43      0xd83 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x000000000000a9c6      0xdc2 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .debug_info    0x000000000000b788      0xbaf /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x000000000000c337      0x39d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x000000000000c6d4      0xa25 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000000000000d0f9      0xa03 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000000000000dafc      0xa7e /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x000000000000e57a      0xba3 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .debug_info    0x000000000000f11d      0x8bc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000f9d9      0xdf3 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00000000000107cc      0x9d7 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00000000000111a3      0x8ea /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000011a8d       0x22 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000011aaf      0x8af /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000001235e      0x1f1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x000000000001254f      0xd81 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00000000000132d0      0xbdf /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000000000013eaf      0x2bc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000000000001416b      0xad9 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_info    0x0000000000014c44      0x8cf /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000015513      0xb0d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000016020      0xaff /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000000000016b1f      0xb34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000017653      0x8f1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000017f44      0x71f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_info    0x0000000000018663      0x762 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000018dc5      0x929 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x5941
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x2ac obj/default/hello_world.o
+ .debug_abbrev  0x00000000000002be       0xe0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x000000000000039e      0x176 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .debug_abbrev  0x0000000000000514      0x15c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .debug_abbrev  0x0000000000000670      0x166 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .debug_abbrev  0x00000000000007d6      0x15c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .debug_abbrev  0x0000000000000932      0x166 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .debug_abbrev  0x0000000000000a98      0x176 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .debug_abbrev  0x0000000000000c0e       0xe3 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000000cf1       0xa0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000000d91      0x1ac /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000f3d      0x22b /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_abbrev  0x0000000000001168      0x1f7 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x000000000000135f      0x180 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00000000000014df      0x303 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_abbrev  0x00000000000017e2      0x203 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x00000000000019e5      0x15c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000001b41      0x1c0 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x0000000000001d01      0x166 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000001e67      0x2af /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000002116      0x272 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000002388       0x12 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x000000000000239a      0x23c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00000000000025d6       0x40 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000002616      0x1ec /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000002802      0x1ee /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000029f0      0x221 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000000000002c11      0x21d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000002e2e      0x111 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000002f3f      0x209 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000003148      0x202 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000000000000334a      0x293 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x00000000000035dd      0x20d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000000000037ea      0x1c5 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000000000039af      0x1fe /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000003bad      0x232 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000003ddf      0x1b5 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000003f94       0x12 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000003fa6      0x1b6 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x000000000000415c       0xdc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000004238      0x200 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000004438      0x236 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x000000000000466e       0xdc /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x000000000000474a      0x280 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x00000000000049ca      0x1bb /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000004b85      0x1ea /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000004d6f      0x1ea /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000004f59      0x1fb /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000000000005154      0x1e3 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000005337      0x1ba /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000000054f1      0x22e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x000000000000571f      0x222 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x5bb6
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x2c4 obj/default/hello_world.o
+ .debug_line    0x0000000000000336      0x10d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000000443      0x308 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .debug_line    0x000000000000074b      0x18f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .debug_line    0x00000000000008da      0x109 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .debug_line    0x00000000000009e3      0x184 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .debug_line    0x0000000000000b67       0xda /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .debug_line    0x0000000000000c41      0x100 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .debug_line    0x0000000000000d41       0xd4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000e15       0xab /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .debug_line    0x0000000000000ec0      0x1de /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_line    0x000000000000109e      0x21e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_line    0x00000000000012bc      0x22c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_line    0x00000000000014e8      0x1da /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x00000000000016c2      0x44f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_line    0x0000000000001b11      0x220 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x0000000000001d31      0x157 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+ .debug_line    0x0000000000001e88      0x1ee /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000002076      0x1c8 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x000000000000223e      0x1e1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_line    0x000000000000241f      0x1d1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000000000025f0       0x6b /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x000000000000265b      0x1a4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00000000000027ff       0x50 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x000000000000284f      0x1db /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000002a2a      0x2c7 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000002cf1      0x2f1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .debug_line    0x0000000000002fe2      0x21c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000031fe      0x112 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x0000000000003310      0x246 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000000000003556      0x23d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000003793      0x20d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x00000000000039a0      0x20c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000003bac      0x1ae /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000003d5a      0x2b6 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000004010      0x1c5 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00000000000041d5      0x147 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x000000000000431c       0xb3 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00000000000043cf      0x19d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x000000000000456c       0xba /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000004626      0x2ad /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000000000048d3      0x21d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000000000004af0       0xae /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000004b9e      0x1e8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000004d86      0x147 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000004ecd      0x1ce /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x000000000000509b      0x1c8 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000005263      0x1cd /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000005430      0x1ce /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x00000000000055fe      0x1f2 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_line    0x00000000000057f0      0x25f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000005a4f      0x167 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0xd98
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x168 obj/default/hello_world.o
+ .debug_frame   0x0000000000000168       0x50 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000001b8       0x3c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .debug_frame   0x00000000000001f4       0x58 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .debug_frame   0x000000000000024c       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .debug_frame   0x000000000000026c       0x58 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .debug_frame   0x00000000000002c4       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .debug_frame   0x00000000000002e4       0x38 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .debug_frame   0x000000000000031c       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .debug_frame   0x000000000000033c       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_frame   0x000000000000035c       0x48 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_frame   0x00000000000003a4       0x48 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x00000000000003ec       0x20 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x000000000000040c       0x90 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_frame   0x000000000000049c       0x3c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x00000000000004d8       0x30 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000508       0xa4 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000000000005ac       0x38 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000000000005e4       0x38 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x000000000000061c       0x5c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000678       0x2c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000006a4       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+ .debug_frame   0x0000000000000704       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000764       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x00000000000007c4       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000000000007f8       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x000000000000082c       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x000000000000088c       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000000000008ec       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000920       0x5c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x000000000000097c       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000000000009dc       0x38 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000a14       0x5c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000000a70       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000000ad0       0x84 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+ .debug_frame   0x0000000000000b54       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000b88       0x64 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000000000000bec       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000c20       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000000000000c54       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x0000000000000c88       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000000cbc       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000cf0       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000d18       0x54 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000d6c       0x2c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x28b4
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x82 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000082      0x65d obj/default/hello_world.o
+                                        0x765 (size before relaxing)
+ .debug_str     0x00000000000006df      0x179 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+                                        0x1c4 (size before relaxing)
+ .debug_str     0x0000000000000858      0x163 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+                                        0x2db (size before relaxing)
+ .debug_str     0x00000000000009bb      0x12c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+                                        0x300 (size before relaxing)
+ .debug_str     0x0000000000000ae7       0x6b /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+                                        0x22c (size before relaxing)
+ .debug_str     0x0000000000000b52       0x9a /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+                                        0x300 (size before relaxing)
+ .debug_str     0x0000000000000bec       0x4d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+                                        0x21d (size before relaxing)
+ .debug_str     0x0000000000000c39       0x6b /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+                                        0x2a6 (size before relaxing)
+ .debug_str     0x0000000000000ca4       0xbf /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+                                        0x25a (size before relaxing)
+ .debug_str     0x0000000000000d63      0x23d /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clz.o)
+ .debug_str     0x0000000000000d63      0x1ca /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+                                        0x533 (size before relaxing)
+ .debug_str     0x0000000000000f2d      0x226 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+                                        0x6af (size before relaxing)
+ .debug_str     0x0000000000001153       0x62 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+                                        0x678 (size before relaxing)
+ .debug_str     0x00000000000011b5       0x3c /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                                        0x525 (size before relaxing)
+ .debug_str     0x00000000000011f1      0x400 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+                                        0xbbf (size before relaxing)
+ .debug_str     0x00000000000015f1       0x62 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x68b (size before relaxing)
+ .debug_str     0x0000000000001653       0xd1 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-impure.o)
+                                        0x51b (size before relaxing)
+ .debug_str     0x0000000000001724       0x44 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+                                        0x561 (size before relaxing)
+ .debug_str     0x0000000000001768       0x3e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                                        0x522 (size before relaxing)
+ .debug_str     0x00000000000017a6       0xf1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic.o)
+                                        0x649 (size before relaxing)
+ .debug_str     0x0000000000001897       0x4c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x605 (size before relaxing)
+ .debug_str     0x00000000000018e3       0x18 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+                                         0x8b (size before relaxing)
+ .debug_str     0x00000000000018fb       0x3a /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+                                        0x5b4 (size before relaxing)
+ .debug_str     0x0000000000001935       0x29 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_vars.o)
+                                        0x16a (size before relaxing)
+ .debug_str     0x000000000000195e       0xe9 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_load.o)
+                                        0x622 (size before relaxing)
+ .debug_str     0x0000000000001a47      0x1f1 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_main.o)
+                                        0x7d8 (size before relaxing)
+ .debug_str     0x0000000000001c38       0x31 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_write.o)
+                                        0x7c6 (size before relaxing)
+ .debug_str     0x0000000000001c69      0x13d /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_sys_init.o)
+                                        0x71a (size before relaxing)
+ .debug_str     0x0000000000001da6       0x71 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x308 (size before relaxing)
+ .debug_str     0x0000000000001e17       0x48 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x662 (size before relaxing)
+ .debug_str     0x0000000000001e5f       0x4a /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x658 (size before relaxing)
+ .debug_str     0x0000000000001ea9       0x7f /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+                                        0x6aa (size before relaxing)
+ .debug_str     0x0000000000001f28       0x1b /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_close.o)
+                                        0x66c (size before relaxing)
+ .debug_str     0x0000000000001f43       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x565 (size before relaxing)
+ .debug_str     0x0000000000001f77       0x4c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev.o)
+                                        0x7cf (size before relaxing)
+ .debug_str     0x0000000000001fc3       0x45 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x5e9 (size before relaxing)
+ .debug_str     0x0000000000002008       0x14 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_errno.o)
+                                        0x562 (size before relaxing)
+ .debug_str     0x000000000000201c       0x1e /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+                                         0x91 (size before relaxing)
+ .debug_str     0x000000000000203a       0x34 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x565 (size before relaxing)
+ .debug_str     0x000000000000206e      0x4d7 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x61c (size before relaxing)
+ .debug_str     0x0000000000002545       0x56 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_io_redirect.o)
+                                        0x7cd (size before relaxing)
+ .debug_str     0x000000000000259b       0x2f /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_open.o)
+                                        0x66d (size before relaxing)
+ .debug_str     0x00000000000025ca       0x28 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_release_fd.o)
+                                        0x21a (size before relaxing)
+ .debug_str     0x00000000000025f2       0x60 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_tick.o)
+                                        0x667 (size before relaxing)
+ .debug_str     0x0000000000002652       0x3b /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x579 (size before relaxing)
+ .debug_str     0x000000000000268d       0x36 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_dev.o)
+                                        0x620 (size before relaxing)
+ .debug_str     0x00000000000026c3       0x26 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_find_file.o)
+                                        0x622 (size before relaxing)
+ .debug_str     0x00000000000026e9       0x30 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_get_fd.o)
+                                        0x63e (size before relaxing)
+ .debug_str     0x0000000000002719       0x2c /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_icache_flush.o)
+                                        0x56b (size before relaxing)
+ .debug_str     0x0000000000002745       0xd6 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+                                        0x567 (size before relaxing)
+ .debug_str     0x000000000000281b       0x6f /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+                                        0x569 (size before relaxing)
+ .debug_str     0x000000000000288a       0x2a /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exit.o)
+                                        0x56e (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x3a04
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x55e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_loc     0x000000000000055e     0x1115 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .debug_loc     0x0000000000001673      0x7f4 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .debug_loc     0x0000000000001e67      0x1a5 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .debug_loc     0x000000000000200c      0x7d9 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .debug_loc     0x00000000000027e5       0xdd /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .debug_loc     0x00000000000028c2      0x1be /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .debug_loc     0x0000000000002a80       0xa6 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .debug_loc     0x0000000000002b26       0xc5 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_loc     0x0000000000002beb       0xc6 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_loc     0x0000000000002cb1       0x97 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x0000000000002d48       0x29 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x0000000000002d71      0x941 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_loc     0x00000000000036b2       0xff /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x00000000000037b1       0xa5 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x0000000000003856       0x1e /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_loc     0x0000000000003874      0x190 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+                0x0000000000020000                __alt_data_end = 0x20000
+                0x0000000000020000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x20000)
+OUTPUT(res_viewer.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x5d8
+ .debug_ranges  0x0000000000000000       0x20 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x68 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x0000000000000088      0x198 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(addsf3.o)
+ .debug_ranges  0x0000000000000220       0x80 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(divsf3.o)
+ .debug_ranges  0x00000000000002a0       0x70 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(gesf2.o)
+ .debug_ranges  0x0000000000000310       0x70 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(mulsf3.o)
+ .debug_ranges  0x0000000000000380       0x30 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(fixsfsi.o)
+ .debug_ranges  0x00000000000003b0       0x48 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(floatsisf.o)
+ .debug_ranges  0x00000000000003f8       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/libgcc.a(_clzsi2.o)
+ .debug_ranges  0x0000000000000410       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_ranges  0x0000000000000420       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-printf.o)
+ .debug_ranges  0x0000000000000438       0x18 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-puts.o)
+ .debug_ranges  0x0000000000000450       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000460       0x88 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-vfprintf.o)
+ .debug_ranges  0x00000000000004e8       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x00000000000004f8       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-writer.o)
+ .debug_ranges  0x0000000000000508       0x28 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000530       0x10 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x0000000000000540       0x18 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000558       0x30 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x0000000000000588       0x18 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_nios_ddr4_optimal/ip/qsys/res_viewer_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x00000000000005a0       0x10 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-exit.o)
+ .debug_ranges  0x00000000000005b0       0x28 /software/quartus/qts18.1pro/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/7.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-__call_atexit.o)

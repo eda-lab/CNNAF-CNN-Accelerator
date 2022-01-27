@@ -1,0 +1,112 @@
+!SESSION 2021-04-25 10:26:52.674 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /software/quartus/qts18.1pro/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /software/quartus/qts18.1pro/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2021-04-25 10:27:09.843
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-25 10:27:54.339
+!MESSAGE Indexed 'power_test_bsp' (80 sources, 185 headers) in 1.61 sec: 6,001 declarations; 10,132 references; 4 unresolved inclusions; 3 syntax errors; 12 unresolved names (0.074%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-25 10:27:54.811
+!MESSAGE Indexed 'power_test' (1 sources, 32 headers) in 0.058 sec: 1,047 declarations; 1,845 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 10:29:20.961
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=0 --stop --sidp=0x82090 --id=0x0 --timestamp=0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 10:29:22.561
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=0 --go --sidp=0x82090 --id=0x0 --timestamp=0 /home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/software/power_test/power_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 10:30:04.221
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-10]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 10:30:04.421
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=0 --stop --sidp=0x82090 --id=0x0 --timestamp=0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 10:30:06.022
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=0 --go --sidp=0x82090 --id=0x0 --timestamp=0 /home/gtd/workspace/qts_prj/a10_test/pt/fa506t_system_monitor_restored/monitor/software/power_test/power_test.elf]
+!SESSION 2021-04-25 11:35:29.431 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /software/quartus/qts18.1pro/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /software/quartus/qts18.1pro/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-25 11:35:41.533
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2021-04-25 11:35:48.154
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-25 11:36:15.099
+!MESSAGE Indexed 'test_bsp' (80 sources, 181 headers) in 1.31 sec: 5,527 declarations; 9,622 references; 63 unresolved inclusions; 3 syntax errors; 134 unresolved names (0.88%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-25 11:36:16.173
+!MESSAGE Indexed 'test' (1 sources, 32 headers) in 0.043 sec: 1,047 declarations; 1,845 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 11:37:05.408
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --instance=-1 --stop --accept-bad-sysid --sidp=0x82090]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-25 11:37:06.438
+!MESSAGE Failed Executing: [nios2-download, '--cable=', --instance=-1, --stop, --accept-bad-sysid, --sidp=0x82090] return code: 16
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 11:37:06.480
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --instance=-1 --go --accept-bad-sysid --sidp=0x82090 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test/test.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-25 11:37:07.511
+!MESSAGE Failed Executing: [nios2-download, '--cable=', --instance=-1, --go, --accept-bad-sysid, --sidp=0x82090, /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test/test.elf] return code: 16
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-04-25 11:37:07.512
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 11:37:27.045
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x82090]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 11:37:28.641
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x82090 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test/test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 11:38:15.523
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [1-10]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 11:38:15.730
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=0x82090]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-25 11:38:17.337
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-10]' --device=1 --instance=1 --go --accept-bad-sysid --sidp=0x82090 /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test/test.elf]

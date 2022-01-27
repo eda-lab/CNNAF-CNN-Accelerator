@@ -1,0 +1,18 @@
+# system info monitor_power_temp_scl on 2021.04.25.10:51:11
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for monitor_power_temp_scl on 2021.04.25.10:51:11
+files:
+filepath,kind,attributes,module,is_top
+sim/monitor_power_temp_scl.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,monitor_power_temp_scl,true
+altera_avalon_pio_181/sim/monitor_power_temp_scl_altera_avalon_pio_181_pua723a.v,VERILOG,,monitor_power_temp_scl_altera_avalon_pio_181_pua723a,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+monitor_power_temp_scl.power_temp_scl,monitor_power_temp_scl_altera_avalon_pio_181_pua723a

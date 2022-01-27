@@ -1,0 +1,265 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    -F rtl_lst.list
+        ../ddr_module_tb.sv
+        ../c_ddr_model.sv
+        ../c_ddr_intf.sv
+        ../../15.ddr_test/ddr4_test_driver.v
+
+
+*Error* Syntax error at interface
+"../c_ddr_intf.sv", 8: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 9: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 10: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 11: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 12: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 13: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 14: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 15: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 16: 
+
+*Error* Syntax error at logic
+"../c_ddr_intf.sv", 17: 
+
+*Error* Syntax error at clocking
+"../c_ddr_intf.sv", 19: 
+
+*Error* Syntax error at default
+"../c_ddr_intf.sv", 20: 
+
+*Error* Syntax error at output
+"../c_ddr_intf.sv", 22: 
+
+*Error* Syntax error at output
+"../c_ddr_intf.sv", 23: 
+
+*Error* Syntax error at output
+"../c_ddr_intf.sv", 24: 
+
+*Error* Syntax error at endclocking
+"../c_ddr_intf.sv", 25: 
+
+*Error* Syntax error at clocking
+"../c_ddr_intf.sv", 27: 
+
+*Error* Syntax error at default
+"../c_ddr_intf.sv", 28: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 30: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 31: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 32: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 33: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 34: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 35: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 36: 
+
+*Error* Syntax error at input
+"../c_ddr_intf.sv", 37: 
+
+*Error* Syntax error at endclocking
+"../c_ddr_intf.sv", 38: 
+
+*Error* Syntax error at endinterface
+"../c_ddr_intf.sv", 40: 
+
+*Error* Syntax error at class
+"../c_ddr_model.sv", 6: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 7: 
+
+*Error* Syntax error at virtual
+"../c_ddr_model.sv", 9: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 11: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 12: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 13: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 14: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 15: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 17: 
+
+*Error* Syntax error at bit
+"../c_ddr_model.sv", 18: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 20: 
+
+*Error* usage of END : IDENT is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 22: 
+
+*Error* Function new has no argument.
+"../c_ddr_model.sv", 20: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 24: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 25: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 26: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 27: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 28: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 29: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 30: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 31: 
+
+*Error* Syntax error at extern
+"../c_ddr_model.sv", 33: 
+
+*Error* Syntax error at endclass
+"../c_ddr_model.sv", 35: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 37: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 37: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 43: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 43: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 54: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 54: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 78: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 78: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 106: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 106: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 124: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 124: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 161: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 161: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 239: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 239: 
+
+*Error* usage of using constructs outside of modules or primitives is supported only if the option '-sv' is specified
+"../c_ddr_model.sv", 258: 
+
+*Error* failed to find symbol 'c_ddr_model'
+"../c_ddr_model.sv", 258: 
+
+*Error* Syntax error at ;
+"../ddr_module_tb.sv", 36: 
+
+*Error* illegal identifier ddr_intf
+"../ddr_module_tb.sv", 54: 
+Highest level modules:
+ddr_module_tb
+
+
+*Error* failed to find identifier ddr_intf.wr_req
+"../ddr_module_tb.sv", 38: 
+
+*Error* failed to find identifier ddr_intf.rd_req
+"../ddr_module_tb.sv", 39: 
+
+*Error* failed to find identifier ddr_intf.cmd_addr
+"../ddr_module_tb.sv", 40: 
+
+*Error* failed to find identifier ddr_intf.data_in
+"../ddr_module_tb.sv", 41: 
+
+*Error* failed to find identifier ddr_intf.bst_len
+"../ddr_module_tb.sv", 42: 
+
+*Error* failed to find identifier ddr_intf.avl_be
+"../ddr_module_tb.sv", 43: 
+
+*Error* failed to find identifier ddr_intf.data_out
+"../ddr_module_tb.sv", 45: 
+
+*Error* failed to find identifier ddr_intf.ddr_rdy
+"../ddr_module_tb.sv", 46: 
+
+*Error* failed to find identifier ddr_intf.ddr_vld
+"../ddr_module_tb.sv", 47: 
+
+*Error* failed to find identifier ddr_model
+"../ddr_module_tb.sv", 50: 
+
+*Error* failed to find identifier ddr_model.ddr_intf
+"../ddr_module_tb.sv", 54: 
+
+*Error* failed to find identifier ddr_model.main
+"../ddr_module_tb.sv", 58: 
+
+*Error* view c_ddr_intf is not defined for instance ddr_intf
+"../ddr_module_tb.sv", 35: 
+Total	84 error(s),   0 warning(s)

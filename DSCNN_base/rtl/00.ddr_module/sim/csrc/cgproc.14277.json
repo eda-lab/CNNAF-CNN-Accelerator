@@ -1,0 +1,66 @@
+{
+    "Modules": {
+        "c_ddr_intf": {
+            "Compiled": "Yes",
+            "Compiled Times": 21
+        },
+        "...MASTER...": {},
+        "_vcs_unit__1393519258": {
+            "Compiled": "Yes",
+            "Compiled Times": 21
+        },
+        "ddr_module_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 21
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 21
+        }
+    },
+    "CompUnits": {
+        "sjNss_d": {
+            "archive": "archive.21/_14277_archive_1.a",
+            "out": "sjNss_d.o",
+            "mod": "_vcs_unit__1393519258",
+            "bytes": 91055,
+            "mode": 4,
+            "checksum": 0
+        },
+        "xARbL_d": {
+            "archive": "archive.21/_14277_archive_1.a",
+            "out": "xARbL_d.o",
+            "mod": "ddr_module_tb",
+            "bytes": 28479,
+            "mode": 4,
+            "checksum": 0
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "Lhy1w_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.21/_14277_archive_1.a",
+            "objects": [
+                [
+                    "sjNss_d.o",
+                    91055
+                ],
+                [
+                    "xARbL_d.o",
+                    28479
+                ]
+            ],
+            "size": 119534
+        }
+    ]
+}

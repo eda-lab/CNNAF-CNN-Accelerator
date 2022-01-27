@@ -1,0 +1,57 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "_vcs_unit__1393519258": {
+            "Compiled Times": 11,
+            "Compiled": "Yes"
+        },
+        "std": {
+            "Compiled Times": 11,
+            "Compiled": "Yes"
+        },
+        "c_ddr_intf": {
+            "Compiled Times": 11,
+            "Compiled": "Yes"
+        },
+        "ddr_module_tb": {
+            "Compiled Times": 11,
+            "Compiled": "Yes"
+        }
+    },
+    "CompUnits": {
+        "xARbL_d": {
+            "archive": "archive.10/_14162_archive_1.a",
+            "checksum": 0,
+            "mode": 4,
+            "mod": "ddr_module_tb",
+            "out": "xARbL_d.o",
+            "bytes": 35235
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "sjNss_d": {
+            "icPath": "csrc"
+        },
+        "Lhy1w_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 35235,
+            "archive": "archive.10/_14162_archive_1.a",
+            "objects": [
+                [
+                    "xARbL_d.o",
+                    35235
+                ]
+            ]
+        }
+    ]
+}

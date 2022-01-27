@@ -1,0 +1,16 @@
+# system info monitor_clk_0 on 2021.04.25.10:51:10
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for monitor_clk_0 on 2021.04.25.10:51:10
+files:
+filepath,kind,attributes,module,is_top
+sim/monitor_clk_0.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,monitor_clk_0,true
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module

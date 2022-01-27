@@ -1,0 +1,180 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 368 584)
+	(text "nios_qsys" (rect 155 -1 196 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 568 20 580)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "calc_data_export[31..0]" (rect 0 0 92 12)(font "Arial" (font_size 8)))
+		(text "calc_data_export[31..0]" (rect 4 61 142 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 160 72)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "calc_finish_export" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "calc_finish_export" (rect 4 101 112 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 160 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "calc_fps_export[31..0]" (rect 0 0 88 12)(font "Arial" (font_size 8)))
+		(text "calc_fps_export[31..0]" (rect 4 141 136 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 160 152)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "calc_unit_total_export[31..0]" (rect 0 0 109 12)(font "Arial" (font_size 8)))
+		(text "calc_unit_total_export[31..0]" (rect 4 181 178 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 160 192)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "calc_unit_used_export[31..0]" (rect 0 0 113 12)(font "Arial" (font_size 8)))
+		(text "calc_unit_used_export[31..0]" (rect 4 221 172 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 160 232)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 261 46 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 160 272)(line_width 1))
+	)
+	(port
+		(pt 0 432)
+		(input)
+		(text "reset_reset" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "reset_reset" (rect 4 421 70 432)(font "Arial" (font_size 8)))
+		(line (pt 0 432)(pt 160 432)(line_width 1))
+	)
+	(port
+		(pt 0 472)
+		(input)
+		(text "unused_ddrvld_export[31..0]" (rect 0 0 113 12)(font "Arial" (font_size 8)))
+		(text "unused_ddrvld_export[31..0]" (rect 4 461 166 472)(font "Arial" (font_size 8)))
+		(line (pt 0 472)(pt 160 472)(line_width 3))
+	)
+	(port
+		(pt 0 512)
+		(input)
+		(text "used_ddrvld_export[31..0]" (rect 0 0 103 12)(font "Arial" (font_size 8)))
+		(text "used_ddrvld_export[31..0]" (rect 4 501 154 512)(font "Arial" (font_size 8)))
+		(line (pt 0 512)(pt 160 512)(line_width 3))
+	)
+	(port
+		(pt 0 552)
+		(input)
+		(text "wr_ddrvld_export[31..0]" (rect 0 0 94 12)(font "Arial" (font_size 8)))
+		(text "wr_ddrvld_export[31..0]" (rect 4 541 142 552)(font "Arial" (font_size 8)))
+		(line (pt 0 552)(pt 160 552)(line_width 3))
+	)
+	(port
+		(pt 0 312)
+		(output)
+		(text "data_addr_export[31..0]" (rect 0 0 94 12)(font "Arial" (font_size 8)))
+		(text "data_addr_export[31..0]" (rect 4 301 142 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 160 312)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(output)
+		(text "power_temp_scl_export" (rect 0 0 96 12)(font "Arial" (font_size 8)))
+		(text "power_temp_scl_export" (rect 4 341 130 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 160 352)(line_width 1))
+	)
+	(port
+		(pt 0 392)
+		(bidir)
+		(text "power_temp_sda_export" (rect 0 0 100 12)(font "Arial" (font_size 8)))
+		(text "power_temp_sda_export" (rect 4 381 130 392)(font "Arial" (font_size 8)))
+		(line (pt 0 392)(pt 160 392)(line_width 1))
+	)
+	(drawing
+		(text "calc_data" (rect 106 43 266 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 67 366 144)(font "Arial" (color 0 0 0)))
+		(text "calc_finish" (rect 99 83 264 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 107 366 224)(font "Arial" (color 0 0 0)))
+		(text "calc_fps" (rect 112 123 272 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 147 366 304)(font "Arial" (color 0 0 0)))
+		(text "calc_unit_total" (rect 77 163 244 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 187 366 384)(font "Arial" (color 0 0 0)))
+		(text "calc_unit_used" (rect 74 203 232 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 227 366 464)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 145 243 308 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 165 267 348 544)(font "Arial" (color 0 0 0)))
+		(text "data_addr" (rect 102 283 258 579)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 307 366 624)(font "Arial" (color 0 0 0)))
+		(text "power_temp_scl" (rect 64 323 212 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 347 366 704)(font "Arial" (color 0 0 0)))
+		(text "power_temp_sda" (rect 59 363 202 739)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 387 366 784)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 131 403 292 819)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset" (rect 165 427 360 864)(font "Arial" (color 0 0 0)))
+		(text "unused_ddrvld" (rect 76 443 230 899)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 467 366 944)(font "Arial" (color 0 0 0)))
+		(text "used_ddrvld" (rect 90 483 246 979)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 507 366 1024)(font "Arial" (color 0 0 0)))
+		(text "wr_ddrvld" (rect 103 523 260 1059)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 547 366 1104)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 333 568 714 1146)(font "Arial" ))
+		(line (pt 160 32)(pt 208 32)(line_width 1))
+		(line (pt 208 32)(pt 208 568)(line_width 1))
+		(line (pt 160 568)(pt 208 568)(line_width 1))
+		(line (pt 160 32)(pt 160 568)(line_width 1))
+		(line (pt 161 52)(pt 161 76)(line_width 1))
+		(line (pt 162 52)(pt 162 76)(line_width 1))
+		(line (pt 161 92)(pt 161 116)(line_width 1))
+		(line (pt 162 92)(pt 162 116)(line_width 1))
+		(line (pt 161 132)(pt 161 156)(line_width 1))
+		(line (pt 162 132)(pt 162 156)(line_width 1))
+		(line (pt 161 172)(pt 161 196)(line_width 1))
+		(line (pt 162 172)(pt 162 196)(line_width 1))
+		(line (pt 161 212)(pt 161 236)(line_width 1))
+		(line (pt 162 212)(pt 162 236)(line_width 1))
+		(line (pt 161 252)(pt 161 276)(line_width 1))
+		(line (pt 162 252)(pt 162 276)(line_width 1))
+		(line (pt 161 292)(pt 161 316)(line_width 1))
+		(line (pt 162 292)(pt 162 316)(line_width 1))
+		(line (pt 161 332)(pt 161 356)(line_width 1))
+		(line (pt 162 332)(pt 162 356)(line_width 1))
+		(line (pt 161 372)(pt 161 396)(line_width 1))
+		(line (pt 162 372)(pt 162 396)(line_width 1))
+		(line (pt 161 412)(pt 161 436)(line_width 1))
+		(line (pt 162 412)(pt 162 436)(line_width 1))
+		(line (pt 161 452)(pt 161 476)(line_width 1))
+		(line (pt 162 452)(pt 162 476)(line_width 1))
+		(line (pt 161 492)(pt 161 516)(line_width 1))
+		(line (pt 162 492)(pt 162 516)(line_width 1))
+		(line (pt 161 532)(pt 161 556)(line_width 1))
+		(line (pt 162 532)(pt 162 556)(line_width 1))
+		(line (pt 0 0)(pt 368 0)(line_width 1))
+		(line (pt 368 0)(pt 368 584)(line_width 1))
+		(line (pt 0 584)(pt 368 584)(line_width 1))
+		(line (pt 0 0)(pt 0 584)(line_width 1))
+	)
+)

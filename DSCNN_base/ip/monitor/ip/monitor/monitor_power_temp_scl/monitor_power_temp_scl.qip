@@ -1,0 +1,60 @@
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_avalon_pio"
+set_global_assignment -library "monitor_power_temp_scl" -name SOPCINFO_FILE [file join $::quartus(qip_path) "monitor_power_temp_scl.sopcinfo"]
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name SLD_INFO "QSYS_NAME monitor_power_temp_scl HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "monitor_power_temp_scl" -name MISC_FILE [file join $::quartus(qip_path) "monitor_power_temp_scl.cmp"]
+set_global_assignment -library "monitor_power_temp_scl" -name SLD_FILE [file join $::quartus(qip_path) "monitor_power_temp_scl.regmap"]
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_TARGETED_DEVICE_FAMILY "Arria 10"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_GENERATED_DEVICE_FAMILY "{Arria 10}"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "monitor_power_temp_scl" -name MISC_FILE [file join $::quartus(qip_path) "../monitor_power_temp_scl.ip"]
+
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_NAME "bW9uaXRvcl9wb3dlcl90ZW1wX3NjbF9hbHRlcmFfYXZhbG9uX3Bpb18xODFfcHVhNzIzYQ=="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_DISPLAY_NAME "UElPIChQYXJhbGxlbCBJL08pIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "Yml0TW9kaWZ5aW5nT3V0UmVn::ZmFsc2U=::RW5hYmxlIGluZGl2aWR1YWwgYml0IHNldHRpbmcvY2xlYXJpbmc="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGlyZWN0aW9u::T3V0cHV0::RGlyZWN0aW9u"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "cmVzZXRWYWx1ZQ==::MQ==::T3V0cHV0IFBvcnQgUmVzZXQgVmFsdWU="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "d2lkdGg=::MQ==::V2lkdGggKDEtMzIgYml0cyk="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "Y2xvY2tSYXRl::MTI1MDAwMDAw::Y2xvY2tSYXRl"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfdHJp::ZmFsc2U=::ZGVyaXZlZF9oYXNfdHJp"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfb3V0::dHJ1ZQ==::ZGVyaXZlZF9oYXNfb3V0"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaW4=::ZmFsc2U=::ZGVyaXZlZF9oYXNfaW4="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9kb190ZXN0X2JlbmNoX3dpcmluZw==::ZmFsc2U=::ZGVyaXZlZF9kb190ZXN0X2JlbmNoX3dpcmluZw=="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9jYXB0dXJl::ZmFsc2U=::ZGVyaXZlZF9jYXB0dXJl"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9lZGdlX3R5cGU=::Tk9ORQ==::ZGVyaXZlZF9lZGdlX3R5cGU="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9pcnFfdHlwZQ==::Tk9ORQ==::ZGVyaXZlZF9pcnFfdHlwZQ=="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaXJx::ZmFsc2U=::ZGVyaXZlZF9oYXNfaXJx"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_GROUP "UHJvY2Vzc29ycyBhbmQgUGVyaXBoZXJhbHMvUGVyaXBoZXJhbHM="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTM5NDgyNTkxMQ=="
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5NzY4OTMwMA=="
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_NAME "bW9uaXRvcl9wb3dlcl90ZW1wX3NjbA=="
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::QXJyaWEgMTA=::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBBWDA2NkszRjQwRTJTRw==::QXV0byBERVZJQ0U="
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Mg==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "monitor_power_temp_scl" -library "monitor_power_temp_scl" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+
+
+set_global_assignment -library "altera_avalon_pio_181" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_avalon_pio_181/synth/monitor_power_temp_scl_altera_avalon_pio_181_pua723a.v"]
+set_global_assignment -library "monitor_power_temp_scl" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/monitor_power_temp_scl.v"]
+
+
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "monitor_power_temp_scl_altera_avalon_pio_181_pua723a" -library "altera_avalon_pio_181" -name IP_TOOL_ENV "QsysPrimePro"
+

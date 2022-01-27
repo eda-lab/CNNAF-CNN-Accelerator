@@ -1,0 +1,18 @@
+# system info ram_w on 2020.11.15.23:37:43
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for ram_w on 2020.11.15.23:37:43
+files:
+filepath,kind,attributes,module,is_top
+sim/ram_w.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,ram_w,true
+ram_2port_181/sim/ram_w_ram_2port_181_pyapd2a.v,VERILOG,,ram_w_ram_2port_181_pyapd2a,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+ram_w.ram_2port_0,ram_w_ram_2port_181_pyapd2a

@@ -1,0 +1,131 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "unistd.h"
+#include "system.h"
+#include "altera_avalon_timer_regs.h" 	//Timer ¼Ä´æÆ÷Í·ÎÄ¼þ
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+#include "math.h"
+//#include "stddef.h"
+#include "altera_avalon_pio_regs.h"
+
+void IRQ_calc_finish_Interrupts(); 	//ÖÐ¶Ï³õÊ¼»¯º¯Êý
+void IRQ_init();
+
+alt_u8 rd_res_start = 0;
+alt_u8 rd_res_finish = 1;
+float rd_res[1001];
+float rd_res_num = 0.0;
+int infer_res = 0;
+int calc_fps_last = 0;
+int calc_fps = 0;
+
+
+void Timer_initial(void){
+	IOWR_ALTERA_AVALON_TIMER_PERIODH(TIMER_BASE, 0x05F5); //3B9A
+	IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER_BASE, 0xE0FF); //C9FF
+
+	//ÉèÖÃCONTROL ¼Ä´æÆ÷
+	IOWR_ALTERA_AVALON_TIMER_CONTROL(
+			TIMER_BASE, ALTERA_AVALON_TIMER_CONTROL_ITO_MSK     //Ê¹ÄÜ¼ÆÊ±Æ÷ÖÐ¶Ï
+					  | ALTERA_AVALON_TIMER_CONTROL_CONT_MSK    //¼ÆÊ±Æ÷Á¬ÐøÔËÐÐ
+					  | ALTERA_AVALON_TIMER_CONTROL_START_MSK); //Æô¶¯¼ÆÊ±Æ÷
+
+	alt_ic_isr_register(
+			TIMER_IRQ_INTERRUPT_CONTROLLER_ID, //ÖÐ¶Ï¿ØÖÆÆ÷ID
+			TIMER_IRQ,                         //Ó²¼þÖÐ¶ÏºÅ
+			Timer_ISR_Interrupt,               //ÖÐ¶Ï·þÎñ³ÌÐò
+			0,                       		   //ÓÃÓÚ´«µÝ²ÎÊýµÄ½á¹¹ÌåÖ¸Õë
+			0);
+}
+
+void Timer_ISR_Interrupt(void) {
+	int rd_fps = IORD_ALTERA_AVALON_PIO_DATA(CALC_FPS_BASE);
+	calc_fps = (calc_fps - calc_fps_last) / 10;
+	calc_fps_last = rd_fps;
+}
+
+void Read_data(void)
+{
+	for (int i = 0; i < 1001; i++) {
+		IOWR_ALTERA_AVALON_PIO_DATA(DATA_ADDR_BASE, i);
+		i=i;i=i;i=i;
+		rd_res[i] = IORD_ALTERA_AVALON_PIO_DATA(CALC_DATA_BASE);
+	}
+}
+
+void softmax(void) {
+	float exp_res = 0.0;
+	for (int i = 0; i < 1001; i++) {
+		exp_res = rd_res[i] * rd_res[i];
+		rd_res[i] = exp_res;
+		rd_res_num += exp_res;
+	}
+	for (int i = 0; i < 1001; i++) {
+		rd_res[i] = rd_res[i]/rd_res_num;
+	}
+	for (int i = 0; i < 1001; i++) {
+		if (rd_res[i] > rd_res[infer_res]) {
+			infer_res = i;
+		}
+	}
+}
+
+void IRQ_init()
+{
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(CALC_FINISH_BASE, 0x01);
+
+	alt_ic_isr_register(
+		CALC_FINISH_IRQ_INTERRUPT_CONTROLLER_ID,  // ÖÐ¶Ï¿ØÖÆÆ÷±êºÅ£¬´Ósystem.h ¸´ÖÆ
+		CALC_FINISH_IRQ                        ,  // Ó²¼þÖÐ¶ÏºÅ£¬´Ósystem.h ¸´ÖÆ
+		IRQ_calc_finish_Interrupts             	,  // ÖÐ¶Ï·þÎñ×Óº¯Êý
+		0x0                             ,  // Ö¸ÏòÓëÉè±¸Çý¶¯ÊµÀýÏà¹ØµÄÊý¾Ý½á¹¹Ìå
+		0x0);
+}
+
+void IRQ_calc_finish_Interrupts()
+{
+	if (rd_res_finish == 1) {
+		rd_res_finish = 0;
+		rd_res_start = 1;
+	}
+}
+
+
+int main()
+{
+    printf("Hello from Nios II!\n");
+//    float a = 3.0;
+//    float b = exp(a);
+//    printf("e ^ 1 = %.6d\n", (int)b);
+    while(1) {
+    	if (rd_res_start == 1) {
+    		rd_res_start = 0;
+    		Read_data();
+    		rd_res_num = 0.0;
+    		infer_res = 0;
+    		softmax();
+    		printf("Infer result is: %d\n", infer_res);
+    		rd_res_finish = 1;
+    	}
+    }
+    return 0;
+}
+
+
+

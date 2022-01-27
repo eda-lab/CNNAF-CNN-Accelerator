@@ -1,0 +1,14 @@
+
+WORK > DEFAULT
+DEFAULT:           ./libraries/work/             
+work:              ./libraries/work/             
+fifo_181:          ./libraries/fifo_181/         
+fifo_ddr_op_ins:   ./libraries/fifo_ddr_op_ins/  
+altera_ver:        ./libraries/altera_ver/       
+lpm_ver:           ./libraries/lpm_ver/          
+sgate_ver:         ./libraries/sgate_ver/        
+altera_mf_ver:     ./libraries/altera_mf_ver/    
+altera_lnsim_ver:  ./libraries/altera_lnsim_ver/ 
+twentynm_ver:      ./libraries/twentynm_ver/     
+twentynm_hssi_ver: ./libraries/twentynm_hssi_ver/
+twentynm_hip_ver:  ./libraries/twentynm_hip_ver/ 

@@ -1,0 +1,33 @@
+11:38:07 **** Incremental Build of configuration Nios II for project test ****
+make all 
+Info: Building /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+make --no-print-directory -C /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+[BSP build complete]
+Info: Compiling driver/ina3221.c to obj/default/driver/ina3221.o
+nios2-elf-gcc -xc -MP -MMD -c -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//HAL/inc -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/ -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall -Wformat-security   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/driver/ina3221.o driver/ina3221.c
+Info: Compiling driver/qsys.c to obj/default/driver/qsys.o
+nios2-elf-gcc -xc -MP -MMD -c -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//HAL/inc -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/ -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall -Wformat-security   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/driver/qsys.o driver/qsys.c
+Info: Compiling driver/tmp513.c to obj/default/driver/tmp513.o
+nios2-elf-gcc -xc -MP -MMD -c -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//HAL/inc -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/ -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall -Wformat-security   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/driver/tmp513.o driver/tmp513.c
+Info: Compiling main/main.c to obj/default/main/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//HAL/inc -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/ -I/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall -Wformat-security   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main/main.o main/main.c
+Info: Linking test.elf
+nios2-elf-g++  -T'/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//linker.x' -msys-crt0='/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/  -msmallc  -Wl,-Map=test.map   -O0 -g -Wall -Wformat-security   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o test.elf obj/default/driver/ina3221.o obj/default/driver/qsys.o obj/default/driver/tmp513.o obj/default/main/main.o -lm -msys-lib=m
+nios2-elf-insert test.elf --thread_model hal --cpu_name cpu_nios2 --qsys true --simulation_enabled false --id 0 --sidp 0x82090 --timestamp 0 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name monitor --quartus_project_dir "/home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/monitor" --sopcinfo /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/monitor/monitor.sopcinfo
+Info: (test.elf) 14 KBytes program size (code + initialized data).
+Info:            48 KBytes free for stack + heap.
+Info: Creating test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source test.elf >test.objdump
+[test build complete]
+11:38:15 **** Build of configuration Nios II for project test ****
+make all 
+Info: Building /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+make --no-print-directory -C /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+[BSP build complete]
+[test build complete]
+11:38:15 **** Incremental Build of configuration Nios II for project test ****
+make all 
+Info: Building /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+make --no-print-directory -C /home/gtd/workspace/qts_prj/cnn/Mobilenet_FPGA_Accelarator_test_basic_power/ip/monitor/software/test_bsp/
+[BSP build complete]
+[test build complete]

@@ -1,0 +1,4 @@
+../ddr_module_tb.sv
+../c_ddr_model.sv
+../c_ddr_intf.sv
+../../15.ddr_test/ddr4_test_driver.v

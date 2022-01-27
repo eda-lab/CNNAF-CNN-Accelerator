@@ -1,0 +1,20 @@
+# system info fp_cmp_bias on 2020.11.18.11:21:02
+system_info:
+name,value
+DEVICE,10AX066K3F40E2SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for fp_cmp_bias on 2020.11.18.11:21:02
+files:
+filepath,kind,attributes,module,is_top
+sim/fp_cmp_bias.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fp_cmp_bias,true
+altera_fp_functions_181/sim/dspba_library_package.vhd,VHDL,,fp_cmp_bias_altera_fp_functions_181_zhf76iy,false
+altera_fp_functions_181/sim/dspba_library.vhd,VHDL,,fp_cmp_bias_altera_fp_functions_181_zhf76iy,false
+altera_fp_functions_181/sim/fp_cmp_bias_altera_fp_functions_181_zhf76iy.vhd,VHDL,,fp_cmp_bias_altera_fp_functions_181_zhf76iy,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fp_cmp_bias.fp_functions_0,fp_cmp_bias_altera_fp_functions_181_zhf76iy

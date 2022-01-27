@@ -1,0 +1,42 @@
+
+WORK > DEFAULT
+DEFAULT:                  ./libraries/work/                   
+work:                     ./libraries/work/
+altera_fp_functions_181:  ./libraries/altera_fp_functions_181/
+fp_add:                   ./libraries/fp_add/ 
+fp_cmp_bias:              ./libraries/fp_cmp_bias/
+fp_mul:                   ./libraries/fp_mul/
+fifo_181:                 ./libraries/fifo_181/            
+acc_data_fifo:            ./libraries/acc_data_fifo/
+fifo_bias_gen:            ./libraries/fifo_bias_gen/
+fifo_data:                ./libraries/fifo_data/
+fifo_sc:                  ./libraries/fifo_sc/
+fifo_ddr_data_rev:        ./libraries/fifo_ddr_data_rev/ 
+fifo_ddr_init_ins:        ./libraries/fifo_ddr_init_ins/
+fifo_ddr_op_ins:          ./libraries/fifo_ddr_op_ins/
+fifo_ddr_rd_ins:          ./libraries/fifo_ddr_rd_ins/
+fifo_ddr_veri_ins:        ./libraries/fifo_ddr_veri_ins/
+fifo_ddr_wr_ins:          ./libraries/fifo_ddr_wr_ins/
+veri_data_tx_fifo:        ./libraries/veri_data_tx_fifo/
+altera_fp_acc_custom_181: ./libraries/altera_fp_acc_custom_181/
+fp_acc:                   ./libraries/fp_acc/
+ram_2port_181:            ./libraries/ram_2port_181/
+ram_w:                    ./libraries/ram_w/
+ram_w_ctrlsig:            ./libraries/ram_w_ctrlsig/
+altera_ver:               ./libraries/altera_ver/             
+lpm_ver:                  ./libraries/lpm_ver/                
+sgate_ver:                ./libraries/sgate_ver/              
+altera_mf_ver:            ./libraries/altera_mf_ver/          
+altera_lnsim_ver:         ./libraries/altera_lnsim_ver/       
+twentynm_ver:             ./libraries/twentynm_ver/           
+twentynm_hssi_ver:        ./libraries/twentynm_hssi_ver/      
+twentynm_hip_ver:         ./libraries/twentynm_hip_ver/  
+altera:                   ./libraries/altera/                 
+lpm:                      ./libraries/lpm/                    
+sgate:                    ./libraries/sgate/                  
+altera_mf:                ./libraries/altera_mf/              
+altera_lnsim:             ./libraries/altera_lnsim/           
+twentynm:                 ./libraries/twentynm/               
+twentynm_hssi:            ./libraries/twentynm_hssi/          
+twentynm_hip:             ./libraries/twentynm_hip/   
+LIBRARY_SCAN = TRUE
